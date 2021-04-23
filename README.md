@@ -13,3 +13,5 @@
     * ### Weapon Models
     * ### [Source like movement system](https://github.com/zX3no/UnityScripts)
     * ### In-game console
+* ## Repository Setup Reference
+    ### I make a lot of GitHub repositories and I often need to look up something during the setup. A reference/guide makes my life a lot easier.
