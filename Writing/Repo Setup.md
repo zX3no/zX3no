@@ -7,9 +7,8 @@
  2. `git init -b main`
  3. `git add .`
  4. `git commit -m "init"`
- 5. HTTPS: `git remote add origin https://github.com/user/repo.git` </br>
-    SSH: `git remote add origin git@github.com:USERNAME/REPOSITORY.git`
- 1. `git push origin main`
+ 5. `git remote add origin git@github.com:USERNAME/REPOSITORY.git`
+ 6. `git push origin main`
 </br>
 
 ### SSH Authentication
