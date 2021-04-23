@@ -9,7 +9,6 @@
 ### SSH: `git remote add origin git@github.com:USERNAME/REPOSITORY.git`
 ### 7. `git push origin main`
 </br>
-</br>
 
 ### TODO add SSH/HTTP authentication steps
 ### TODO add a `-init` argument to my push.ps1 script so it can be used for creating repos.
