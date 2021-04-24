@@ -1,7 +1,7 @@
 # Ncmpcpp on Windows
 
 ## Setting up MPD
----
+
 1. Download the latest version of `mpd.exe` from https://www.musicpd.org/download/win32/.
 2. Create a folder called `mpd` and add `mpd.exe` to it. I used `C:/mpd`, replace all occurrences with your directory location.
 3. Create a folder inside `mpd` called `playlists`.
