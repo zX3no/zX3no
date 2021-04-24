@@ -1,5 +1,7 @@
 # Ncmpcpp on Windows
 
+## Setting up MPD
+---
 1. Download the latest version of `mpd.exe` from https://www.musicpd.org/download/win32/.
 2. Create a folder called `mpd` and add `mpd.exe` to it. I used `C:/mpd`, replace all occurrences with your directory location.
 3. Create a folder inside `mpd` called `playlists`.
@@ -28,22 +30,25 @@
 
     Edit `device` name with either of these ways:
 
-    1. In the windows 10 sound settings. Under `Output - Choose your output device`. Copy the text in red to `device`.
+    1. In the windows 10 sound settings. Under `Output - Choose your output device`. Copy the text circled in red to `device`.
    
-    ![text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-    
-    1. Press Win+R. Type dxdiag. Click on the sound tab and copy the device name into `device`.
-   
-    If you are getting: `"exception: Failed to configure output in line 11; device "Speakers (Realtek High Definition Audio)" is not found"`
-    You've typed the wrong device name.
+        ![](https://github.com/zX3no/zX3no/blob/main/Writing/Images/device.png?raw=true)
 
-6. Your folder structure should look like:
+    2. Press Win+R. Type dxdiag. Click the **sound** tab and copy the device name into `device`.
+6. Open cmd or PowerShell there and run `cd C:\mpd`.
+7. Then run MPD with: 
+   
+    PS: `./mpd mpd.conf`
+
+    CMD: `mpd mpd.conf`
+8. Your folder structure should look like:
     ```
     mpd
     |   mpd.conf
-    │   mpd.exe
+    │   mpd.db
+    |   mpd.exe
+    |   mpd.log
+    |   mpdstate
     |
     └───playlists
     ```
-
-    telnet ip port
