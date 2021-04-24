@@ -25,10 +25,13 @@
         device "replace_with_device_name"
     }
     ```
-    Replace all directories with your own.
+    Replace all `directories` with your own.
+
+    Edit `bind_to_address` to your **local ip** eg. `"192.168.0.123"`. Don't use **127.0.0.1**!
+
     Edit `name` to anything your want.
 
-    Edit `device` name with either of these ways:
+    Edit `device` name with one of these two ways:
 
     1. In the windows 10 sound settings. Under `Output - Choose your output device`. Copy the text circled in red to `device`.
    
@@ -41,7 +44,8 @@
     PS: `./mpd mpd.conf`
 
     CMD: `mpd mpd.conf`
-8. Your folder structure should look like:
+8. You're now running a MPD server.
+9.  Your folder structure should look like:
     ```
     mpd
     |   mpd.conf
