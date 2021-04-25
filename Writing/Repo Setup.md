@@ -7,10 +7,12 @@
  4. `git add .`
  5. `git commit -m "init"`
  6. `git remote add origin git@github.com:USERNAME/REPOSITORY.git`
+  
+    Use `git remote remove origin` if you mistyped
  7. `git push origin main`
 ### SSH Authentication
  1. `ssh-keygen -t rsa -C "your_email@example.com"` *only do this once!*
-1. Open `C:\Users\yourUser\.ssh\id_rsa.pub` (the pub key not the rsa one). Copy the contents to github.com/settings/ssh/new and give it any name.
+1. Open `C:\Users\yourUser\.ssh\id_rsa.pub` (the pub key not the RSA one). Copy the contents to github.com/settings/ssh/new and give it any name.
  2. Set your repos to use SSH with `git remote add origin git@github.com:USERNAME/REPOSITORY.git`
 </br>
 
