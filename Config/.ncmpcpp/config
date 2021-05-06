@@ -1,93 +1,81 @@
-#https://github.com/ncmpcpp/ncmpcpp/blob/master/doc/config
+# https://github.com/ncmpcpp/ncmpcpp/blob/master/doc/config
+# http://manpages.ubuntu.com/manpages/trusty/man1/ncmpcpp.1.html
 
-#this file needs a lot of clean up but there are too many options in this program
-# :/
-
-
-# Files
-mpd_music_dir = "/mnt/d/onedrive/music"  
+### Files ###
+mpd_music_dir = /mnt/d/onedrive/music 
 lyrics_directory  = ~/.ncmpcpp/lyrics
 ncmpcpp_directory  = ~/.ncmpcpp
-mpd_host = "192.168.0.100"
-#mpd_host = "127.0.0.1"
-mpd_port = "6600"  
-mpd_connection_timeout = "5"  
-mpd_crossfade_time = "5"  
- 
-# Library
+mpd_host = 192.168.0.100
+mpd_port = 6600 
+mpd_connection_timeout = 5
+
+### Library View ###
 media_library_primary_tag = album_artist
- 
-# Playlist
-playlist_disable_highlight_delay = "0"  
-playlist_display_mode = "columns"  
-playlist_show_remaining_time = "yes"
 
-browser_display_mode = "columns"  
-autocenter_mode = "yes"
-song_columns_list_format = "(10)[blue]{l} (30)[green]{a} (30)[magenta]{b} (50)[yellow]{t}"  
-colors_enabled = "yes"  
-main_window_color = "white"  
-main_window_highlight_color =  "blue"
-header_window_color = "cyan"  
-volume_color = "red"  
-progressbar_color = "cyan"  
-statusbar_color = "white"  
-active_column_color = "cyan"  
-active_window_border = "blue"
+### Playlist View ###
+user_interface = alternative
 
-alternative_header_first_line_format = "$0$aqqu$/a {$7%a - $9}{$5%t$9}|{$8%f$9} $0$atqq$/a$9"
-alternative_header_second_line_format = "{{$6%b$9}{ [$6%y$9]}}|{%D}"
-song_list_format = "{$3%n │ $9}{$7%a - $9}{$5%t$9}|{$8%f$9}$R{$6 │ %b$9}{$3 │ %l$9}"
-user_interface = "alternative"
-#user_interface =                    "classic"
-default_place_to_search_in = "database"
+## Header ##
 
+# Left
+statusbar_time_color = blue   
+player_state_color = cyan 
 
-# visualizer
-visualizer_fifo_path = "/tmp/mpd.fifo"
-visualizer_output_name = "my_fifo"
-visualizer_sync_interval = "12"
-#visualizer_type = "wave" (spectrum/wave)
-visualizer_type = "spectrum" (spectrum/wave)
-visualizer_in_stereo = "yes"
-visualizer_look = "+|"
+display_bitrate = yes
 
+# Middle
+header_window_color = cyan
+# Controls color of browse, media library etc..
+main_window_color = cyan
+alternative_ui_separator_color = cyan
 
-## Navigation ##
-cyclic_scrolling = "yes"
-header_text_scrolling = "yes"
-jump_to_now_playing_song_at_start = "yes"
-lines_scrolled = "2"
+alternative_header_first_line_format = $0$aqqu$/a {$7%A - $9}{$5%t$9}|{$8%f$9} $0$atqq$/a$9
+alternative_header_second_line_format = {$6%b$9}
 
-## Other ##
-system_encoding = "utf-8"
-regular_expressions = "extended"
+# Right
+state_flags_color = cyan
+volume_color = blue 
 
-## Selected tracks ##
+## Body ##
+song_columns_list_format = (5)[blue]{l} (30)[green]{A} (30)[magenta]{b} (50)[yellow]{t}
+playlist_display_mode = columns
+playlist_disable_highlight_delay = 0 
 selected_item_prefix = "* "
-discard_colors_if_item_is_selected = "no"
+current_item_prefix = $(blue)$r
 
-## Seeking ##
-incremental_seeking = "yes"
-seek_time = "1"
+## Footer ##
+statusbar_color = red
 
-## Visivility ##
-header_visibility = "yes"
-statusbar_visibility = "yes"
-titles_visibility = "yes"
+### Navigation ###
+cyclic_scrolling = yes
+jump_to_now_playing_song_at_start = yes
 
-
-progressbar_look =  "=>-"
-progressbar_boldness = "yes"
-progressbar_elapsed_color = "white"
-
+### Progressbar ###
+progressbar_look = "=>-"
+progressbar_color = cyan
+progressbar_elapsed_color = white
 now_playing_prefix = "> "
-song_status_format = " $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b "
-centered_cursor = "yes"
+seek_time = 1
 
-# Misc
-display_bitrate = "yes"
-# enable_window_title = "no"
-follow_now_playing_lyrics = "yes"
-ignore_leading_the = "yes"
+
+### Misc ###
+ignore_leading_the = yes
 empty_tag_marker = ""
+centered_cursor = yes
+regular_expressions = extended
+default_place_to_search_in = database
+mouse_support = yes
+colors_enabled = yes
+
+### Console Title ###
+# If enabled, ncmpcpp will override current window title with its own one.
+enable_window_title = yes
+
+### Editor ###
+external_editor = nano
+use_console_editor = yes
+
+### Useless ###
+active_window_border = red
+window_border_color = red
+state_line_color = red
