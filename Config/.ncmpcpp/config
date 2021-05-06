@@ -1,13 +1,15 @@
 # https://github.com/ncmpcpp/ncmpcpp/blob/master/doc/config
 # http://manpages.ubuntu.com/manpages/trusty/man1/ncmpcpp.1.html
 
-### Files ###
-mpd_music_dir = /mnt/d/onedrive/music 
-lyrics_directory  = ~/.ncmpcpp/lyrics
-ncmpcpp_directory  = ~/.ncmpcpp
+### MPD ###
 mpd_host = 192.168.0.100
 mpd_port = 6600 
 mpd_connection_timeout = 5
+
+### Directories ###
+mpd_music_dir = /mnt/d/onedrive/music 
+lyrics_directory  = ~/.ncmpcpp/lyrics
+ncmpcpp_directory  = ~/.ncmpcpp
 
 ### Library View ###
 media_library_primary_tag = album_artist
