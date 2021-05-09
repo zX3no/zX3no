@@ -31,15 +31,15 @@ header_window_color = cyan
 main_window_color = cyan
 alternative_ui_separator_color = cyan
 
-alternative_header_first_line_format = $0$aqqu$/a {$7%A - $9}{$5%t$9}|{$8%f$9} $0$atqq$/a$9
-alternative_header_second_line_format = {$6%b$9}
+alternative_header_first_line_format = $7$aqqu$/a {$5%A - }{$5%t} $7$atqq$/a$9
+alternative_header_second_line_format = {$7%b}
 
 # Right
 state_flags_color = cyan
 volume_color = blue 
 
 ## Body ##
-song_columns_list_format = (5)[blue]{l} (30)[green]{A} (30)[magenta]{b} (50)[yellow]{t}
+song_columns_list_format = (5)[blue]{l} (30)[magenta]{t} (30)[yellow]{b} (50)[green]{A}
 playlist_display_mode = columns
 playlist_disable_highlight_delay = 0 
 selected_item_prefix = "* "
