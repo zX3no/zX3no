@@ -1,9 +1,9 @@
 ## Current Projects:
 *  [MPD and ncmpcpp on windows with WSL.](https://github.com/zX3no/ncmpcppOnWindows)
      Tutorial on how to configure MPD and ncmpcpp to work on windows with wsl.
-     ![](https://github.com/zX3no/zX3no/blob/main/Images/ncmpcpp.png?raw=true)
 
-    https://github.com/zX3no/zX3no/blob/main/Images/ncmpcpp.png
+     ![](https://github.com/zX3no/zX3no/blob/main/Images/ncmpcpp.png?raw=true)
+     
 *  [Repository Setup Reference.](https://github.com/zX3no/zX3no/blob/main/Writing/Repo%20Setup.md)
      I make a lot of GitHub repositories and I often need to look up something during the setup. A reference/guide makes my life a lot easier. I also have a script I use to make commits and push them automatically. I definitely change this though. 
 
