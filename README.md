@@ -1,4 +1,4 @@
-# Current Projects:
+## Current Projects:
 *  [MPD and ncmpcpp on windows with WSL.](https://github.com/zX3no/ncmpcppOnWindows)
      Tutorial on how to configure MPD and ncmpcpp to work on windows with wsl.
     
