@@ -3,7 +3,7 @@
      Tutorial on how to configure MPD and ncmpcpp to work on windows with wsl.
     
 *  [Repository Setup Reference.](https://github.com/zX3no/zX3no/blob/main/Writing/Repo%20Setup.md)
-     I make a lot of GitHub repositories and I often need to look up something during the setup. A reference/guide makes my life a lot easier. I also have a script I use to make commits and push them automatically. I deffinately change this though. 
+     I make a lot of GitHub repositories and I often need to look up something during the setup. A reference/guide makes my life a lot easier. I also have a script I use to make commits and push them automatically. I definitely change this though. 
 
 * [FPS List.](https://github.com/zX3no/zX3no/blob/main/Writing/FPS%20List.md)
     Analysis of first-person shooter games. Important for the game I'm working on.
@@ -18,3 +18,10 @@
 * I have a repository on GitLab with all of my VST's and VST installers. GitHub has a 2GB limit so I can't use it. They also sent me some *mean* emails about the amount of data I'm using. 
 
     Managing plugins is frustrating and It's no fun re-installing everything to make music. I'm yet to find a good system since I'm not a fan of symbolic-links (at least not for *everything*).
+
+To Do List:
+* Automate program installation and configurations
+* Setup Oh my Posh
+* Stop using Google Sheets (It's too laggy, and my dark theme is scuffed)
+* Find a proper photo editor to use. GIMP, PHOTOSHOP, ...?
+* 
