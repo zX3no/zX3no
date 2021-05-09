@@ -3,7 +3,7 @@
      Tutorial on how to configure MPD and ncmpcpp to work on windows with wsl.
 
      ![](https://github.com/zX3no/zX3no/blob/main/Images/ncmpcpp.png?raw=true)
-     
+
 *  [Repository Setup Reference.](https://github.com/zX3no/zX3no/blob/main/Writing/Repo%20Setup.md)
      I make a lot of GitHub repositories and I often need to look up something during the setup. A reference/guide makes my life a lot easier. I also have a script I use to make commits and push them automatically. I definitely change this though. 
 
@@ -15,7 +15,9 @@
 
 * I removed the section on my Game Development work since it's something that I'm always working on. I don't like having out of date writing. It's happening one day though, **trust me**.
 
-*  I have a collection of config files for various programs on this repo. I will be used for automating my windows install since it breaks so often. See: [PythonAutomaticInstaller](https://github.com/zX3no/PythonAutomaticInstaller). Project is scraped because [subprocess](https://docs.python.org/3/library/subprocess.html) is no fun and web scraping is not the way to do it. I will probably move it into powershell, now that [choco](https://chocolatey.org/) is a thing. I have a list of programs I use on Google Sheets which I'll move over here at some  point.
+*  I have a collection of config files for various programs on this repo. I will be used for automating my windows install since it breaks so often. See: [PythonAutomaticInstaller](https://github.com/zX3no/PythonAutomaticInstaller). 
+
+    Project is scraped because [subprocess](https://docs.python.org/3/library/subprocess.html) is no fun and web scraping is not the way to do it. I will probably move it into powershell, now that [choco](https://chocolatey.org/) is a thing. I have a list of programs I use on Google Sheets which I'll move over here at some  point.
 
 * I have a repository on GitLab with all of my VST's and VST installers. GitHub has a 2GB limit so I can't use it. They also sent me some *mean* emails about the amount of data I'm using. 
 
@@ -25,5 +27,6 @@ To Do List:
 * Automate program installation and configurations
 * Setup Oh my Posh
 * Stop using Google Sheets (It's too laggy, and my dark theme is scuffed)
-* Find a proper photo editor to use. GIMP, PHOTOSHOP, ...?
-* 
+* Find a better: Image Editor, Screenshot program, hex editor
+* Get a better To Do list
+* Change to git GUI
