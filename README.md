@@ -28,4 +28,5 @@ To Do List:
 * Setup Oh my Posh
 * Stop using Google Sheets (It's too laggy, and my dark theme is scuffed)
 * Find a better: Image Editor, Screenshot program, hex editor
+* Simplify reinstall for mpd and ncmpcpp | maybe a script for this
 * Get a better To Do list
