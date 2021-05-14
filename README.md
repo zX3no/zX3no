@@ -29,4 +29,3 @@ To Do List:
 * Stop using Google Sheets (It's too laggy, and my dark theme is scuffed)
 * Find a better: Image Editor, Screenshot program, hex editor
 * Get a better To Do list
-* Change to git GUI
