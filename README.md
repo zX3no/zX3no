@@ -29,4 +29,5 @@ To Do List:
 * Stop using Google Sheets (It's too laggy, and my dark theme is scuffed)
 * Find a better: Image Editor, Screenshot program, hex editor
 * Simplify reinstall for mpd and ncmpcpp | maybe a script for this
+* Find better remote shutdown solution, going to a website is a bit annoying. I want google home intergration.
 * Get a better To Do list

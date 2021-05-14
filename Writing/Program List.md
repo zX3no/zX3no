@@ -24,7 +24,11 @@
 | Game Launcher | Steam & Epic Games | &#9745; | |
 | Diffing Tool | Meld | &#9745; | |
 | Hex Editor | HxD | &#9745; |
-| Image Editor | ????? | &#9744; | TODO Find one |
+| Prototyping Tool | Figma | &#9744; | |
+| Image Editor | Photoshop \| Paint.NET | &#9744; & &#9745; | |
+| Vector Editor | Illustrator \| Inkscape | &#9744; & &#9745; | |
+| Remote Shutdown | Remote Shutdown Manager | &#9744; | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
+
 </br>
 
 Choco Packages:
