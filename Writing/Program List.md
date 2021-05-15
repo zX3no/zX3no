@@ -23,7 +23,7 @@
 | 3D CG | Blender | &#9745; | |
 | Game Launcher | Steam & Epic Games | &#9745; | |
 | Diffing Tool | Meld | &#9745; | |
-| Hex Editor | HxD | &#9745; |
+| Hex Editor | ImHex | &#9745; |
 | Prototyping Tool | Figma | &#9744; | |
 | Image Editor | Photoshop \| Paint.NET | &#9744; & &#9745; | |
 | Vector Editor | Illustrator \| Inkscape | &#9744; & &#9745; | |

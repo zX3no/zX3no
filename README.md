@@ -27,8 +27,10 @@ To Do List:
 * Automate program installation and configurations
 * Setup Oh my Posh
 * Write windows config document
-* Find a nicer looking hex editor
 * Simplify reinstall for mpd and ncmpcpp | maybe a script for this
 * Find better remote shutdown solution, going to a website is a bit annoying. I want google home intergration.
 * Add proper shortcuts to windows terminal. ctrl+w for close, ctrl+num for switching 
+* Script that monitors my windows version and emails me the patch notes of whatever update windows just forced on me
+* Figure out the crop playlist bug in ncmpcpp
+* Setup symbolic links to: mpd, ncmpcpp, windows terminal, vscode and powershell
 * Get a better To Do list
