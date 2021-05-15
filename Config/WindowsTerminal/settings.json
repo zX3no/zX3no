@@ -45,8 +45,7 @@
     "disabledProfileSources": 
     [
         "Windows.Terminal.Azure",
-        "Windows.Terminal.PowershellCore",
-        "Windows.Terminal.Wsl",
+        "Windows.Terminal.PowershellCore"
     ],
     "experimental.rendering.forceFullRepaint": false,
     "experimental.rendering.software": false,
@@ -79,15 +78,30 @@
                 "useAcrylic": true
             },
             {
-                "fontFace": "Cascadia Code PL",
                 "acrylicOpacity": 0.25,
                 "antialiasingMode": "cleartype",
                 "bellStyle": "visual",
-                "commandline": "pwsh.exe -command wsl ncmpcpp",
+                "commandline": "wsl ncmpcpp",
                 "cursorShape": "emptyBox",
+                "fontFace": "Cascadia Code PL",
                 "icon": "\ud83c\udfb5",
                 "name": "Music",
                 "tabTitle": "Music",
+                "useAcrylic": true
+            },
+            {
+                "acrylicOpacity": 0.25,
+                "antialiasingMode": "cleartype",
+                "bellStyle": "visual",
+                "commandline": "wsl",
+                "cursorShape": "emptyBox",
+                "fontFace": "Cascadia Code PL",
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\bay",
+                "tabTitle": "Ubuntu",
                 "useAcrylic": true
             }
         ]
