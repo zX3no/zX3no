@@ -39,20 +39,23 @@
             "keys": "alt+shift+d"
         }
     ],
-    "disabledProfileSources": [
-        "Windows.Terminal.Azure",
-        "Windows.Terminal.PowershellCore",
-        "Windows.Terminal.Wsl",
-      ],
-
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "disabledProfileSources": 
+    [
+        "Windows.Terminal.Azure",
+        "Windows.Terminal.PowershellCore",
+        "Windows.Terminal.Wsl",
+    ],
+    "experimental.rendering.forceFullRepaint": false,
+    "experimental.rendering.software": false,
     "profiles": 
     {
         "defaults": 
         {
             "colorScheme": "Dracula",
+            "fontFace": "Cascadia Mono PL",
             "tabColor": "#282A36"
         },
         "list": 
@@ -62,9 +65,10 @@
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
                 "bellStyle": "visual",
+                "colorScheme": "Dracula",
                 "commandline": "pwsh.exe -nologo",
                 "cursorShape": "emptyBox",
-                "experimental.retroTerminalEffect": false,
+                "fontFace": "Cascadia Code PL",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "icon": "ms-appx:///Images/Square44x44Logo.targetsize-32.png",
@@ -72,28 +76,20 @@
                 "padding": "8",
                 "startingDirectory": "%USERPROFILE%/Desktop",
                 "suppressApplicationTitle": false,
-                "useAcrylic": true,
-                "tabSwitcherMode": "inOrder"
-            },
-            {
-                "acrylicOpacity": 0.20000000000000001,
-                "antialiasingMode": "cleartype",
-                "bellStyle": "visual",
-                "cursorShape": "emptyBox",
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": false,
-                "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl",
                 "useAcrylic": true
             },
             {
-                "acrylicOpacity": 0.20000000000000001,
+                "fontFace": "Cascadia Code PL",
+                "acrylicOpacity": 0.25,
                 "antialiasingMode": "cleartype",
                 "bellStyle": "visual",
+                "commandline": "pwsh.exe -command wsl ncmpcpp",
                 "cursorShape": "emptyBox",
-                "hidden": true,
+                "icon": "\ud83c\udfb5",
+                "name": "Music",
+                "tabTitle": "Music",
                 "useAcrylic": true
-            },
+            }
         ]
     },
     "schemes": 
