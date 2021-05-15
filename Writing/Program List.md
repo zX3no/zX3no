@@ -28,7 +28,7 @@
 | Image Editor | Photoshop \| Paint.NET | &#9744; & &#9745; | |
 | Vector Editor | Illustrator \| Inkscape | &#9744; & &#9745; | |
 | Remote Shutdown | Remote Shutdown Manager | &#9744; | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
-
+| Registry Editor | RegistryFinder | &#9744; | [registry-finder.com](https://registry-finder.com/) |
 </br>
 
 Choco Packages:
