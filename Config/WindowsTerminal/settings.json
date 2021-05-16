@@ -54,7 +54,7 @@
                 "backgroundImage": null,
                 "bellStyle": "visual",
                 "colorScheme": "Dracula",
-                "commandline": "pwsh.exe -nologo",
+                "commandline": "PowerShell.exe -nologo",
                 "cursorShape": "emptyBox",
                 "hidden": false,
                 "icon": "ms-appx:///Images/Square44x44Logo.targetsize-32.png",
