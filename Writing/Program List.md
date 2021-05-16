@@ -30,8 +30,13 @@
 | Remote Shutdown | Remote Shutdown Manager | &#9744; | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
 | Registry Editor | RegistryFinder | &#9744; | [registry-finder.com](https://registry-finder.com/) |
 | Download Manager | Motrix | &#9745; | |
+| Resource Monitor | gtop | &#9744; | [npm install -g gtop](https://github.com/aksakalli/gtop) |
+
 </br>
 
 Choco Packages:
 
-`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex`
+`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex motrix`
+
+Node Packages:
+`gtop insect`
