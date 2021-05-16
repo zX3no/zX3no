@@ -32,6 +32,6 @@ To Do List:
 * Add proper shortcuts to windows terminal. ctrl+w for close, ctrl+num for switching 
 * Script that monitors my windows version and emails me the patch notes of whatever update windows just forced on me
 * Figure out the crop playlist bug in ncmpcpp
-* Setup symbolic links to: mpd, ncmpcpp, windows terminal, vscode and powershell
+* Setup symbolic links to: mpd, ncmpcpp
 * automatic replay gain scanning, idk if it's possible
 * Get a better To Do list

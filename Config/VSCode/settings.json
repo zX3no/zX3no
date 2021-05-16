@@ -1,0 +1,13 @@
+{
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Dracula",
+    "terminal.integrated.gpuAcceleration": "off",
+    "vscode_vibrancy.opacity": 0.4,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell -NoLogo": {
+          "source": "PowerShell",
+          "args": ["-NoLogo"]
+        }
+      },
+      "terminal.integrated.defaultProfile.windows": "PowerShell -NoLogo"
+}

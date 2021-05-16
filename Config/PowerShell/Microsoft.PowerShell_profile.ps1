@@ -1,3 +1,4 @@
+$j = 'D:\Git\zX3no'
 function push {
     git checkout main
 	git add .
