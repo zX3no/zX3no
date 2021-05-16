@@ -33,4 +33,4 @@
 
 Choco Packages:
 
-`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal insect powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld hxd`
+`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex`
