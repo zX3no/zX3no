@@ -15,7 +15,7 @@
 | Minecraft Launcher | MultiMC | &#9745; | |
 | Monitor Calibration | DisplayCAL | &#9745; | |
 | Timer | Hourglass | &#9745; | [dziemborowicz/hourglass](https://github.com/dziemborowicz/hourglass) |
-| Calculator | SpeedCrunch | &#9745; | |
+| Calculator | Insect | &#9744; | [npm install -g insect](https://github.com/sharkdp/insect#terminal-version) |
 | Window Tiler | PowerToys | &#9745; | |
 | Volume Control | EarTrumpet | &#9745; | |
 | Remote Desktop | AnyDesk | &#9745; | |
@@ -33,4 +33,4 @@
 
 Choco Packages:
 
-`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal speedcrunch powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld hxd`
+`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal insect powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld hxd`
