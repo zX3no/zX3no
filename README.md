@@ -33,4 +33,5 @@ To Do List:
 * Script that monitors my windows version and emails me the patch notes of whatever update windows just forced on me
 * Figure out the crop playlist bug in ncmpcpp
 * Setup symbolic links to: mpd, ncmpcpp, windows terminal, vscode and powershell
+* automatic replay gain scanning, idk if it's possible
 * Get a better To Do list
