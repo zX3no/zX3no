@@ -37,7 +37,7 @@
 
 Choco Packages:
 
-`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex motrix`
+`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex motrix repoz`
 
 Node Packages:
-`gtop insect`
+`insect gtop`
