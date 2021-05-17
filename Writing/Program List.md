@@ -16,7 +16,7 @@
 | Monitor Calibration | DisplayCAL | &#9745; | |
 | Timer | Hourglass | &#9745; | [dziemborowicz/hourglass](https://github.com/dziemborowicz/hourglass) |
 | Calculator | Insect | &#9744; | [npm install -g insect](https://github.com/sharkdp/insect#terminal-version) |
-| Window Tiler | PowerToys | &#9745; | |
+| Tiling Manager | PowerToys | &#9745; | I'll swap to [nog](https://github.com/TimUntersberger/nog) when it's better |
 | Volume Control | EarTrumpet | &#9745; | |
 | Remote Desktop | AnyDesk | &#9745; | |
 | Network Monitor | NetLimiter | &#9745; | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |

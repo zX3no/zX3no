@@ -34,4 +34,5 @@ To Do List:
 * Figure out the crop playlist bug in ncmpcpp
 * Setup symbolic links to: mpd, ncmpcpp
 * automatic replay gain scanning, idk if it's possible
+* add copy directory to clipboard to context menu
 * Get a better To Do list
