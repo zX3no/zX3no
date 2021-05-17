@@ -11,3 +11,6 @@ function c {
 function cr {
 	gsudo choco uninstall $args
 }
+function su{
+	gsudo
+}
