@@ -31,6 +31,7 @@
 | Registry Editor | RegistryFinder | &#9744; | [registry-finder.com](https://registry-finder.com/) |
 | Download Manager | Motrix | &#9745; | |
 | Resource Monitor | gtop | &#9744; | [npm install -g gtop](https://github.com/aksakalli/gtop) |
+| Git Repository Hub | RepoZ | &#9745; | |
 
 </br>
 
