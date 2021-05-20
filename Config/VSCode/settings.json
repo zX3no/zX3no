@@ -9,5 +9,6 @@
           "args": ["-NoLogo"]
         }
       },
-      "terminal.integrated.defaultProfile.windows": "PowerShell -NoLogo"
+      "terminal.integrated.defaultProfile.windows": "PowerShell -NoLogo",
+      "mesonbuild.configureOnOpen": true
 }
