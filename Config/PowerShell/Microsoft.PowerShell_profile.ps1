@@ -14,3 +14,6 @@ function cr {
 function su{
 	gsudo
 }
+function music{
+	wsl ncmpcpp
+}
