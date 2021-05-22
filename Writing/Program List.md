@@ -32,12 +32,13 @@
 | Download Manager | Motrix | &#9745; | |
 | Resource Monitor | gtop | &#9744; | [npm install -g gtop](https://github.com/aksakalli/gtop) |
 | Git Repository Hub | RepoZ | &#9745; | |
-
+| Controller Hub | ds4 | &#9745; | |
 </br>
 
 Choco Packages:
 
-`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex motrix repoz`
+`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex motrix repoz ds4windows`
 
 Node Packages:
+
 `insect gtop`
