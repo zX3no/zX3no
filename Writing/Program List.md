@@ -42,3 +42,108 @@ Choco Packages:
 Node Packages:
 
 `insect gtop`
+
+
+---
+
+Current Problems:
+
+I want to use a keystroke launcher and a display manager. However none of the available ones fit my needs.
+
+PowerToys Run and nog both seem like good choices
+
+Ueli is still good because it has more options than PowerToys
+
+---
+Keystroke Launchers:
+
+[Ueli:](https://github.com/oliverschwendener/ueli)
+
+No plugin support.
+
+Does not have Acylic blur and program icons look weird.
+
+Looks okay
+
+[Khanhas/Ueli:](https://github.com/khanhas/ueli)
+
+Has blur and looks much better than standard ueli.
+
+Has program switcher.
+
+No program icons.
+
+No longer being worked on.
+
+Configuration is limited compared to the newer version
+
+[Keypirinha, Zazu:]()
+
+Looks horrible
+
+Worse than Ueli
+
+[Wox:](https://github.com/Wox-launcher/Wox)
+
+Has plugin manager
+
+Has not been updated for over a year.
+
+Looks bad.
+
+
+[PowerToys Run:](https://github.com/microsoft/PowerToys)
+
+Comes with powertoys, something I already use.
+
+Has good icons
+
+Has program switcher
+
+Limited plugins
+
+No visual configuration
+
+Looks okay
+
+Should have a lot of the features I want when [1.0 is released](https://github.com/microsoft/PowerToys/milestone/8)
+
+[Cerebro:](https://github.com/cerebroapp/cerebro)
+
+Lots of plugins
+
+Looks meh
+
+Different design to the rest
+
+---
+
+Display Managers:
+
+[Fancytiling:](https://github.com/khanhas/fancytiling)
+
+Broken and outdated.
+
+[PowerToys Fancy Tiles:](https://github.com/microsoft/PowerToys)
+
+What I currently use. 
+
+Not really a tiling manger, however it's better than windows native implementation.
+
+[bug.n:](https://github.com/fuhsjr00/bug.n)
+
+Looks terrible
+
+[workspacer:](https://github.com/rickbutton/workspacer)
+
+Works out of the box
+
+top bar looks terrible and is not configurable
+
+[nog:](https://github.com/TimUntersberger/nog)
+
+active development
+
+top bar looks okay
+
+breaks windows sometimes
