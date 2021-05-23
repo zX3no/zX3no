@@ -50,7 +50,7 @@ Current Problems:
 
 I want to use a keystroke launcher and a display manager. However none of the available ones fit my needs.
 
-PowerToys Run and nog both seem like good choices
+PowerToys Run seems like a good choice
 
 Ueli is still good because it has more options than PowerToys
 
@@ -151,3 +151,7 @@ active development
 top bar looks okay
 
 breaks windows sometimes
+
+[b3:](https://github.com/ritschmaster/b3)
+
+crashes on launch

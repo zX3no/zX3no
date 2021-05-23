@@ -25,6 +25,7 @@
 
 To Do List:
 * Update oh my posh, it's on version 2 instead of 3 ???
+* Replace Win + Key shortcuts with custom script. win + r can be replaced with launcher.
 * Automate program installation and configurations
 * Write windows config document
 * Simplify reinstall for mpd and ncmpcpp | maybe a script for this

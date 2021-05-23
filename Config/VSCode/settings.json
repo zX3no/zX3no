@@ -13,11 +13,10 @@
       "mesonbuild.configureOnOpen": true,
       "editor.suggestSelection": "first",
       "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-      "workbench.editorAssociations": [
-        {
-          "viewType": "jupyter.notebook.ipynb",
-          "filenamePattern": "*.ipynb"
-        }
-      ],
-      "python.defaultInterpreterPath": "C:\\Python39\\python.exe"
+      "python.defaultInterpreterPath": "C:\\Python39\\python.exe",
+      "powershell.buttons.showRunButtons": false,
+      "powershell.integratedConsole.showOnStartup": false,
+      "autoHide.sideBarDelay": 0,
+      "autoHide.panelDelay": 0,
+      "editor.fontFamily": "Consolas, 'Courier New', monospace, Cascadia Code PL",
 }
