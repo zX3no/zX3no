@@ -17,3 +17,6 @@ function su{
 function music{
 	wsl ncmpcpp
 }
+function calc{
+	insect
+}
