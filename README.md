@@ -24,8 +24,8 @@
     Managing plugins is frustrating and It's no fun re-installing everything to make music. I'm yet to find a good system since I'm not a fan of symbolic-links (at least not for *everything*).
 
 To Do List:
+* Update oh my posh, it's on version 2 instead of 3 ???
 * Automate program installation and configurations
-* Setup Oh my Posh
 * Write windows config document
 * Simplify reinstall for mpd and ncmpcpp | maybe a script for this
 * ~~Find better remote shutdown solution, going to a website is a bit annoying. I want google home intergration.~~

@@ -20,3 +20,5 @@ function music{
 function calc{
 	insect
 }
+
+Set-PoshPrompt -Theme spaceship
