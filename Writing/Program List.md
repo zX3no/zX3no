@@ -54,6 +54,10 @@ PowerToys Run and nog both seem like good choices
 
 Ueli is still good because it has more options than PowerToys
 
+I've always wanted tabs in explorer but that feature was but on hold. There is a program called [Files](https://github.com/files-community/Files) that has this but it's too slow to use.
+
+I also need a cli timer
+
 ---
 Keystroke Launchers:
 
