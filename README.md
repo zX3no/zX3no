@@ -31,7 +31,6 @@ To Do List:
 * Find better remote shutdown solution, going to a website is a bit annoying. I want google home intergration.
 * Add proper shortcuts to windows terminal. ctrl+w for close, ctrl+num for switching 
 * Script that monitors my windows version and emails me the patch notes of whatever update windows just forced on me
-* Figure out the crop playlist bug in ncmpcpp
 * automatic replay gain scanning, idk if it's possible
 * add copy directory to clipboard to context menu
 * Get a better To Do list

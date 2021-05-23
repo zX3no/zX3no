@@ -460,8 +460,8 @@ def_key "+"
 #def_key "c"
 #  clear_main_playlist
 #
-#def_key "C"
-#  crop_playlist
+def_key "C"
+  dummy
 #
 #def_key "C"
 #  crop_main_playlist
