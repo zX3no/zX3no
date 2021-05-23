@@ -33,4 +33,5 @@ To Do List:
 * automatic replay gain scanning, idk if it's possible
 * add copy directory to clipboard to context menu / open file directory shortcut
 * Investigate [SecureUxTheme](https://github.com/namazso/SecureUxTheme)
+* Might want to migrate some statup programs to: Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 * Get a better To Do list
