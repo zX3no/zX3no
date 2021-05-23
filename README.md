@@ -29,7 +29,7 @@ To Do List:
 * Write windows config document
 * Simplify reinstall for mpd and ncmpcpp | maybe a script for this
 * ~~Find better remote shutdown solution, going to a website is a bit annoying. I want google home intergration.~~
-* Script that monitors my windows version and emails me the patch notes of whatever update windows just forced on me
 * automatic replay gain scanning, idk if it's possible
 * add copy directory to clipboard to context menu / open file directory shortcut
+* Investigate [SecureUxTheme](https://github.com/namazso/SecureUxTheme)
 * Get a better To Do list
