@@ -1,3 +1,5 @@
+# pip install python-mpd2 pynput
+
 from mpd import MPDClient
 from contextlib import contextmanager
 import sys
@@ -24,7 +26,6 @@ def main():
     def queue(command):
         with connection():
             try:
-                #result = command()
                 if command == 'vol_down':
                     client.volume(-VOL_INC)
                 elif command == 'vol_up':

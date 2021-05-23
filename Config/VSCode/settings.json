@@ -10,5 +10,14 @@
         }
       },
       "terminal.integrated.defaultProfile.windows": "PowerShell -NoLogo",
-      "mesonbuild.configureOnOpen": true
+      "mesonbuild.configureOnOpen": true,
+      "editor.suggestSelection": "first",
+      "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+      "workbench.editorAssociations": [
+        {
+          "viewType": "jupyter.notebook.ipynb",
+          "filenamePattern": "*.ipynb"
+        }
+      ],
+      "python.defaultInterpreterPath": "C:\\Python39\\python.exe"
 }
