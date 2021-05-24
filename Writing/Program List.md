@@ -30,14 +30,15 @@
 | Remote Shutdown | Remote Shutdown Manager | &#9744; | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
 | Registry Editor | RegistryFinder | &#9744; | [registry-finder.com](https://registry-finder.com/) |
 | Download Manager | Motrix | &#9745; | |
-| Resource Monitor | gtop | &#9744; | [npm install -g gtop](https://github.com/aksakalli/gtop) |
+| Resource Monitor | gtop & ntop | &#9744; & &#9745; | [npm install -g gtop](https://github.com/aksakalli/gtop) |
 | Git Repository Hub | RepoZ | &#9745; | |
-| Controller Hub | ds4 | &#9745; | |
+| PS4 Controller | ds4 | &#9745; | |
+| Task Manager | taskbook | &#9744; | [npm install -g taskbook](https://github.com/klaussinani/taskbook) |
 </br>
 
 Choco Packages:
 
-`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex motrix repoz ds4windows`
+`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex motrix repoz ds4windows ntop-portable`
 
 Node Packages:
 
@@ -57,6 +58,8 @@ Ueli is still good because it has more options than PowerToys
 I've always wanted tabs in explorer but that feature was but on hold. There is a program called [Files](https://github.com/files-community/Files) that has this but it's too slow to use.
 
 I also need a cli timer
+
+I have mixed feeling about my cli task manger, most of them are only avaliable on windows. I'm not sure what I want yet.
 
 ---
 Keystroke Launchers:

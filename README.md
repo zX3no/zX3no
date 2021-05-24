@@ -7,11 +7,14 @@
 *  [Repository Setup Reference.](https://github.com/zX3no/zX3no/blob/main/Writing/Repo%20Setup.md)
      I make a lot of GitHub repositories and I often need to look up something during the setup. A reference/guide makes my life a lot easier. I also have a script I use to make commits and push them automatically. I definitely change this though. 
 
-* [FPS List.](https://github.com/zX3no/zX3no/blob/main/Writing/FPS%20List.md)
+*   [FPS List.](https://github.com/zX3no/zX3no/blob/main/Writing/FPS%20List.md)
     Analysis of first-person shooter games. Important for the game I'm working on.
 
-*  [Yaw List.](https://github.com/zX3no/zX3no/blob/main/Writing/Yaw%20List.md)
+*   [Yaw List.](https://github.com/zX3no/zX3no/blob/main/Writing/Yaw%20List.md)
      A list of yaw values used in video games. Currently websites like www.mouse-sensitivity.com offer this but the values are not public. Some of the features are also payed.
+
+*   [Rick Click Registry.](https://github.com/zX3no/RightClickRegistry) 
+    A collection of registry tweaks to remove things from the right click menu.
 
 * I removed the section on my Game Development work since it's something that I'm always working on. I don't like having out of date writing. It's happening one day though, **trust me**.
 
@@ -29,4 +32,5 @@ To Do List:
 * Simplify reinstall for mpd and ncmpcpp | maybe a script for this, if I do this the comments need to be quite verbose since so many things are hard coded.
 * Move remote shutdown to google home
 * Finish VST repo
-* Get a better To Do list
+* Investigate vim
+* Get a better To Do list https://tasklite.org/related.html
