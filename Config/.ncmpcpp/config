@@ -39,7 +39,7 @@ state_flags_color = cyan
 volume_color = blue 
 
 ## Body ##
-song_columns_list_format =  (5)[magenta]{n} (30)[blue]{t} (30)[yellow]{b} (30)[green]{A}
+song_columns_list_format =  (8)[magenta]{n} (30)[blue]{t} (30)[yellow]{b} (30)[green]{A}
 current_item_prefix = $(magenta)$r
 playlist_display_mode = columns
 playlist_disable_highlight_delay = 0 
