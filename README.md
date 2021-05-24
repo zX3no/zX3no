@@ -28,5 +28,5 @@ To Do List:
 * Write windows config document
 * Simplify reinstall for mpd and ncmpcpp | maybe a script for this, if I do this the comments need to be quite verbose since so many things are hard coded.
 * Move remote shutdown to google home
-* Investigate [SecureUxTheme](https://github.com/namazso/SecureUxTheme)
+* Finish VST repo
 * Get a better To Do list
