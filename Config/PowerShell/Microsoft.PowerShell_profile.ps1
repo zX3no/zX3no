@@ -20,6 +20,9 @@ function music{
 function calc{
 	insect
 }
+function t{
+	tb $args
+}
 
 Set-PoshPrompt -Theme spaceship
 Import-Module posh-git
