@@ -22,3 +22,4 @@ function calc{
 }
 
 Set-PoshPrompt -Theme spaceship
+Import-Module posh-git

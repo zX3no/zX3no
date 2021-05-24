@@ -24,14 +24,9 @@
     Managing plugins is frustrating and It's no fun re-installing everything to make music. I'm yet to find a good system since I'm not a fan of symbolic-links (at least not for *everything*).
 
 To Do List:
-* Update oh my posh, it's on version 2 instead of 3 ???
-* Replace Win + Key shortcuts with custom script. win + r can be replaced with launcher.
 * Automate program installation and configurations
 * Write windows config document
-* Simplify reinstall for mpd and ncmpcpp | maybe a script for this
-* ~~Find better remote shutdown solution, going to a website is a bit annoying. I want google home intergration.~~
-* automatic replay gain scanning, idk if it's possible
-* add copy directory to clipboard to context menu / open file directory shortcut
+* Simplify reinstall for mpd and ncmpcpp | maybe a script for this, if I do this the comments need to be quite verbose since so many things are hard coded.
+* Move remote shutdown to google home
 * Investigate [SecureUxTheme](https://github.com/namazso/SecureUxTheme)
-* Might want to migrate some statup programs to: Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 * Get a better To Do list
