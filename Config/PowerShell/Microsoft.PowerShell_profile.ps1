@@ -1,4 +1,6 @@
 ﻿$j = 'D:\Git\zX3no'
+$d = $home + '\Desktop'
+
 function push {
     git checkout main
 	git add .
