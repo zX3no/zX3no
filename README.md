@@ -32,5 +32,3 @@ To Do List:
 * Simplify reinstall for mpd and ncmpcpp | maybe a script for this, if I do this the comments need to be quite verbose since so many things are hard coded.
 * Move remote shutdown to google home
 * Finish VST repo
-* Investigate vim
-* Get a better To Do list https://tasklite.org/related.html
