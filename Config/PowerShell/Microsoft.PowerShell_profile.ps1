@@ -1,4 +1,4 @@
-$j = 'D:\Git\zX3no'
+﻿$j = 'D:\Git\zX3no'
 function push {
     git checkout main
 	git add .
@@ -19,9 +19,6 @@ function music{
 }
 function calc{
 	insect
-}
-function t{
-	tb $args
 }
 
 Set-PoshPrompt -Theme spaceship
