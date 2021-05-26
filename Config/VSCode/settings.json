@@ -20,5 +20,8 @@
   "autoHide.panelDelay": 0,
   "editor.fontFamily": "Consolas, 'Courier New', monospace, Cascadia Code PL",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[markdown]": {
+    "editor.formatOnSave": false
+  }
 }
