@@ -26,5 +26,6 @@ function calc{
 	insect
 }
 
+
 Set-PoshPrompt -Theme spaceship
 Import-Module posh-git

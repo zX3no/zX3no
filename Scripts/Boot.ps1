@@ -1,5 +1,8 @@
 <#
-    A script that creates a text file when windows updates.
+    A script that runs at boot
+    It:
+    Checks if windows has been updated
+    Overclocks my GPU
 #>
 function CheckForWindowsUpdate{
     $currentVersion = [System.Environment]::OSVersion.Version
@@ -28,10 +31,10 @@ function CheckForWindowsUpdate{
     }
 }
 function Overclock{
+    Write-Output "overclocked gpu"
 	gsudo
 	nvoclock set pstate 500000 -c memory
 	nvoclock set pstate 200000 -c graphics
-    Write-Output "overclocked gpu"
 }
 
 CheckForWindowsUpdate
