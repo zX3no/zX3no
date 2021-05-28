@@ -1,5 +1,5 @@
 ## Windows Configuration
----
+
 ### Install programs:
 
 *In PowerShell as Admin*
