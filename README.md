@@ -19,10 +19,10 @@
 
 - I removed the section on my Game Development work since it's something that I'm always working on. I don't like having out of date writing. It's happening one day though, **trust me**.
 
-- I have a collection of config files for various programs on this repo. I will be used for automating my windows install since it breaks so often. See: [PythonAutomaticInstaller](https://github.com/zX3no/PythonAutomaticInstaller).
-
-  Project is scraped because [subprocess](https://docs.python.org/3/library/subprocess.html) is no fun and web scraping is not the way to do it. I will probably move it into powershell, now that [choco](https://chocolatey.org/) is a thing. I have a list of programs I use on Google Sheets which I'll move over here at some point.
+- [Windows Config.](https://github.com/zX3no/zX3no/blob/main/Writing/Windows%20Config.md) Instructions to install all my programs / configuration files. I might write a tutorial at some point about how you can setup your own. Hopefully some of that will be self evident. 
 
 - I have a repository on GitLab with all of my VST's and VST installers. GitHub has a 2GB limit so I can't use it. They also sent me some _mean_ emails about the amount of data I'm using.
 
   Managing plugins is frustrating and It's no fun re-installing everything to make music. I'm yet to find a good system since I'm not a fan of symbolic-links (at least not for _everything_).
+
+  Unfortunately because of copyright I can make the repository public. However it's on my todo list to write about my findings. 
