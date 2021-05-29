@@ -2,13 +2,14 @@
 
 call plug#begin(stdpath('data') . '/site/autoload')
 
-Plug 'preservim/nerdtree'
-
 Plug 'justinmk/vim-sneak'
 
 Plug 'itchyny/lightline.vim' 
 
 Plug 'tpope/vim-commentary'
+
+" Using with: coc-prettier and coc-explorer
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
@@ -22,17 +23,24 @@ inoremap <C-S> <Esc>:update<cr>gi
 
 " If jk is annoying can change it to capslock "
  
-" Other "
+" Add's numbers to the side of the screen "
 set number
 
+" Light Line "
 let g:lightline = {
       \ 'colorscheme': 'one',
       \ }
 
-" Nerd Tree "
+" coc "
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
 
-" StarDTree and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p
+" coc-prettier "
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
-" Open the existing NERDTree on each new tab.
-autocmd BufWinEnter * silent NERDTreeMirror
+" coc-browser "
+nmap <space>e :CocCommand explorer<CR>
+autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+" nerd font is broken might want to fix it "

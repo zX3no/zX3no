@@ -1,0 +1,13 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "json"],
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": false,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", ["expanded?", "collapse", "expand"], "open"]
+  }
+}
