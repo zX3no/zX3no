@@ -1,5 +1,5 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "json"],
+  "coc.preferences.formatOnSaveFiletypes": ["css", "json", "html"],
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": false,
   "explorer.previewAction.onHover": false,
