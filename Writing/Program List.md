@@ -34,6 +34,7 @@
 | Git Repository Hub | RepoZ | &#9745; | |
 | PS4 Controller | ds4 | &#9745; | |
 | Todo List | taskbook | &#9744; | [npm install -g taskbook](https://github.com/klaussinani/taskbook) |
+| Speed Test | fast-cli | &#9744; | [npm install -g fast-cli](https://github.com/sindresorhus/fast-cli) 
 </br>
 
 Choco Packages:
@@ -42,7 +43,7 @@ Choco Packages:
 
 Node Packages:
 
-`insect gtop`
+`insect gtop fast-cli`
 
 Rust Packages:
 

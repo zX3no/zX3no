@@ -44,3 +44,9 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 nmap <space>e :CocCommand explorer<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 " nerd font is broken might want to fix it "
+
+" other "
+set hidden " i don't really know what this does"
+set wildignore+=**/node_modules/**
+set wildmenu
+set path+=**

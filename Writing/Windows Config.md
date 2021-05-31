@@ -17,7 +17,7 @@ gsudo choco install vscode vlc mpd chrome qbittorrent 7zip msiafterburner micros
 ```
 
 ```
-gsudo npm install -g insect gtop
+gsudo npm install -g insect gtop fast-cli
 ```
 
 ```
