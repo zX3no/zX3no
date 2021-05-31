@@ -2,20 +2,16 @@
 |:-:|:-:|:-:|:-:|
 | Text Editor | Visual Studio Code| &#9745; | [Notepads](https://github.com/JasonStein/Notepads) is also good.|
 | Video Player | VLC | &#9745; | |
-| Music Player | ncmpcpp & mpd | &#9745; | TODO Write Config  |
-| Image Viewer | Quick Picture Viewer | &#9744; | [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer/releases)|
+| Music Player | ncmpcpp & mpd | &#9745; | |
 | Web Browser | Google Chrome | &#9745; | |
 | Torrent | qBittorrent | &#9745; | [Dark Theme](https://github.com/jagannatharjun/qbt-theme)|
 | Archive  | 7-Zip | &#9745; | [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)|
-| Fan Control | FanCtrl | &#9744; | [lich426/FanCtrl](https://github.com/lich426/FanCtrl) |
-| Overclocking | nvoclock | &#9744; | [cargo install nvoclock](https://github.com/arcnmx/nvoclock) |    
-| Terminal | Windows Terminal | &#9745; | TODO Write Config |
+| Terminal | Windows Terminal | &#9745; | |
 | ISO Imager | Etcher | &#9745; | |
 | VOIP | TeamSpeak 3 | &#9745; | [Dark Theme](https://github.com/randomhost/teamspeak-dark/releases) \| TeamSpeak 5 is bad |
 | Minecraft Launcher | MultiMC | &#9745; | |
 | Monitor Calibration | DisplayCAL | &#9745; | |
-| Timer | Hourglass | &#9745; | [dziemborowicz/hourglass](https://github.com/dziemborowicz/hourglass) |
-| Calculator | Insect | &#9744; | [npm install -g insect](https://github.com/sharkdp/insect#terminal-version) |
+| Timer | Hourglass | &#9745; | hourglass.install |
 | Tiling Manager | PowerToys | &#9745; | |
 | Volume Control | EarTrumpet | &#9745; | |
 | Remote Desktop | AnyDesk | &#9745; | |
@@ -24,19 +20,29 @@
 | Game Launcher | Steam & Epic Games | &#9745; | |
 | Diffing Tool | Meld | &#9745; | |
 | Hex Editor | ImHex | &#9745; | |
-| Prototyping Tool | Figma | &#9744; | |
 | Image Editor | Photoshop \| Paint.NET | &#9744; & &#9745; | |
 | Vector Editor | Illustrator \| Inkscape | &#9744; & &#9745; | |
-| Remote Shutdown | Remote Shutdown Manager | &#9744; | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
-| Registry Editor | RegistryFinder | &#9744; | [registry-finder.com](https://registry-finder.com/) |
 | Download Manager | Motrix | &#9745; | |
-| Resource Monitor | gtop & ntop | &#9744; & &#9745; | [npm install -g gtop](https://github.com/aksakalli/gtop) |
 | Git Repository Hub | RepoZ | &#9745; | |
 | PS4 Controller | ds4 | &#9745; | |
-| Todo List | taskbook | &#9744; | [npm install -g taskbook](https://github.com/klaussinani/taskbook) |
-| Speed Test | fast-cli | &#9744; | [npm install -g fast-cli](https://github.com/sindresorhus/fast-cli) |
-| File Sharing | ezshare | &#9744; | [npm install -g ezshare](https://github.com/mifi/ezshare) |
-
+| Resource Monitor | ntop | &#9745; | ntop-portable |
+| - | - | - | - |
+| Program | Name | Node | Notes |
+| Todo List | taskbook | | |
+| Speed Test | fast-cli | | |
+| File Sharing | ezshare | | |
+| Resource Monitor | gtop | | |
+| Calculator | Insect | | |
+| - | - | - | - |
+| Program | Name | | Notes |
+| Remote Shutdown | Remote Shutdown Manager | | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
+| Registry Editor | RegistryFinder | | [registry-finder.com](https://registry-finder.com/) |
+| Fan Control | FanCtrl | | [lich426/FanCtrl](https://github.com/lich426/FanCtrl) |
+| Image Viewer | Quick Picture Viewer | | [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer/releases)|
+| Prototyping Tool | Figma | | |
+| - | - | - | - |
+| Program | Name | Cargo | Notes |
+| Overclocking | nvoclock | | | 
 </br>
 
 Choco Packages:
@@ -45,7 +51,7 @@ Choco Packages:
 
 Node Packages:
 
-`insect gtop fast-cli`
+`insect gtop fast-cli taskbook`
 
 Rust Packages:
 
