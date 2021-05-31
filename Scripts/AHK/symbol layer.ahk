@@ -3,19 +3,30 @@
 ; and do not let Control, Alt, or Win modifiers act on Dvorak
 Loop {
    If GetKeyState("CapsLock", "T")
+   and !GetKeyState("Control")
+   and !GetKeyState("Alt")
+   and !GetKeyState("LWin")
+   and !GetKeyState("RWin") {
       Suspend, Off
-    else {
+   } else {
       Suspend, On
    }
    Sleep, 50
 }
 
-w::{
-r::}
-s::(
-f::)
-z::=
-a::[
-d::]
-v::<
-c::>
+q::]
+a::>
+z::z
+
+w::}
+s::)
+x::$
+
+e::[
+d::<
+c::@
+
+r::{
+f::(
+v::#
+
