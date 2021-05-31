@@ -34,7 +34,9 @@
 | Git Repository Hub | RepoZ | &#9745; | |
 | PS4 Controller | ds4 | &#9745; | |
 | Todo List | taskbook | &#9744; | [npm install -g taskbook](https://github.com/klaussinani/taskbook) |
-| Speed Test | fast-cli | &#9744; | [npm install -g fast-cli](https://github.com/sindresorhus/fast-cli) 
+| Speed Test | fast-cli | &#9744; | [npm install -g fast-cli](https://github.com/sindresorhus/fast-cli) |
+| File Sharing | ezshare | &#9744; | [npm install -g ezshare](https://github.com/mifi/ezshare) |
+
 </br>
 
 Choco Packages:
