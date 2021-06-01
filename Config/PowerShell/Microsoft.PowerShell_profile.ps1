@@ -19,6 +19,16 @@ function cu{
 function music{
 	wsl ncmpcpp
 }
+
+function dl {
+	cd D:\Git\SMLoadr\BUILD
+	./SMLoadr  -q FLAC -p D:\OneDrive\Music  -u $args
+}
+
+function refresh{
+	refreshenv
+	. $profile
+}
 Set-Alias -Name calc -Value insect
 Set-Alias -Name su -Value gsudo
 
