@@ -21,7 +21,6 @@
 | Todo List | taskbook | | |
 | Speed Test | fast-cli | | |
 | File Sharing | ezshare | | |
-| Resource Monitor | gtop | | |
 | Calculator | Insect | | |
 
 ---
