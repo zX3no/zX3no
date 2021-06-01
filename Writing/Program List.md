@@ -1,61 +1,89 @@
 |Program|Name|Choco|Notes|
 |:-:|:-:|:-:|:-:|
-| Text Editor | Visual Studio Code| &#9745; | [Notepads](https://github.com/JasonStein/Notepads) is also good.|
 | Video Player | VLC | &#9745; | |
 | Music Player | ncmpcpp & mpd | &#9745; | |
-| Web Browser | Google Chrome | &#9745; | |
 | Torrent | qBittorrent | &#9745; | [Dark Theme](https://github.com/jagannatharjun/qbt-theme)|
-| Archive  | 7-Zip | &#9745; | [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)|
-| Terminal | Windows Terminal | &#9745; | |
-| ISO Imager | Etcher | &#9745; | |
-| VOIP | TeamSpeak 3 | &#9745; | [Dark Theme](https://github.com/randomhost/teamspeak-dark/releases) \| TeamSpeak 5 is bad |
-| Minecraft Launcher | MultiMC | &#9745; | |
-| Monitor Calibration | DisplayCAL | &#9745; | |
+| Minecraft Launcher | MultiMC | &#9745; | winget broken |
+| Monitor Calibration | DisplayCAL | &#9745; | winget broken |
 | Timer | Hourglass | &#9745; | hourglass.install |
-| Tiling Manager | PowerToys | &#9745; | |
-| Volume Control | EarTrumpet | &#9745; | |
-| Remote Desktop | AnyDesk | &#9745; | |
 | Network Monitor | NetLimiter | &#9745; | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
-| 3D CG | Blender | &#9745; | |
-| Game Launcher | Steam & Epic Games | &#9745; | |
-| Diffing Tool | Meld | &#9745; | |
 | Hex Editor | ImHex | &#9745; | |
 | Image Editor | Photoshop \| Paint.NET | &#9744; & &#9745; | |
 | Vector Editor | Illustrator \| Inkscape | &#9744; & &#9745; | |
-| Download Manager | Motrix | &#9745; | |
 | Git Repository Hub | RepoZ | &#9745; | |
 | PS4 Controller | ds4 | &#9745; | |
 | Resource Monitor | ntop | &#9745; | ntop-portable |
-| - | - | - | - |
+
+---
+
 | Program | Name | Node | Notes |
+|:-:|:-:|:-:|:-:|
 | Todo List | taskbook | | |
 | Speed Test | fast-cli | | |
 | File Sharing | ezshare | | |
 | Resource Monitor | gtop | | |
 | Calculator | Insect | | |
-| - | - | - | - |
+
+---
+
 | Program | Name | | Notes |
+|:-:|:-:|:-:|:-:|
 | Remote Shutdown | Remote Shutdown Manager | | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
 | Registry Editor | RegistryFinder | | [registry-finder.com](https://registry-finder.com/) |
 | Fan Control | FanCtrl | | [lich426/FanCtrl](https://github.com/lich426/FanCtrl) |
-| Image Viewer | Quick Picture Viewer | | [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer/releases)|
-| Prototyping Tool | Figma | | |
-| - | - | - | - |
+
+---
+
 | Program | Name | Cargo | Notes |
-| Overclocking | nvoclock | | | 
+|:-:|:-:|:-:|:-:|
+| Overclocking | nvoclock | | |
+
+---
+
+| Program | Name | Winget | Notes |
+|:-:|:-:|:-:|:-:|
+| Prototyping Tool | Figma | | |
+| VOIP | Discord | | |
+| Download Manager | Motrix | | |
+| Game Launcher | Steam & Epic Games | | EpicGames.EpicGamesLauncher |
+| Diffing Tool | Meld | | |
+| Image Viewer | Quick Picture Viewer | | ModuleArt.QuickPictureViewer |
+| Tiling Manager | PowerToys | | |
+| 3D CG | Blender | | |
+| Web Browser | Google Chrome | | Google.Chrome |
+| Volume Control | EarTrumpet | | |
+| Remote Desktop | AnyDesk | | |
+| VOIP | TeamSpeak 3 | | [Dark Theme](https://github.com/randomhost/teamspeak-dark/releases) \| TeamSpeakSystems.TeamSpeakClient |
+| Text Editor | Visual Studio Code| | [Notepads](https://github.com/JasonStein/Notepads) is also good.|
+| ISO Imager | Etcher | | |
+| Terminal | Windows Terminal | | Microsoft.WindowsTerminal |
+| Archive  | 7-Zip | | [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)|
+
 </br>
+
+Winget Packages:
+
+```
+figma discord motrix EpicGames.EpicGamesLauncher meld ModuleArt.QuickPictureViewer powertoys blender google.chrome eartrumpet anydesk teamspeaksystems.teamspeakclient vscode etcher microsoft.windowsterminal 7zip
+```
 
 Choco Packages:
 
-`vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex motrix repoz ds4windows ntop-portable`
+```
+vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex motrix repoz ds4windows ntop-portable
+```
 
 Node Packages:
 
-`insect gtop fast-cli taskbook`
+```
+insect gtop fast-cli taskbook
+```
 
 Rust Packages:
 
-`nvoclock`
+```
+nvoclock
+```
 
 ---
 
