@@ -35,5 +35,6 @@
       "before": ["j", "k"],
       "after": ["<Esc>"]
     }
-  ]
+  ],
+  "editor.renderWhitespace": "none"
 }

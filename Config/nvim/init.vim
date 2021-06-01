@@ -21,6 +21,10 @@ nnoremap <C-S> :update<cr>
 
 inoremap <C-S> <Esc>:update<cr>gi
 
+nnoremap <Tab> gt
+nnoremap <S-Tab> gT
+nnoremap <silent> tt :tabnew<CR>
+
 " If jk is annoying can change it to capslock "
  
 " Add's numbers to the side of the screen "
