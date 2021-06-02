@@ -36,5 +36,13 @@
       "after": ["<Esc>"]
     }
   ],
-  "editor.renderWhitespace": "none"
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.saveAndCloseEditor",
+      "sequence": [
+        "workbench.action.files.save",
+        "workbench.action.closeActiveEditor"
+      ]
+    }
+  ]
 }
