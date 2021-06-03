@@ -1,6 +1,5 @@
+; http://www.keyboard-layout-editor.com/#/gists/fa2ffef1cd4bfd55cd7b848346f58fc8
 #MaxHotkeysPerInterval 999
-; Use Scroll Lock to swap keyboard layouts
-; and do not let Control, Alt, or Win modifiers act on Dvorak
 Loop {
    If GetKeyState("CapsLock", "T")
    and !GetKeyState("Control")
@@ -16,17 +15,32 @@ Loop {
 
 q::]
 a::>
-z::z
+z::$
 
 w::}
 s::)
-x::$
+x::@
 
 e::[
 d::<
-c::@
+c::_
 
 r::{
 f::(
 v::#
 
+u::;
+j::=
+m:::
+
+i::-
+k::+
+,::+5
+
+o::/
+l::*
+.::!
+
+p::^
+`;::&
+/::|
