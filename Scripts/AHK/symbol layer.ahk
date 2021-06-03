@@ -1,16 +1,16 @@
 ; http://www.keyboard-layout-editor.com/#/gists/fa2ffef1cd4bfd55cd7b848346f58fc8
 #MaxHotkeysPerInterval 999
+SendMode Input
 Loop {
-   If GetKeyState("CapsLock", "T")
+   If GetKeyState("Alt", "T")
    and !GetKeyState("Control")
-   and !GetKeyState("Alt")
    and !GetKeyState("LWin")
    and !GetKeyState("RWin") {
       Suspend, Off
    } else {
       Suspend, On
    }
-   Sleep, 50
+   Sleep, 10 
 }
 
 q::]
