@@ -1,75 +1,63 @@
 |Program|Name|Choco|Notes|
 |:-:|:-:|:-:|:-:|
-| Video Player | VLC | &#9745; | |
-| Music Player | ncmpcpp & mpd | &#9745; | |
-| Torrent | qBittorrent | &#9745; | [Dark Theme](https://github.com/jagannatharjun/qbt-theme)|
-| Minecraft Launcher | MultiMC | &#9745; | winget broken |
-| Monitor Calibration | DisplayCAL | &#9745; | winget broken |
-| Timer | Hourglass | &#9745; | hourglass.install |
-| Network Monitor | NetLimiter | &#9745; | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
-| Hex Editor | ImHex | &#9745; | |
-| Image Editor | Photoshop \| Paint.NET | &#9744; & &#9745; | |
-| Vector Editor | Illustrator \| Inkscape | &#9744; & &#9745; | |
-| Git Repository Hub | RepoZ | &#9745; | |
-| PS4 Controller | ds4 | &#9745; | |
-| Resource Monitor | ntop | &#9745; | ntop-portable |
-
----
-
-| Program | Name | Node | Notes |
-|:-:|:-:|:-:|:-:|
+| Video Player | VLC |  | |
+| Music Player | ncmpcpp & mpd |  | |
+| Torrent | qBittorrent |  | [Dark Theme](https://github.com/jagannatharjun/qbt-theme)|
+| Minecraft Launcher | MultiMC |  | winget broken |
+| Monitor Calibration | DisplayCAL |  | winget broken |
+| Timer | Hourglass |  | hourglass.install |
+| Network Monitor | NetLimiter |  | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
+| Hex Editor | ImHex |  | |
+| Image Editor | Photoshop \| Paint.NET | | |
+| Vector Editor | Illustrator | | |
+| Git Repository Hub | RepoZ | | |
+| PS4 Controller | ds4 | | ds4windows |
+| Resource Monitor | ntop |  | ntop-portable |
+| VOIP | Discord | | |
+| Download Manager | Motrix | | |
+| Game Launcher | Steam & Epic Games | | |
+| Diffing Tool | Meld | | |
+| Tiling Manager | PowerToys | | |
+| 3D CG | Blender | | |
+| Web Browser | Google Chrome | | |
+| Volume Control | EarTrumpet | | |
+| Remote Desktop | AnyDesk | | |
+| VOIP | TeamSpeak 3 | | [Dark Theme](https://github.com/randomhost/teamspeak-dark/releases) \| teamspeak |
+| Text Editor | Visual Studio Code| | [Notepads](https://github.com/JasonStein/Notepads) is also good.|
+| ISO Imager | Etcher | | |
+| Terminal | Windows Terminal | | microsoft-windows-terminal |
+| Archive  | 7-Zip | | [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)|
+| --- | --- | --- | --- |
+| **Program** | **Name** | | **Notes** |
 | Todo List | taskbook | | |
 | Speed Test | fast-cli | | |
 | File Sharing | ezshare | | |
 | Calculator | Insect | | |
-
----
-
-| Program | Name | | Notes |
-|:-:|:-:|:-:|:-:|
+| --- | --- | --- | --- |
+| **Program** | **Name** | | **Notes** |
 | Remote Shutdown | Remote Shutdown Manager | | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
 | Registry Editor | RegistryFinder | | [registry-finder.com](https://registry-finder.com/) |
 | Fan Control | FanCtrl | | [lich426/FanCtrl](https://github.com/lich426/FanCtrl) |
-
----
-
-| Program | Name | Cargo | Notes |
-|:-:|:-:|:-:|:-:|
+| --- | --- | --- | --- |
+| **Program** | **Name** | **Cargo** | **Notes** |
 | Overclocking | nvoclock | | |
-
----
-
-| Program | Name | Winget | Notes |
-|:-:|:-:|:-:|:-:|
+| --- | --- | --- | --- |
+| **Program** | **Name** | **Winget** | **Notes** |
 | Prototyping Tool | Figma | | |
-| VOIP | Discord | | |
-| Download Manager | Motrix | | |
-| Game Launcher | Steam & Epic Games | | EpicGames.EpicGamesLauncher |
-| Diffing Tool | Meld | | |
 | Image Viewer | Quick Picture Viewer | | ModuleArt.QuickPictureViewer |
-| Tiling Manager | PowerToys | | |
-| 3D CG | Blender | | |
-| Web Browser | Google Chrome | | Google.Chrome |
-| Volume Control | EarTrumpet | | |
-| Remote Desktop | AnyDesk | | |
-| VOIP | TeamSpeak 3 | | [Dark Theme](https://github.com/randomhost/teamspeak-dark/releases) \| TeamSpeakSystems.TeamSpeakClient |
-| Text Editor | Visual Studio Code| | [Notepads](https://github.com/JasonStein/Notepads) is also good.|
-| ISO Imager | Etcher | | |
-| Terminal | Windows Terminal | | Microsoft.WindowsTerminal |
-| Archive  | 7-Zip | | [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)|
 
 </br>
-
-Winget Packages:
-
-```
-figma discord motrix EpicGames.EpicGamesLauncher meld ModuleArt.QuickPictureViewer powertoys blender google.chrome eartrumpet anydesk teamspeaksystems.teamspeakclient vscode etcher microsoft.windowsterminal 7zip
-```
 
 Choco Packages:
 
 ```
-vscode vlc mpd chrome qbittorrent 7zip msiafterburner microsoft-windows-terminal etcher teamspeak multimc displaycal powertoys eartrumpet anydesk netlimiter blender steam epicgameslauncher meld imhex motrix repoz ds4windows ntop-portable
+vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop-portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip 
+```
+
+Winget Packages:
+
+```
+figma ModuleArt.QuickPictureViewer
 ```
 
 Node Packages:

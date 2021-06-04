@@ -13,6 +13,9 @@ Loop {
    Sleep, 10 
 }
 
+; still need ` ~ \
+; / should be in default qwerty position
+
 q::]
 a::>
 z::$

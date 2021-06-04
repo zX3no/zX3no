@@ -29,6 +29,10 @@ function refresh{
 	refreshenv
 	. $profile
 }
+
+function frm{
+	rm -Force -Recurse $args
+}
 Set-Alias -Name calc -Value insect
 Set-Alias -Name su -Value gsudo
 
