@@ -12,7 +12,7 @@
 | Vector Editor | Illustrator | | |
 | Git Repository Hub | RepoZ | | |
 | PS4 Controller | ds4 | | ds4windows |
-| Resource Monitor | ntop |  | ntop-portable |
+| Resource Monitor | ntop | | ntop.portable |
 | VOIP | Discord | | |
 | Download Manager | Motrix | | |
 | Game Launcher | Steam & Epic Games | | |
@@ -50,8 +50,9 @@
 
 Choco Packages:
 
+
 ```
-vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop-portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip 
+vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop.portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip 
 ```
 
 Winget Packages:
