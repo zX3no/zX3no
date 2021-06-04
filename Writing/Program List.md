@@ -27,12 +27,14 @@
 | ISO Imager | Etcher | | |
 | Terminal | Windows Terminal | | microsoft-windows-terminal |
 | Archive  | 7-Zip | | [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)|
+| Ping | gping | | |
 | --- | --- | --- | --- |
 | **Program** | **Name** | npm | **Notes** |
 | Todo List | taskbook | | |
 | Speed Test | speed-test | | |
 | File Sharing | ezshare | | |
 | Calculator | Insect | | |
+| Currency Converter | cash-cli | | |
 | --- | --- | --- | --- |
 | **Program** | **Name** | | **Notes** |
 | Remote Shutdown | Remote Shutdown Manager | | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
@@ -45,13 +47,15 @@
 | **Program** | **Name** | **Winget** | **Notes** |
 | Prototyping Tool | Figma | | |
 | Image Viewer | Quick Picture Viewer | | ModuleArt.QuickPictureViewer |
-
+| --- | --- | --- | --- |
+| **Program** | **Name** | **Pip** | **Notes** |
+| ? | thefuck | | |
 </br>
 
 Choco Packages:
 
 ```
-choco install vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop.portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip 
+choco install vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop.portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip gping
 ```
 
 Winget Packages:
@@ -63,13 +67,19 @@ winget install figma ModuleArt.QuickPictureViewer
 Node Packages:
 
 ```
-npm install -g insect gtop speed-test taskbook
+npm install -g insect gtop speed-test taskbook cash-cli
 ```
 
 Rust Packages:
 
 ```
 cargo install nvoclock
+```
+
+Pip Packages:
+
+```
+thefuck
 ```
 
 ---

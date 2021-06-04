@@ -47,7 +47,11 @@ iex "$(thefuck --alias)"
 
 Set-Alias -Name calc -Value insect
 Set-Alias -Name su -Value gsudo
+Set-Alias -Name convert -Value cash 
 # ./SMLoadr -q FLAC -p D:\OneDrive\Music  -u https://www.deezer.com/en/album/228234412
 
 Set-PoshPrompt -Theme spaceship
 Import-Module posh-git
+
+# Need to find better way of doing this
+$a = $profile
