@@ -28,9 +28,9 @@
 | Terminal | Windows Terminal | | microsoft-windows-terminal |
 | Archive  | 7-Zip | | [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)|
 | --- | --- | --- | --- |
-| **Program** | **Name** | | **Notes** |
+| **Program** | **Name** | npm | **Notes** |
 | Todo List | taskbook | | |
-| Speed Test | fast-cli | | |
+| Speed Test | speed-test | | |
 | File Sharing | ezshare | | |
 | Calculator | Insect | | |
 | --- | --- | --- | --- |
@@ -63,7 +63,7 @@ winget install figma ModuleArt.QuickPictureViewer
 Node Packages:
 
 ```
-npm install -g insect gtop fast-cli taskbook
+npm install -g insect gtop speed-test taskbook
 ```
 
 Rust Packages:

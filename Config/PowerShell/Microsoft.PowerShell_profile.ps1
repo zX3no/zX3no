@@ -25,14 +25,23 @@ function dl {
 	./SMLoadr  -q FLAC -p D:\OneDrive\Music  -u $args
 }
 
-function refresh{
-	refreshenv
-	. $profile
-}
-
 function frm{
 	rm -Force -Recurse $args
 }
+
+function profile{
+	code $profile
+}
+
+function speedtest{
+	speed-test -b
+}
+
+Invoke-Expression (& {
+    $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
+    (zoxide init --hook $hook powershell) -join "`n"
+})
+
 Set-Alias -Name calc -Value insect
 Set-Alias -Name su -Value gsudo
 
