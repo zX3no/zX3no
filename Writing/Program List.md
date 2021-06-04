@@ -50,27 +50,26 @@
 
 Choco Packages:
 
-
 ```
-vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop.portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip 
+choco install vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop.portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip 
 ```
 
 Winget Packages:
 
 ```
-figma ModuleArt.QuickPictureViewer
+winget install figma ModuleArt.QuickPictureViewer
 ```
 
 Node Packages:
 
 ```
-insect gtop fast-cli taskbook
+npm install -g insect gtop fast-cli taskbook
 ```
 
 Rust Packages:
 
 ```
-nvoclock
+cargo install nvoclock
 ```
 
 ---
@@ -87,7 +86,7 @@ I've always wanted tabs in explorer but that feature was but on hold. There is a
 
 I also need a cli timer
 
-I have mixed feeling about my cli task manger, most of them are only avaliable on windows. I'm not sure what I want yet.
+I have mixed feeling about my cli task manger, most of them are only available on Linux. I'm not sure what I want yet.
 
 ---
 Keystroke Launchers:
