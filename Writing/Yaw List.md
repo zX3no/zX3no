@@ -37,13 +37,11 @@ Sea of Thieves: `0.03645106903225806452` TODO
 
 Battlefront 2: `2.02970753759571916228` TODO
 
-Tom Clancy's Rainbow Six Siege (MouseYawSensitivity=50): `14.323947`
+Rainbow Six Siege: `0.018`
 
 The Witcher 3: Wild Hunt: `0.3`
 
 Planetside 2: `0.55776746190705575134`
-
-
 
 My 360/cm: `38.1038`
 
