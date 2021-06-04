@@ -25,7 +25,7 @@ function dl {
 	./SMLoadr  -q FLAC -p D:\OneDrive\Music  -u $args
 }
 
-function frm{
+function rmf{
 	rm -Force -Recurse $args
 }
 
@@ -42,9 +42,11 @@ Invoke-Expression (& {
     (zoxide init --hook $hook powershell) -join "`n"
 })
 
+$env:PYTHONIOENCODING="utf-8"
+iex "$(thefuck --alias)" 
+
 Set-Alias -Name calc -Value insect
 Set-Alias -Name su -Value gsudo
-
 # ./SMLoadr -q FLAC -p D:\OneDrive\Music  -u https://www.deezer.com/en/album/228234412
 
 Set-PoshPrompt -Theme spaceship
