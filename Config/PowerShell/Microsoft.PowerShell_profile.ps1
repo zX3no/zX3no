@@ -37,7 +37,7 @@ function speedtest{
 	speed-test -b
 }
 function list {
-	tre -d 
+	tre -d
 }
 
 Invoke-Expression (& {
