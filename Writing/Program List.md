@@ -28,6 +28,7 @@
 | Terminal | Windows Terminal | | microsoft-windows-terminal |
 | Archive  | 7-Zip | | [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)|
 | Ping | gping | | |
+| Markdown Viewer | glow | | |
 | --- | --- | --- | --- |
 | **Program** | **Name** | npm | **Notes** |
 | Todo List | taskbook | | |
@@ -55,7 +56,7 @@
 Choco Packages:
 
 ```
-choco install vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop.portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip gping
+choco install vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop.portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip gping glow
 ```
 
 Winget Packages:
