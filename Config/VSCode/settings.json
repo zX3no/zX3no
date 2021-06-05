@@ -44,5 +44,6 @@
         "workbench.action.closeActiveEditor"
       ]
     }
-  ]
+  ],
+  "tabnine.experimentalAutoImports": true
 }

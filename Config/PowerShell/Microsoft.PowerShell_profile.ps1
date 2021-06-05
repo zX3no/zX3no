@@ -40,11 +40,6 @@ function list {
 	tre -d
 }
 
-Invoke-Expression (& {
-    $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
-    (zoxide init --hook $hook powershell) -join "`n"
-})
-
 $env:PYTHONIOENCODING="utf-8"
 iex "$(thefuck --alias)" 
 
@@ -54,4 +49,5 @@ Set-Alias -Name convert -Value cash
 # ./SMLoadr -q FLAC -p D:\OneDrive\Music  -u https://www.deezer.com/en/album/228234412
 
 Set-PoshPrompt -Theme spaceship
+
 Import-Module posh-git
