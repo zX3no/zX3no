@@ -21,12 +21,12 @@ function music{
 }
 
 function dl {
-	cd D:\Git\SMLoadr\BUILD
+	Set-Location D:\Git\SMLoadr\BUILD
 	./SMLoadr  -q FLAC -p D:\OneDrive\Music  -u $args
 }
 
 function rmf{
-	rm -Force -Recurse $args
+	Remove-Item -Force -Recurse $args
 }
 
 function profile{
@@ -35,6 +35,9 @@ function profile{
 
 function speedtest{
 	speed-test -b
+}
+function list {
+	tre -d 
 }
 
 Invoke-Expression (& {
@@ -52,6 +55,3 @@ Set-Alias -Name convert -Value cash
 
 Set-PoshPrompt -Theme spaceship
 Import-Module posh-git
-
-# Need to find better way of doing this
-$a = $profile
