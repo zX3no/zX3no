@@ -9,7 +9,7 @@
   I make a lot of GitHub repositories and I often need to look up something during the setup. A reference/guide makes my life a lot easier. I also have a script I use to make commits and push them automatically. I definitely change this though.
 
 - [FPS List.](https://github.com/zX3no/zX3no/blob/main/Writing/FPS%20List.md)
-  Analysis of first-person shooter games. Important for the game I'm working on.
+  Analysis of first-person shooter games.
 
 - [Yaw List.](https://github.com/zX3no/zX3no/blob/main/Writing/Yaw%20List.md)
   A list of yaw values used in video games. Currently websites like www.mouse-sensitivity.com offer this but the values are not public. Some of the features are also payed.
