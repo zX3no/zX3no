@@ -7,6 +7,10 @@ function push {
 	git commit -am "$args"
 	git push origin main
 }
+function init {
+	git init -b main
+	git remote add origin main $args
+}
 function c {
 	gsudo choco install $args
 }
@@ -37,7 +41,12 @@ function speedtest{
 	speed-test -b
 }
 function list {
-	tre -d
+	if($args[0]) {
+		tre -d -l $args
+	}
+	else {
+		tre -d -l 1
+	}
 }
 
 $env:PYTHONIOENCODING="utf-8"
