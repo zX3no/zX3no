@@ -11,7 +11,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install gsudo python git rust nodejs
 ```
 
-Install programs from program list. I did have them here but I updated them so much it was annoying to move everything around.
+Install programs from [program list](https://github.com/zX3no/zX3no/blob/main/Writing/Program%20List.md). I did have them here but I updated them so much it was annoying to move everything around.
 
 ---
 
