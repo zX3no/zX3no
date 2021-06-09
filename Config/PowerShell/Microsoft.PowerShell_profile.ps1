@@ -9,7 +9,7 @@ function push {
 }
 function init {
 	git init -b main
-	git remote add origin main $args
+	git remote add origin $args
 }
 function c {
 	gsudo choco install $args
