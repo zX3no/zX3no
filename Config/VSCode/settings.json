@@ -2,7 +2,6 @@
   "editor.fontSize": 16,
   "workbench.colorTheme": "Dracula",
   "terminal.integrated.gpuAcceleration": "off",
-  "vscode_vibrancy.opacity": 0.4,
   "terminal.integrated.profiles.windows": {
     "PowerShell -NoLogo": {
       "source": "PowerShell",
@@ -24,9 +23,6 @@
   "[markdown]": {
     "editor.formatOnSave": false
   },
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
-  },
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "k"],
@@ -42,11 +38,9 @@
       ]
     }
   ],
-  "tabnine.experimentalAutoImports": true,
   "editor.tabSize": 8,
   "editor.cursorStyle": "line",
   "editor.insertSpaces": false,
   "editor.lineNumbers": "on",
-  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "editor.wordWrap": "off"
+  "tabnine.experimentalAutoImports": true,
 }
