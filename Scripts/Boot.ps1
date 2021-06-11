@@ -38,4 +38,4 @@ function Overclock{
 }
 
 CheckForWindowsUpdate
-Overclock
+#Overclock
