@@ -36,6 +36,11 @@ function Overclock{
 	nvoclock set pstate 500000 -c memory
 	nvoclock set pstate 200000 -c graphics
 }
+function MPD{
+    Start-Process -Path "mpd.exe D:\Git\zX3no\Config\mpd\mpd.conf"
+    Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
+}
 
 CheckForWindowsUpdate
 #Overclock
+MPD
