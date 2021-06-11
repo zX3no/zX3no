@@ -48,6 +48,9 @@ function list {
 		tre -d -l 1
 	}
 }
+function status{
+	git status
+}
 
 $env:PYTHONIOENCODING="utf-8"
 iex "$(thefuck --alias)" 
