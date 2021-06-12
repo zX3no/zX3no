@@ -38,9 +38,5 @@
       ]
     }
   ],
-  "editor.tabSize": 8,
-  "editor.cursorStyle": "line",
-  "editor.insertSpaces": false,
-  "editor.lineNumbers": "on",
-  "tabnine.experimentalAutoImports": true,
+  "tabnine.experimentalAutoImports": true
 }
