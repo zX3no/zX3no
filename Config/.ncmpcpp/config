@@ -4,12 +4,7 @@
 ### MPD ###
 mpd_host = 192.168.0.100
 mpd_port = 6600 
-mpd_connection_timeout = 5
-
-### Directories ###
-mpd_music_dir = /mnt/d/onedrive/music 
-lyrics_directory  = ~/.ncmpcpp/lyrics
-ncmpcpp_directory  = ~/.ncmpcpp
+mpd_connection_timeout = 1 
 
 ### Library View ###
 media_library_primary_tag = album_artist
@@ -45,7 +40,6 @@ playlist_display_mode = columns
 playlist_disable_highlight_delay = 0 
 selected_item_prefix = "* "
 
-
 ## Footer ##
 statusbar_color = red
 
@@ -59,7 +53,6 @@ progressbar_color = cyan
 progressbar_elapsed_color = white
 now_playing_prefix = "> "
 seek_time = 1
-
 
 ### Misc ###
 ignore_leading_the = yes
