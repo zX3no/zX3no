@@ -40,14 +40,6 @@ function profile{
 function speedtest{
 	speed-test -b
 }
-function list {
-	if($args[0]) {
-		tre -d -l $args
-	}
-	else {
-		tre -d -l 1
-	}
-}
 function status{
 	git status
 }

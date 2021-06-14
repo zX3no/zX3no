@@ -37,7 +37,7 @@ function Overclock{
 	nvoclock set pstate 200000 -c graphics
 }
 function MPD{
-    Start-Process -Path "mpd.exe D:\Git\zX3no\Config\mpd\mpd.conf"
+    gsudo Start-Service -Name mpd
     Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
 }
 

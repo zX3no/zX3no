@@ -38,5 +38,6 @@
       ]
     }
   ],
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "vim.useSystemClipboard": true
 }
