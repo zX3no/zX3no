@@ -3,6 +3,8 @@
     It:
     Checks if windows has been updated
     Overclocks my GPU
+    Runs mpd and my hotkeys for it
+    Runs NonStickMouse
 #>
 function CheckForWindowsUpdate{
     $currentVersion = [System.Environment]::OSVersion.Version
@@ -39,6 +41,9 @@ function Overclock{
 function MPD{
     gsudo Start-Service mpd
     Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
+}
+function NonStickMoused{
+    Start-Process NonStickMouse.exe
 }
 
 CheckForWindowsUpdate

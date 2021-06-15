@@ -5,6 +5,9 @@
 
   ![](https://github.com/zX3no/zX3no/blob/main/Images/ncmpcpp.png?raw=true)
 
+- [MPD Hotkeys](https://github.com/zX3no/MPDHotkeys)
+  Global Hotkeys for mpd. Desperately needs a config file.
+
 - [Repository Setup Reference.](https://github.com/zX3no/zX3no/blob/main/Writing/Repo%20Setup.md)
   I make a lot of GitHub repositories and I often need to look up something during the setup. A reference/guide makes my life a lot easier. I also have a script I use to make commits and push them automatically. I definitely change this though.
 
@@ -26,3 +29,4 @@
   Managing plugins is frustrating and It's no fun re-installing everything to make music. I'm yet to find a good system since I'm not a fan of symbolic-links (at least not for _everything_).
 
   Unfortunately because of copyright I can make the repository public. However it's on my todo list to write about my findings. 
+
