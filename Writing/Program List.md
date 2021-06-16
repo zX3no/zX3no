@@ -44,7 +44,6 @@
 | --- | --- | --- | --- |
 | **Program** | **Name** | **Cargo** | **Notes** |
 | Overclocking | nvoclock | | |
-| Directory List | tre | | |
 | --- | --- | --- | --- |
 | **Program** | **Name** | **Winget** | **Notes** |
 | Prototyping Tool | Figma | | |
@@ -75,7 +74,7 @@ npm install -g insect gtop speed-test taskbook cash-cli
 Rust Packages:
 
 ```
-cargo install nvoclock tre
+cargo install nvoclock 
 ```
 
 Pip Packages:
