@@ -8,6 +8,8 @@ Plug 'itchyny/lightline.vim'
 
 Plug 'tpope/vim-commentary'
 
+Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
+
 " Using with: coc-prettier and coc-explorer
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 

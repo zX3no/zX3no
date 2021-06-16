@@ -5,7 +5,7 @@
 
   ![](https://github.com/zX3no/zX3no/blob/main/Images/ncmpcpp.png?raw=true)
 
-- [MPD Hotkeys](https://github.com/zX3no/MPDHotkeys)
+- [MPD Hotkeys.](https://github.com/zX3no/MPDHotkeys)
   Global Hotkeys for mpd. Desperately needs a config file.
 
 - [Repository Setup Reference.](https://github.com/zX3no/zX3no/blob/main/Writing/Repo%20Setup.md)
