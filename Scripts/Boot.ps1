@@ -40,7 +40,8 @@ function Overclock{
 }
 function MPD{
     gsudo Start-Service mpd
-    Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
+    #This don't work :(
+    #Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
 }
 function NonStickMoused{
     Start-Process NonStickMouse.exe
