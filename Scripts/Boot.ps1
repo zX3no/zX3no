@@ -43,10 +43,11 @@ function MPD{
     #This don't work :(
     #Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
 }
-function NonStickMoused{
+function NonStickMouse{
     Start-Process NonStickMouse.exe
 }
 
 CheckForWindowsUpdate
 #Overclock
 MPD
+NonStickMouse
