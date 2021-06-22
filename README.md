@@ -34,8 +34,6 @@
 
   A script for [Areate](https://steamcommunity.com/sharedfiles/filedetails/?id=823181241). It allows players to equip weapons using chat commands(including knives). I may write some information on settings this up, but squirrel is a horrible language and I wouldn't wish it on anyone. 
 
-- I removed the section on my Game Development work since it's something that I'm always working on. I don't like having out of date writing. It's happening one day though, **trust me**.
-
 - [Windows Config.](https://github.com/zX3no/zX3no/blob/main/Writing/Windows%20Config.md) 
 
   Instructions to install all my programs / configuration files. I might write a tutorial at some point about how you can setup your own. Hopefully some of that will be self evident. 
@@ -48,3 +46,4 @@
 
   Unfortunately because of copyright I can make the repository public. However it's on my todo list to write about my findings. 
 
+- I removed the section on my Game Development work since it's something that I'm always working on. I don't like having out of date writing. It's happening one day though, **trust me**.
