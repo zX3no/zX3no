@@ -11,6 +11,9 @@ function init {
 	git init -b main
 	git remote add origin $args
 }
+function clone {
+	git clone $args
+}
 function c {
 	gsudo choco install $args
 }

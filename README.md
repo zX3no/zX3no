@@ -1,4 +1,4 @@
-## Current Projects:
+## Projects:
 
 - [ncmpcpp-windows](https://github.com/zX3no/ncmpcppOnWindows)
 
