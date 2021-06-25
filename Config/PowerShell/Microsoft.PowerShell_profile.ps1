@@ -23,9 +23,6 @@ function cr {
 function cu{
 	gsudo choco upgrade all
 }
-function music{
-	wsl ncmpcpp
-}
 
 function dl {
 	Set-Location D:\Git\SMLoadr\BUILD
