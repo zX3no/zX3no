@@ -44,10 +44,7 @@ function status{
 	git status
 }
 
-$env:PYTHONIOENCODING="utf-8"
-iex "$(thefuck --alias)" 
-
-Set-Alias -Name calc -Value insect
+Set-Alias -Name cal -Value kalker
 Set-Alias -Name su -Value gsudo
 
 Set-PoshPrompt -Theme spaceship

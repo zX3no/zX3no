@@ -30,27 +30,24 @@
 | Ping | gping | | |
 | Markdown Viewer | glow | | |
 | --- | --- | --- | --- |
-| **Program** | **Name** | npm | **Notes** |
+| **Program** | **Name** | **npm** | **Notes** |
 | Todo List | taskbook | | |
 | Speed Test | speed-test | | |
 | File Sharing | ezshare | | |
-| Calculator | Insect | | |
-| Currency Converter | cash-cli | | |
-| --- | --- | --- | --- |
-| **Program** | **Name** | | **Notes** |
-| Remote Shutdown | Remote Shutdown Manager | | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
-| Registry Editor | RegistryFinder | | [registry-finder.com](https://registry-finder.com/) |
-| Fan Control | FanCtrl | | [lich426/FanCtrl](https://github.com/lich426/FanCtrl) |
 | --- | --- | --- | --- |
 | **Program** | **Name** | **Cargo** | **Notes** |
 | Overclocking | nvoclock | | |
+| Calculator | Kalker | | |
+| Hex Editor | hexyl | | |
 | --- | --- | --- | --- |
 | **Program** | **Name** | **Winget** | **Notes** |
 | Prototyping Tool | Figma | | |
 | Image Viewer | Quick Picture Viewer | | ModuleArt.QuickPictureViewer |
 | --- | --- | --- | --- |
-| **Program** | **Name** | **Pip** | **Notes** |
-| ? | thefuck | | |
+| **Program** | **Name** | | **Notes** |
+| Remote Shutdown | Remote Shutdown Manager | | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
+| Registry Editor | RegistryFinder | | [registry-finder.com](https://registry-finder.com/) |
+| Fan Control | FanCtrl | | [lich426/FanCtrl](https://github.com/lich426/FanCtrl) |
 </br>
 
 Choco Packages:
@@ -68,19 +65,13 @@ winget install figma ModuleArt.QuickPictureViewer
 Node Packages:
 
 ```
-npm install -g insect gtop speed-test taskbook cash-cli
+npm install -g gtop speed-test taskbook
 ```
 
 Rust Packages:
 
 ```
-cargo install nvoclock 
-```
-
-Pip Packages:
-
-```
-thefuck
+cargo install nvoclock kalker
 ```
 
 ---
