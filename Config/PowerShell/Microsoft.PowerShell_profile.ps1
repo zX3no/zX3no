@@ -1,10 +1,9 @@
 ﻿$j = 'D:\Git\zX3no'
 $d = $home + '\Desktop'
-
 function push {
     git checkout main
 	git add .
-	git commit -am "$args"
+	git commit -am $args
 	git push origin main
 }
 function init {
@@ -20,34 +19,23 @@ function c {
 function cr {
 	gsudo choco uninstall $args
 }
-function cu{
+function cu {
 	gsudo choco upgrade all
 }
-
 function dl {
 	Set-Location D:\Git\SMLoadr\BUILD
-	./SMLoadr  -q FLAC -p D:\OneDrive\Music  -u $args
+	./SMLoadr -q FLAC -p D:\OneDrive\Music -u $args
 }
-
-function rmf{
+function rmf {
 	Remove-Item -Force -Recurse $args
 }
-
-function profile{
+function profile {
 	code $profile
 }
-
-function speedtest{
+function speedtest {
 	speed-test -b
 }
-function status{
-	git status
-}
-
 Set-Alias -Name hx -Value hexyl
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name su -Value gsudo
-
 Set-PoshPrompt -Theme spaceship
-
-Import-Module posh-git
