@@ -6,7 +6,6 @@ function push {
 	git commit -am $args
 	git push origin main
 }
-
 function init {
 	git init -b main
 	git remote add origin $args
