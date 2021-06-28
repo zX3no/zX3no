@@ -37,7 +37,7 @@
 | --- | --- | --- | --- |
 | **Program** | **Name** | **Cargo** | **Notes** |
 | Overclocking | nvoclock | | |
-| Calculator | Kalker | | |
+| Calculator | [Kalker](https://github.com/PaddiM8/kalker) | | Download binary instead of crate |
 | Hex Editor | hexyl | | |
 | --- | --- | --- | --- |
 | **Program** | **Name** | **Winget** | **Notes** |

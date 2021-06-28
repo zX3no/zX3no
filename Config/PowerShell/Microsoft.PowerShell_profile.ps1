@@ -3,7 +3,7 @@ $d = $home + '\Desktop'
 function push {
     git checkout main
 	git add .
-	git commit -am $args
+	git commit -am "$args"
 	git push origin main
 }
 function init {
