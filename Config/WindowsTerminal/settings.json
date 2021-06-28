@@ -28,21 +28,87 @@
       "command": "closeTab",
       "keys": "ctrl+w"
     },
-    { "command": { "action": "newTab", "index": 0 }, "keys": "ctrl+t" },
-    { "command": { "action": "newTab", "index": 1 }, "keys": "ctrl+shift+t" },
-    { "command": { "action": "switchToTab", "index": 0 }, "keys": "ctrl+1" },
-    { "command": { "action": "switchToTab", "index": 1 }, "keys": "ctrl+2" },
-    { "command": { "action": "switchToTab", "index": 2 }, "keys": "ctrl+3" },
-    { "command": { "action": "switchToTab", "index": 3 }, "keys": "ctrl+4" },
-    { "command": { "action": "switchToTab", "index": 4 }, "keys": "ctrl+5" },
-    { "command": { "action": "switchToTab", "index": 5 }, "keys": "ctrl+6" },
-    { "command": { "action": "switchToTab", "index": 6 }, "keys": "ctrl+7" },
-    { "command": { "action": "switchToTab", "index": 7 }, "keys": "ctrl+8" },
-    { "command": { "action": "switchToTab", "index": 8 }, "keys": "ctrl+9" }
+    {
+      "command": {
+        "action": "newTab",
+        "index": 0
+      },
+      "keys": "ctrl+t"
+    },
+    {
+      "command": {
+        "action": "newTab",
+        "index": 1
+      },
+      "keys": "ctrl+shift+t"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 0
+      },
+      "keys": "ctrl+1"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 1
+      },
+      "keys": "ctrl+2"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 2
+      },
+      "keys": "ctrl+3"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 3
+      },
+      "keys": "ctrl+4"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 4
+      },
+      "keys": "ctrl+5"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 5
+      },
+      "keys": "ctrl+6"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 6
+      },
+      "keys": "ctrl+7"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 7
+      },
+      "keys": "ctrl+8"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 8
+      },
+      "keys": "ctrl+9"
+    }
   ],
+  "confirmCloseAllTabs": false,
   "copyFormatting": "none",
   "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-  "confirmCloseAllTabs": false,
   "disabledProfileSources": [
     "Windows.Terminal.Azure",
     "Windows.Terminal.PowershellCore"
@@ -55,7 +121,7 @@
     },
     "list": [
       {
-        "acrylicOpacity": 0.4,
+        "acrylicOpacity": 0.40000000000000002,
         "antialiasingMode": "cleartype",
         "backgroundImage": null,
         "bellStyle": "visual",
@@ -71,7 +137,7 @@
         "useAcrylic": true
       },
       {
-        "acrylicOpacity": 0.4,
+        "acrylicOpacity": 0.40000000000000002,
         "antialiasingMode": "cleartype",
         "bellStyle": "visual",
         "commandline": "wsl ncmpcpp",
@@ -82,7 +148,7 @@
         "useAcrylic": true
       },
       {
-        "acrylicOpacity": 0.4,
+        "acrylicOpacity": 0.40000000000000002,
         "antialiasingMode": "cleartype",
         "bellStyle": "visual",
         "commandline": "wsl",
@@ -98,17 +164,6 @@
       {
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "hidden": true
-      },
-      {
-        "acrylicOpacity": 0.4,
-        "antialiasingMode": "cleartype",
-        "commandline": "PowerShell.exe insect",
-        "cursorShape": "emptyBox",
-        "icon": "C:\\tools\\calculator.png",
-        "name": "Calculator",
-        "suppressApplicationTitle": true,
-        "tabTitle": "Calculator",
-        "useAcrylic": true
       }
     ]
   },
