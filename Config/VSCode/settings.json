@@ -23,6 +23,10 @@
   "[markdown]": {
     "editor.formatOnSave": false
   },
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "matklad.rust-analyzer"
+  },
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "k"],
