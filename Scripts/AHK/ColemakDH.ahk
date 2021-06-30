@@ -5,7 +5,11 @@ SendMode Input ; Recommended for new scripts due to its superior speed and relia
 SetTitleMatchMode 3  ; Exact matching to avoid confusing T/B with Tab/Backspace.
 
 Loop {
-   If GetKeyState("ScrollLock", "T") {
+   If GetKeyState("ScrollLock", "T")
+   and !GetKeyState("Control")
+   and !GetKeyState("Alt")
+   and !GetKeyState("LWin")
+   and !GetKeyState("RWin") {
       Suspend, Off
    } else {
       Suspend, On
@@ -31,7 +35,7 @@ Loop {
 ;w::w
 e::f
 r::p
-t::g
+t::b
 y::j
 u::l
 i::u
