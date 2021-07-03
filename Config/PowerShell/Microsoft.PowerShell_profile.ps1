@@ -1,5 +1,6 @@
 ﻿$j = 'D:\Git\zX3no'
 $d = $home + '\Desktop'
+$date = Get-Date
 function push {
     git checkout main
 	git add .

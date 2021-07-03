@@ -39,12 +39,11 @@ function Overclock{
 	nvoclock set pstate 200000 -c graphics
 }
 function MPD{
-    gsudo Start-Service mpd
-    #This don't work :(
-    #Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
+    Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
+    Start-Process -WindowStyle Hidden -FilePath "mpd" -ArgumentList "D:\Git\zX3no\Config\mpd\mpd.conf"
 }
-function NonStickMouse{
-    Start-Process NonStickMouse.exe
+function NonStickMouse {
+    Start-Process -FilePath "NonStickMouse.exe"
 }
 
 CheckForWindowsUpdate

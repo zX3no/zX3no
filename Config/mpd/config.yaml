@@ -1,0 +1,34 @@
+IP: 192.168.0.100
+PORT: 6600
+Hotkeys:
+  - Play/Pause:
+      Key: CAPSLOCK
+      Modifier:
+        - SHIFT
+        - NOREPEAT
+  - Previous:
+      Key: Q
+      Modifier:
+        - ALT
+        - SHIFT
+  - Next:
+      Key: W
+      Modifier:
+        - ALT
+        - SHIFT
+  - Volume Down:
+      Key: 1
+      Modifier:
+        - ALT
+        - SHIFT
+  - Volume Up:
+      Key: 2
+      Modifier:
+        - ALT
+        - SHIFT
+  - Exit Program:
+      Key: F4
+      Modifier:
+        - CONTROL
+        - SHIFT
+        - ALT
