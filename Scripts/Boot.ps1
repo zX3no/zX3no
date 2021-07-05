@@ -42,11 +42,7 @@ function MPD{
     Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
     Start-Process -WindowStyle Hidden -FilePath "mpd" -ArgumentList "D:\Git\zX3no\Config\mpd\mpd.conf"
 }
-function NonStickMouse {
-    Start-Process -FilePath "NonStickMouse.exe"
-}
 
 CheckForWindowsUpdate
 #Overclock
 MPD
-NonStickMouse
