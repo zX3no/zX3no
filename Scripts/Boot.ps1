@@ -38,7 +38,9 @@ function Overclock{
 	nvoclock set pstate 500000 -c memory
 	nvoclock set pstate 200000 -c graphics
 }
-function MPD{
+function MPD {
+    # Config File will be create where it's executed from 
+    Set-Location C:\tools\mpdhotkeys
     Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
     Start-Process -WindowStyle Hidden -FilePath "mpd" -ArgumentList "D:\Git\zX3no\Config\mpd\mpd.conf"
 }
