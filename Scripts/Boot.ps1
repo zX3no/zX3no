@@ -4,7 +4,6 @@
     Checks if windows has been updated
     Overclocks my GPU
     Runs mpd and my hotkeys for it
-    Runs NonStickMouse
 #>
 function CheckForWindowsUpdate{
     $currentVersion = [System.Environment]::OSVersion.Version
