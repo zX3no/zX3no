@@ -13,7 +13,7 @@
         {
           "type": "root",
           "style": "plain",
-          "foreground": "magenta",
+          "foreground": "#ff94df",
           "properties": {
             "root_icon": "#"
           }

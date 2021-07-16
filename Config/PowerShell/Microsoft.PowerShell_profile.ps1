@@ -6,6 +6,7 @@ function push {
 	git add .
 	git commit -am "$args"
 	git push origin main
+	[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
 }
 function init {
 	git init -b main
