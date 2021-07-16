@@ -40,4 +40,4 @@ function speedtest {
 Set-Alias -Name hx -Value hexyl
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name su -Value gsudo
-Set-PoshPrompt -Theme spaceship
+Set-PoshPrompt -Theme sus
