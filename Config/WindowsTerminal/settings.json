@@ -11,12 +11,12 @@
             "keys": "ctrl+c"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": "find",
             "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -35,17 +35,17 @@
             "command": 
             {
                 "action": "newTab",
-                "index": 0
+                "index": 1
             },
-            "keys": "ctrl+t"
+            "keys": "ctrl+shift+t"
         },
         {
             "command": 
             {
                 "action": "newTab",
-                "index": 1
+                "index": 0
             },
-            "keys": "ctrl+shift+t"
+            "keys": "ctrl+t"
         },
         {
             "command": 
@@ -83,6 +83,14 @@
             "command": 
             {
                 "action": "switchToTab",
+                "index": 7
+            },
+            "keys": "ctrl+8"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
                 "index": 4
             },
             "keys": "ctrl+5"
@@ -102,14 +110,6 @@
                 "index": 6
             },
             "keys": "ctrl+7"
-        },
-        {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 7
-            },
-            "keys": "ctrl+8"
         },
         {
             "command": 
@@ -139,10 +139,14 @@
         "list": 
         [
             {
-                "acrylicOpacity": 0.40000000000000002,
+                "acrylicOpacity": 0.14999999999999999,
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
-                "bellStyle": "visual",
+                "bellStyle": 
+                [
+                    "window",
+                    "taskbar"
+                ],
                 "colorScheme": "Dracula",
                 "commandline": "PowerShell.exe -nologo",
                 "cursorShape": "emptyBox",
@@ -158,9 +162,14 @@
             {
                 "acrylicOpacity": 0.40000000000000002,
                 "antialiasingMode": "cleartype",
-                "bellStyle": "visual",
+                "bellStyle": 
+                [
+                    "window",
+                    "taskbar"
+                ],
                 "commandline": "wsl ncmpcpp",
                 "cursorShape": "emptyBox",
+                "fontFace": "Cascadia Mono",
                 "icon": "\ud83c\udfb5",
                 "name": "Music",
                 "tabTitle": "Music",

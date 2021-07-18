@@ -44,6 +44,6 @@ function MPD {
     Start-Process -WindowStyle Hidden -FilePath "mpd" -ArgumentList "D:\Git\zX3no\Config\mpd\mpd.conf"
 }
 
-CheckForWindowsUpdate
+#CheckForWindowsUpdate
 #Overclock
 MPD

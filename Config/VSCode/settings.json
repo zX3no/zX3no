@@ -22,7 +22,7 @@
     "editor.formatOnSave": false
   },
   "[rust]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "matklad.rust-analyzer"
   },
   "vim.insertModeKeyBindings": [
@@ -34,6 +34,20 @@
       "before": ["k", "j"],
       "after": ["<Esc>"]
     }
+  ],
+  "vim.normalModeKeyBindings": [
+      {
+          "before": ["gcc"],
+          "commands": [
+            "editor.action.commentLine"
+            ]
+      },
+      {
+        "before": ["gc"],
+        "commands": [
+          "editor.action.blockComment"
+        ]
+      }
   ],
   "multiCommand.commands": [
     {
@@ -50,5 +64,7 @@
   "extensions.ignoreRecommendations": true,
   "explorer.confirmDelete": false,
   "workbench.startupEditor": "none",
-  "rust-analyzer.inlayHints.enable": false
+  "rust-analyzer.inlayHints.enable": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.autocomplete.enable": true
 }
