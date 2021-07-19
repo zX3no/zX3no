@@ -1,4 +1,19 @@
 ## Projects:
+- [t](https://github.com/zX3no/t)
+
+  A simple task manager, written in rust.
+
+- [block](https://github.com/zX3no/block)
+
+  A binary clock. No very useful but it looks cool.
+  ```
+    |   |   | < 8
+    | | | | | < 4
+  | | | | | | < 2
+  | | | | | | < 1
+  H H M M S S < Time Digit
+  ```
+  ![](https://raw.githubusercontent.com/zX3no/block/main/img/block.jpg)
 
 - [ncmpcpp-windows](https://github.com/zX3no/ncmpcppOnWindows)
 

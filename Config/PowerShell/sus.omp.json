@@ -9,7 +9,7 @@
         {
           "type": "root",
           "style": "plain",
-          "foreground": "blue",
+          "foreground": "magenta",
           "properties": {
             "prefix": "",
             "root_icon": "❯❯"
@@ -27,7 +27,7 @@
         {
           "type": "git",
           "style": "plain",
-          "foreground": "#ff94df",
+          "foreground": "magenta",
           "properties": {
             "branch_icon": " ",
             "prefix": ""

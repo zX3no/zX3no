@@ -41,7 +41,7 @@ function MPD {
     # Config File will be create where it's executed from 
     Set-Location C:\tools\mpdhotkeys
     Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
-    Start-Process -WindowStyle Hidden -FilePath "mpd" -ArgumentList "D:\Git\zX3no\Config\mpd\mpd.conf"
+    #Start-Process -WindowStyle Hidden -FilePath "mpd" -ArgumentList "D:\Git\zX3no\Config\mpd\mpd.conf"
 }
 
 #CheckForWindowsUpdate
