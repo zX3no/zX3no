@@ -43,7 +43,11 @@ function MPD {
     Start-Process -FilePath "C:\tools\mpdhotkeys\mpdhotkeys.exe"
     #Start-Process -WindowStyle Hidden -FilePath "mpd" -ArgumentList "D:\Git\zX3no\Config\mpd\mpd.conf"
 }
-
+function Mouse {
+    Set-Location C:\tools\RawAccel
+    ./writer.exe settings.json
+}
 #CheckForWindowsUpdate
 #Overclock
 MPD
+Mouse
