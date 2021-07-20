@@ -65,6 +65,5 @@
   "explorer.confirmDelete": false,
   "workbench.startupEditor": "none",
   "rust-analyzer.inlayHints.enable": false,
-  "editor.inlineSuggest.enabled": true,
-  "github.copilot.autocomplete.enable": true
+  "editor.inlineSuggest.enabled": true
 }
