@@ -10,14 +10,16 @@ Plug 'tpope/vim-commentary'
 
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
 
+Plug 'jdhao/better-escape.vim'
+
 " Using with: coc-prettier and coc-explorer
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
 " Key Bindings "
-
-imap jk <Esc>
+let g:better_escape_interval = 200
+let g:better_escape_shortcut = ['jk', 'kj']
 
 nnoremap <C-S> :update<cr>
 
