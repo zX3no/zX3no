@@ -37,6 +37,24 @@ function profile {
 function speedtest {
 	speed-test -b
 }
+function faceit {
+	if ($args[0] -eq "on")
+	{
+		Write-Host "Turning faceit on..."
+		gsudo bcdedit /set hypervisorlaunchtype off
+		gsudo reg add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d 0 /f
+	}
+	elseif($args[0] -eq "off") 
+	{
+		Write-Host "Turning faceit off..."
+		gsudo bcdedit /set hypervisorlaunchtype auto
+		gsudo reg add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d 1 /f
+	}
+	else
+	{
+		Write-Host $args[0] "is not on/off"
+	}
+}
 Set-Alias -Name hx -Value hexyl
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name su -Value gsudo
