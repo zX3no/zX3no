@@ -65,5 +65,8 @@
   "explorer.confirmDelete": false,
   "workbench.startupEditor": "none",
   "rust-analyzer.inlayHints.enable": false,
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  }
 }
