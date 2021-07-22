@@ -1,0 +1,82 @@
+REM DATE 2021
+PERFORMER "Iglooghost"
+TITLE "Lei Disk 「Radio•Broadcast」"
+FILE "song.flac" FLAC 
+  TRACK 01 AUDIO
+    TITLE "Pouring Glimpse"
+    INDEX 01 00:00:00
+  TRACK 02 AUDIO
+    TITLE "Sun is An Egg"
+    INDEX 01 01:31:00
+  TRACK 03 AUDIO
+    TITLE "Oblique Cell 『1982 / RESCANNED•MOD』" 
+    INDEX 01 05:56:00
+  TRACK 04 AUDIO
+    TITLE "Ammonite Moon War"
+    INDEX 01 06:44:00
+  TRACK 05 AUDIO
+    TITLE "Auo⁸ Daosing Rod 『Tonal Hum』"
+    INDEX 01 09:28:00
+  TRACK 06 AUDIO
+    TITLE "Mute Egg"
+    INDEX 01 10:08:0
+  TRACK 07 AUDIO
+    TITLE "Saddest Pond / Mute Egg『1934 / ALT•VERSION』"
+    INDEX 01 13:08:0
+  TRACK 08 AUDIO
+    TITLE "Pure World Ripple"
+    INDEX 01 15:40:0
+  TRACK 09 AUDIO
+    TITLE "Magnolia Gripper『RESEARCH•CLIP』"
+    INDEX 01 19:00:0
+  TRACK 10 AUDIO
+    TITLE "Morris Men"
+    INDEX 01 19:22:0
+  TRACK 11 AUDIO
+    TITLE "Lash Skitter『NEOLITHIC VERSION』
+    INDEX 01 20:10:0
+  TRACK 12 AUDIO
+    TITLE "Sun Is An Egg『1993 / BOOTLEG•DISK』"
+    INDEX 01 20:46:0
+  TRACK 13 AUDIO
+    TITLE "Gyao"
+    INDEX 01 21:52:0
+  TRACK 14 AUDIO
+    TITLE "Geode Library『EXCAVATED•CLIP』"
+    INDEX 01 23:16:0
+  TRACK 15 AUDIO
+    TITLE "Rentinal Slice"
+    INDEX 01 23:33:0
+  TRACK 16 AUDIO
+    TITLE "Heliotrope Clump『RESEARCH•CLIP』"
+    INDEX 01 24:12:0
+  TRACK 17 AUDIO
+    TITLE "Ueo" 
+    INDEX 01 24:28:0
+  TRACK 18 AUDIO
+    TITLE "Sylph Fossil『PROTO•BRIDGE / ALT•TAKE』"
+    INDEX 01 25:28:0
+  TRACK 19 AUDIO
+    TITLE "♢ ♢ ♢『DISK•EXTENSION』"
+    INDEX 01 25:56:0
+  TRACK 20 AUDIO
+    TITLE "Core Spill"
+    INDEX 01 28:43:0
+  TRACK 21 AUDIO
+    TITLE "Blurred Homes『FRACTURE²』"
+    INDEX 01 30:39:0
+  TRACK 22 AUDIO
+    TITLE "Protein Bolt"
+    INDEX 01 30:56:0
+  TRACK 23 AUDIO
+    TITLE "Dim End『DISK•SHARD』"
+    INDEX 01 31:46:0
+  TRACK 24 AUDIO
+    TITLE "Sheep In A Field"
+    INDEX 01 32:08:0
+  TRACK 25 AUDIO
+    TITLE "Sprouts, Geoglyph"
+    INDEX 01 32:43:0
+  TRACK 26 AUDIO
+    TITLE "Ether Pool"
+    INDEX 01 33:42:0
