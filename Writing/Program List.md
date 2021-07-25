@@ -38,7 +38,7 @@
 | **Program** | **Name** | **Cargo** | **Notes** |
 | Overclocking | nvoclock | | |
 | Calculator | [Kalker](https://github.com/PaddiM8/kalker) | | Download binary instead of crate |
-| Hex Editor | hexyl | | |
+| System Monitor | [bottom](https://github.com/ClementTsang/bottom) | | |
 | --- | --- | --- | --- |
 | **Program** | **Name** | **Winget** | **Notes** |
 | Prototyping Tool | Figma | | |
@@ -71,7 +71,7 @@ npm install -g gtop speed-test taskbook
 Rust Packages:
 
 ```
-cargo install nvoclock kalker
+cargo install nvoclock kalker bottom
 ```
 
 ---

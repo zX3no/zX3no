@@ -68,5 +68,6 @@
   "editor.inlineSuggest.enabled": true,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
-  }
+  },
+  "diffEditor.ignoreTrimWhitespace": false
 }

@@ -39,13 +39,13 @@ function Overclock{
 }
 function MPD {
     # Config File will be create where it's executed from 
-    mpd-hotkeys
     Start-Process -WindowStyle Hidden -FilePath "mpd" -ArgumentList "D:\Git\zX3no\Config\mpd\mpd.conf"
+    mpd-hotkeys
 }
 function Mouse {
     C:\tools\RawAccel\writer.exe C:\tools\RawAccel\settings.json
 }
 #CheckForWindowsUpdate
 #Overclock
-MPD
 Mouse
+MPD
