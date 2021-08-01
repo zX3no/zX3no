@@ -5,9 +5,9 @@
 | Torrent | qBittorrent |  | [Dark Theme](https://github.com/jagannatharjun/qbt-theme)|
 | Minecraft Launcher | MultiMC |  | winget broken |
 | Monitor Calibration | DisplayCAL |  | winget broken |
-| Timer | Hourglass |  | hourglass.install |
+| Timer | Hourglass | | hourglass.install |
 | Network Monitor | NetLimiter |  | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
-| Hex Editor | ImHex |  | |
+| Hex Editor | ImHex | | |
 | Image Editor | Photoshop \| Paint.NET | | |
 | Vector Editor | Illustrator | | |
 | Git Repository Hub | RepoZ | | |
@@ -27,8 +27,6 @@
 | ISO Imager | Etcher | | |
 | Terminal | Windows Terminal | | microsoft-windows-terminal |
 | Archive  | 7-Zip | | [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)|
-| Ping | gping | | |
-| Markdown Viewer | glow | | |
 | --- | --- | --- | --- |
 | **Program** | **Name** | **npm** | **Notes** |
 | Todo List | taskbook | | |
@@ -39,6 +37,7 @@
 | Overclocking | nvoclock | | |
 | Calculator | [Kalker](https://github.com/PaddiM8/kalker) | | Download binary instead of crate |
 | System Monitor | [bottom](https://github.com/ClementTsang/bottom) | | |
+| Ping | [gping](https://github.com/orf/gping) | | |
 | --- | --- | --- | --- |
 | **Program** | **Name** | **Winget** | **Notes** |
 | Prototyping Tool | Figma | | |
@@ -53,7 +52,7 @@
 Choco Packages:
 
 ```
-choco install vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop.portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip gping glow
+choco install vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop.portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip
 ```
 
 Winget Packages:
@@ -65,13 +64,13 @@ winget install figma ModuleArt.QuickPictureViewer
 Node Packages:
 
 ```
-npm install -g gtop speed-test taskbook
+npm install -g speed-test taskbook
 ```
 
 Rust Packages:
 
 ```
-cargo install nvoclock kalker bottom
+cargo install nvoclock kalker bottom gping
 ```
 
 ---

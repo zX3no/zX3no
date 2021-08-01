@@ -47,5 +47,5 @@ function Mouse {
 }
 #CheckForWindowsUpdate
 #Overclock
-Mouse
-MPD
+#Mouse
+#MPD

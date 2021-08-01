@@ -15,6 +15,9 @@ function init {
 function clone {
 	git clone $args
 }
+function install {
+	cargo install --path .
+}
 function c {
 	gsudo choco install $args
 }
