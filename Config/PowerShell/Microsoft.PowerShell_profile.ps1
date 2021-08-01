@@ -8,6 +8,13 @@ function push {
 	git push origin main
 	[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
 }
+function pushm{
+    git checkout master 
+	git add .
+	git commit -am "$args"
+	git push origin master 
+	[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
+}
 function init {
 	git init -b main
 	git remote add origin $args
