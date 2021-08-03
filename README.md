@@ -1,42 +1,36 @@
 ## Projects:
-- [t](https://github.com/zX3no/t)
+Rust:
 
-  A simple task manager, written in rust.
+t(finished), block(should archive), timer(on going), rindexer(on going)
 
-- [block](https://github.com/zX3no/block)
+C++:
 
-  A binary clock. No very useful but it looks cool.
-  ```
-    |   |   | < 8
-    | | | | | < 4
-  | | | | | | < 2
-  | | | | | | < 1
-  H H M M S S < Time Digit
-  ```
-  ![](https://raw.githubusercontent.com/zX3no/block/main/img/block.jpg)
+MPDHotkeys(should archive), Hazel / OpenGL (on going)
 
-- [ncmpcpp-windows](https://github.com/zX3no/ncmpcppOnWindows)
+JS / HTML / CSS:
 
-  Tutorial on how to configure MPD and ncmpcpp to work on windows with wsl.
+Startup Page(on going), SMLoadr(private, broken)
 
-  ![](https://github.com/zX3no/zX3no/blob/main/Images/ncmpcpp.png?raw=true)
+C#:
 
-- [MPD Hotkeys](https://github.com/zX3no/MPDHotkeys)
+Unity Scripts(should delete) 
 
-  Global Hotkeys for mpd.
+Squrriel:
 
-- [Rick Click Registry](https://github.com/zX3no/RightClickRegistry)
+WeaponScript(finished, needs to be pushed to workshop)
 
-  A collection of registry tweaks to remove items from the right click menu.
+Other:
 
-- [Sheet Music](https://github.com/zX3no/SheetMusic)
+RightClickRegistry(ongoing)
 
-  A collection of sheet music, scores and midi files. Since Musescore isn't free anymore, I need to keep an archive.
+Writing:
 
-- [WeaponScript](https://github.com/zX3no/WeaponScript)
+ncmpcpp-windows, Repo Setup(find a better name)
 
-  A script for [Areate](https://steamcommunity.com/sharedfiles/filedetails/?id=823181241). It allows players to equip weapons using chat commands(including knives). I may write some information on settings this up, but squirrel is a horrible language and I wouldn't wish it on anyone. 
+FPS List(ongoing), Yaw List(ongoing), Windows Config(needs update and renamed)
 
-- [Writing](https://github.com/zX3no/zX3no/tree/main/Writing)
+---
 
-  A few pieces of writing about various topics.
+Needs management:
+
+block, timer, rindexer, mpdhotkeys, startup page, smloadr, unity scripts, weaponscript, repo setup, fps list, yaw list, windows config

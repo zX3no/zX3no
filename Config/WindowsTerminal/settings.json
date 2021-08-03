@@ -169,7 +169,7 @@
                 ],
                 "commandline": "wsl ncmpcpp",
                 "cursorShape": "emptyBox",
-                "fontFace": "Cascadia Mono",
+                "fontFace": "Cascadia Code PL",
                 "icon": "\ud83c\udfb5",
                 "name": "Music",
                 "tabTitle": "Music",
