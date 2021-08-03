@@ -1,29 +1,25 @@
 ## Projects:
-Rust:
+*Rust:*
 
 t(ongoing), block(should archive), timer(on going), rindexer(on going)
 
-C++:
+*C++:*
 
 MPDHotkeys(should archive), Hazel / OpenGL (on going)
 
-JS / HTML / CSS:
+*JS / HTML / CSS:*
 
 Startup Page(on going), SMLoadr(private, broken)
 
-C#:
+*Squirrel:*
 
-Unity Scripts(should delete) 
+WeaponScript
 
-Squirrel:
-
-WeaponScript(finished, needs to be pushed to workshop)
-
-Other:
+*Other:*
 
 RightClickRegistry(ongoing), zX3no(github frontpage)
 
-Writing:
+*Writing:*
 
 ncmpcpp-windows, Repo Setup(find a better name)
 
@@ -53,18 +49,16 @@ MPDHotkeys:
 
 It's not very reliable. Should probably add a config to the rust version and delete it.
 
-Unity Scripts:
-
-Don't use unity any more should delete
-
-Weapon Script:
-
-Needs rename and a push to the workshop
-
 Repo Setup, * List:
 
-I need a blog or something to put things like this. Might be a good way to learn react or vue.
+I need a blog or something to put things like this. Might be a good way to learn react or vue with sass.
 
 t:
 
 Add option for deadlines and date
+
+---
+
+Languages: C++, Rust, C#, Java, Python, Lua, Squirrel, TypeScript(JavaScript), HTML, CSS
+
+Frameworks: OpenGL
