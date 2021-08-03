@@ -1,7 +1,7 @@
 ## Projects:
 Rust:
 
-t(finished), block(should archive), timer(on going), rindexer(on going)
+t(ongoing), block(should archive), timer(on going), rindexer(on going)
 
 C++:
 
@@ -15,13 +15,13 @@ C#:
 
 Unity Scripts(should delete) 
 
-Squrriel:
+Squirrel:
 
 WeaponScript(finished, needs to be pushed to workshop)
 
 Other:
 
-RightClickRegistry(ongoing)
+RightClickRegistry(ongoing), zX3no(github frontpage)
 
 Writing:
 
@@ -33,4 +33,38 @@ FPS List(ongoing), Yaw List(ongoing), Windows Config(needs update and renamed)
 
 Needs management:
 
-block, timer, rindexer, mpdhotkeys, startup page, smloadr, unity scripts, weaponscript, repo setup, fps list, yaw list, windows config
+zX3no:
+
+Needs some color, italics, bold text. Anything that will make it look better than just text.
+
+block:
+
+Terrible name, not centered, flickers on linux, not very useful.
+
+timer:
+
+Flickers, crashes without arguments, arguments barely work
+
+rindexer:
+
+Needs a rename, need to integrate egui.
+
+MPDHotkeys:
+
+It's not very reliable. Should probably add a config to the rust version and delete it.
+
+Unity Scripts:
+
+Don't use unity any more should delete
+
+Weapon Script:
+
+Needs rename and a push to the workshop
+
+Repo Setup, * List:
+
+I need a blog or something to put things like this. Might be a good way to learn react or vue.
+
+t:
+
+Add option for deadlines and date
