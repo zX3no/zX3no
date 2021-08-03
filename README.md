@@ -1,7 +1,7 @@
 ## Projects:
 *Rust:*
 
-t(ongoing), block(should archive), timer(on going), rindexer(on going)
+t(ongoing), binary-clock(ongoing), timer(ongoing), Search(on going)
 
 *C++:*
 
@@ -33,17 +33,17 @@ zX3no:
 
 Needs some color, italics, bold text. Anything that will make it look better than just text.
 
-block:
+binary-clock:
 
-Terrible name, not centered, flickers on linux, not very useful.
+not centered, flickers on linux, doesn't have a countdown fucntion 
 
 timer:
 
-Flickers, crashes without arguments, arguments barely work
+Flickers, arguments don't work with spaces 
 
-rindexer:
+Search:
 
-Needs a rename, need to integrate egui.
+need to integrate egui.
 
 MPDHotkeys:
 
@@ -56,9 +56,3 @@ I need a blog or something to put things like this. Might be a good way to learn
 t:
 
 Add option for deadlines and date
-
----
-
-Languages: C++, Rust, C#, Java, Python, Lua, Squirrel, TypeScript(JavaScript), HTML, CSS
-
-Frameworks: OpenGL
