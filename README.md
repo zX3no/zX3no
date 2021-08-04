@@ -43,7 +43,7 @@ Flickers, arguments don't work with spaces
 
 Search:
 
-need to integrate egui.
+needs user input search
 
 MPDHotkeys:
 
