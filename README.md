@@ -1,15 +1,15 @@
 ## Projects:
 *Rust:*
 
-t(ongoing), binary-clock(ongoing), timer(ongoing), Search(on going)
+t, binary-clock, timer, Search
 
 *C++:*
 
-MPDHotkeys(should archive), Hazel / OpenGL (on going)
+MPDHotkeys, Hazel / OpenGL
 
 *JS / HTML / CSS:*
 
-Startup Page(on going), SMLoadr(private, broken)
+Startup Page, SMLoadr
 
 *Squirrel:*
 
@@ -17,10 +17,10 @@ WeaponScript
 
 *Other:*
 
-RightClickRegistry(ongoing), zX3no(github frontpage)
+RightClickRegistry, zX3no
 
 *Writing:*
 
-ncmpcpp-windows, Repo Setup(find a better name)
+ncmpcpp-windows, Repo Setup
 
-FPS List(ongoing), Yaw List(ongoing), Windows Config(needs update and renamed)
+FPS List, Yaw List, Windows Config
