@@ -60,7 +60,12 @@ function faceit {
 }
 function g {
 	$dir = $args[0]
-	cd "D:\Git\$dir"
+	if($dir) {
+		Set-Location "D:\Git\$dir"
+	}
+	else {
+		Get-ChildItem D:\Git\
+	}
 }
 Set-Alias -Name hx -Value hexyl
 Set-Alias -Name cal -Value kalker
