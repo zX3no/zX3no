@@ -71,6 +71,7 @@ function c {
 	$dir = $args[0]
 	if($dir) {
 		code D:\Git\$dir 
+		Set-Location "D:\Git\$dir"
 	}
 	else {
 		Get-ChildItem D:\Git\
