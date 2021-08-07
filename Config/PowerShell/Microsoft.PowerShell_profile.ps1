@@ -67,6 +67,15 @@ function g {
 		Get-ChildItem D:\Git\
 	}
 }
+function c {
+	$dir = $args[0]
+	if($dir) {
+		code D:\Git\$dir 
+	}
+	else {
+		Get-ChildItem D:\Git\
+	}
+}
 Set-Alias -Name hx -Value hexyl
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name su -Value gsudo
