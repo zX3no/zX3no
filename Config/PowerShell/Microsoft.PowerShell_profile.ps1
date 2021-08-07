@@ -34,18 +34,11 @@ function cr {
 function cu {
 	gsudo choco upgrade all
 }
-function dl {
-	Set-Location D:\Git\SMLoadr\BUILD
-	./SMLoadr -q FLAC -p D:\OneDrive\Music -u $args
-}
 function rmf {
 	Remove-Item -Force -Recurse $args
 }
 function profile {
 	code $profile
-}
-function speedtest {
-	speed-test -b
 }
 function faceit {
 	if ($args[0] -eq "on")
@@ -64,6 +57,10 @@ function faceit {
 	{
 		Write-Host $args[0] "is not on/off"
 	}
+}
+function g {
+	$dir = $args[0]
+	cd "D:\Git\$dir"
 }
 Set-Alias -Name hx -Value hexyl
 Set-Alias -Name cal -Value kalker
