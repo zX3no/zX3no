@@ -67,7 +67,7 @@ function g {
 		Get-ChildItem D:\Git\
 	}
 }
-function c {
+function vs {
 	$dir = $args[0]
 	if($dir) {
 		code D:\Git\$dir 
