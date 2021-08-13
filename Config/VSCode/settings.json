@@ -25,6 +25,12 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "matklad.rust-analyzer"
   },
+	"vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["p"],
+      "commands":["editor.action.clipboardPasteAction"]
+    }
+  ],
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "k"],
