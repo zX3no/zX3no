@@ -77,6 +77,10 @@ function vs {
 		Get-ChildItem D:\Git\
 	}
 }
+function mouse {
+	Set-Location "C:\tools\RawAccel"
+	.\writer settings.json
+}
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name su -Value gsudo
 Set-PoshPrompt -Theme sus
