@@ -55,7 +55,7 @@ function faceit {
 	}
 	else
 	{
-		Write-Host $args[0] "is not on/off"
+		Write-Host "On/Off"
 	}
 }
 function g {
