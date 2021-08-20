@@ -13,7 +13,7 @@ Startup Page, SMLoadr
 
 *Squirrel:*
 
-WeaponScript
+Chat-Commands
 
 *Other:*
 
