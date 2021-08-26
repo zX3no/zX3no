@@ -76,5 +76,11 @@
     "*.ipynb": "jupyter.notebook.ipynb"
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  }
 }

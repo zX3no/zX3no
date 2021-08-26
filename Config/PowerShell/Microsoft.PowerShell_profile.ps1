@@ -81,11 +81,14 @@ function mouse {
 	Set-Location "C:\tools\RawAccel"
 	.\writer settings.json
 }
-function Overclock{
+function overclock{
     Write-Output "overclocked gpu"
 	gsudo
 	nvoclock set pstate 500000 -c memory
 	nvoclock set pstate 200000 -c graphics
+}
+function reboot {
+	Restart-Computer -Force
 }
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name su -Value gsudo
