@@ -82,5 +82,6 @@
     "**/.project": true,
     "**/.settings": true,
     "**/.factorypath": true
-  }
+  },
+  "powershell.promptToUpdatePowerShell": false
 }

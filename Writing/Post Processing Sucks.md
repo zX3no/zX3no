@@ -1,8 +1,7 @@
 # Post-Processing Sucks
 
-I want to preface this by saying not all post processing is bad, some effects are extremely important, however these need to be configured correctly otherwise it can be quite catastrophic.
-
-This documents will be some basic guidelines to using post processing while developing your game.
+I want to preface this by saying not all post-processing is bad, some effects are important, but require carefully use. 
+This documents includes some guidelines when using post-processing in a game development setting.
 
 [put TLDR table here]
 
