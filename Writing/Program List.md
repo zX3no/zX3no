@@ -64,13 +64,13 @@ winget install figma ModuleArt.QuickPictureViewer
 Node Packages:
 
 ```
-npm install -g speed-test taskbook
+npm install -g ezshare
 ```
 
 Rust Packages:
 
 ```
-cargo install nvoclock kalker bottom gping
+cargo install nvoclock kalker bottom gping t-cli
 ```
 
 ---
