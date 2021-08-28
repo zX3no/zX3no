@@ -19,9 +19,9 @@
       "x": {
         "offset": 0.0,
         "legacyOffset": false,
-        "acceleration": 0.01,
+        "acceleration": 0.03,
         "scale": 1.0,
-        "limit": 1.7,
+        "limit": 1.6,
         "exponent": 2.0,
         "midpoint": 10.0,
         "weight": 1.0,
@@ -32,9 +32,9 @@
       "y": {
         "offset": 0.0,
         "legacyOffset": false,
-        "acceleration": 0.01,
+        "acceleration": 0.03,
         "scale": 1.0,
-        "limit": 1.7,
+        "limit": 1.6,
         "exponent": 2.0,
         "midpoint": 10.0,
         "weight": 1.0,
