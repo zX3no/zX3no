@@ -82,6 +82,12 @@ Comparision images
 
 ---
 
+### Vignette
+
+**[Bad]**
+
+---
+
 ### Depth of Field
 
 **[Okay]**
@@ -126,6 +132,8 @@ Here a couple examples of bad bloom:
 ![](https://static.techspot.com/articles-info/405/images/2015-05-21-large-1.jpg)
 
 [Good examples of bloom]
+
+[if you think your bloom level is good; turn it down by 10%]
 
 ### Notes
 
