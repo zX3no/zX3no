@@ -152,6 +152,12 @@ Let's compare the different anti-aliasing techniques:
 
 Okay cool, but which one should *I* use.
 
+SGSSAA looks amazing and doesn't make the image blurry at all, however it's not very fast. 
+
+8x SGSSA 215FPS
+Off 245FPS
+[Test 4x]
+
 CSAA seems like the best traditional method. All other methods are less effective or slower.
 
 TAA is not appropriate for a first-person game, it makes the game too blurry.
@@ -164,6 +170,7 @@ In a lot of ways it's almost worse than motion blur, because at least with motio
 [DO WE NEED ANTI-ALIASING?]
 
 https://www.pcgamingwiki.com/wiki/Glossary:Anti-aliasing_(AA)
+
 
 ### Chromatic Aberration
 
