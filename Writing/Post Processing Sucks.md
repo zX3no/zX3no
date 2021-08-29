@@ -13,8 +13,6 @@ I hate changing settings every time I open a new game; I wrote this for anyone w
 
 **[Bad]**
 
----
-
 
 Motion blur is the apparent streaking of moving objects in a photograph or a sequence of frames, such as a film or animation. 
 
@@ -38,8 +36,6 @@ If you would like to include motion blur in your game, you **must** have it turn
 ## Film grain
 
 **[Bad]**
-
----
 
 Film grain or granularity is the random optical texture of processed photographic film due to the presence of small particles of a metallic silver, or dye clouds, developed from silver halide that have received enough photons.
 
@@ -70,8 +66,6 @@ Nvidia has invest a bit of money into noise reduction techniques for example [Op
 ## Anti-Aliasing 
 
 **[Bad]**
-
----
 
 This is probably the most controversial section of this document. Here are a few statements to start with: 
 
@@ -181,8 +175,6 @@ https://www.pcgamingwiki.com/wiki/Glossary:Anti-aliasing_(AA)
 
 **[Bad]**
 
----
-
 The Chromatic Aberration effect disperses colors along the boundaries between dark and light areas of the image.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/6/66/Chromatic_aberration_%28comparison%29.jpg)
@@ -192,8 +184,6 @@ This can be a cool effect in a very specific setting, but otherwise it's much to
 ## Vignette
 
 **[Bad]**
-
----
 
 Vignette is an effect where the corners of the screen are faded to black:
 
@@ -205,32 +195,22 @@ This effect is probably one of the stupidest things to include in your game. It 
 
 **[Okay]**
 
----
-
 ## Ambient Occlusion
 
 **[Okay]**
-
----
 
 ## Screen Space Reflection
 
 **[Okay]**
 
----
-
 ## Color Grading
 
 **[Important]**
-
----
 
 
 ## Bloom
 
 **[Important]**
-
----
 
 Bloom produces fringes (or feathers) of light extending from the borders of bright areas in an image, contributing to the illusion of an extremely bright light overwhelming the camera or eye capturing the scene.
 
@@ -251,8 +231,6 @@ Bloom is what allows neon lights to be emissive:
 ![](https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077_Its_good_to_be_in_town_RGB-en.jpg)
 
 ## Notes
-
----
 
 Things that can improve clarity of games(post-processing or not).
 
