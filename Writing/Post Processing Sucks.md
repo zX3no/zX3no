@@ -5,6 +5,7 @@ Post-processing can greatly increase the quality of video games; as a player thi
 I hate changing settings every time I open a new game; I wrote this for anyone wanting to add post-processing to their game.
 
 [section on why we need to remove low,med,high,ultra presets]
+[also remove 2x 4x 16x type options i don't want to waste time comparing]
 
 [put TLDR table here]
 
@@ -143,10 +144,24 @@ Let's compare the different anti-aliasing techniques:
 
     *Super-Sampling but with neural networks*
 
-Outdated Methods
+[IS FSR anti-aliasing?]
+
+**Outdated Methods**
 * **Directionally Localized (DLAA)**
 * **Subpixel Reconstruction(SRAA)**
 
+Okay cool, but which one should *I* use.
+
+CSAA seems like the best traditional method. All other methods are less effective or slower.
+
+TAA is not appropriate for a first-person game, it makes the game too blurry.
+In a lot of ways it's almost worse than motion blur, because at least with motion blur I can see things when I stand still.
+
+[[investigate taa in a 2d game, is it too blurry? Check out INSIDE](https://www.youtube.com/watch?v=2XXS5UyNjjU)]
+
+[what about 200% render scale?]
+
+[DO WE NEED ANTI-ALIASING?]
 
 https://www.pcgamingwiki.com/wiki/Glossary:Anti-aliasing_(AA)
 
