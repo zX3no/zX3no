@@ -1,7 +1,8 @@
 # Post-Processing Sucks
 
-I want to preface this by saying not all post-processing is bad, some effects are important, but require careful use. 
-I hate changing settings so I made these guidelines for anyone wanting to add post-processing to their game.
+When I say *all post-processing Sucks* what I mean is *I hate how you've used post-processing*.
+Post-processing can greatly increase the quality of video games; as a player this is something I want the developer think about.
+I hate changing settings every time I open a new game; I wrote this for anyone wanting to add post-processing to their game.
 
 [section on why we need to remove low,med,high,ultra presets]
 
@@ -82,13 +83,72 @@ This is probably the most controversial section of this document. Here are a few
 
 Let's compare the different anti-aliasing techniques:
 
-Supersample 
-Multi-Sampling
-Coverage Sampling
-Enhanced Quality 
-Fast Approximate
-Temporal
+**Traditional methods**
 
+*Applied during rendering. Usually using a pixel shader(idk if this is right)*
+
+* **Super-Sampling (SSAA)**
+
+    *A slower, slightly more accurate version of MSAA*
+
+* **Multi-Sampling (MSAA)**
+* **Multi-Frame (MFAA)**
+
+    *Meant to be used in conjunction with MSAA for lowered performance hit.*
+* **Coverage Sampling (CSAA)**
+
+    *CSAA-rendered image will rival 8x-16x MSAA whilst only putting a load on the system comparable to 4x MSAA*
+* **Quincunx Super (QSAA)**
+
+    *2x QSAA roughly equates to 3x MSAA in terms of quality.*
+* **Enhanced Quality (EQAA)**
+
+    *Slightly better quality than MSAA, made by AMD*
+* **Sparse Grid Super-Sampling (SGSSAA)**
+
+    *Modern version of SSAA, possessing superior quality to other anti-aliasing methods at a steep performance cost.*
+* **Hybrid-Sampling (HSAA)**
+
+    *Combination of SSAA and MSAA. ???*
+
+**Post-processing methods** 
+
+**Applied after the image is rendered; often lower quality but more performant.**
+* **Fast Approximate (FXAA)**
+
+    *Looks like shit*
+* **Morphological (MLAA)** 
+    *Slower version of FXAA*
+* **Subpixel Morphological (SMAA)**
+    *Usually injected using ReShade, better than FXAA and MLAA*
+* **Conservative Morphological (CMAA)**
+    *Better than FXAA but worse than SMAA*
+
+**Temporal Methods**
+
+*Seek to mitigate the effects of temporal aliasing.*
+*Most methods cause significant blurring while in motion.*
+* **Temporal(TAA)**
+
+    *I think it's better than everything else but it's blurry as shit(idk research bro)*
+* **Nvidia Temporal(TXAA)**
+
+    *Nvidia version of TAA*
+* **Temporal Super-Sampling(TSSAA/TMAA)**
+
+    *More cinematic(???) version of TAA*
+
+**Reconstruction methods**
+* **Deep Learning Super-Sampling (DLSS)**
+
+    *Super-Sampling but with neural networks*
+
+Outdated Methods
+* **Directionally Localized (DLAA)**
+* **Subpixel Reconstruction(SRAA)**
+
+
+https://www.pcgamingwiki.com/wiki/Glossary:Anti-aliasing_(AA)
 
 ### Chromatic Aberration
 
@@ -113,7 +173,7 @@ Vignette is an effect where the corners of the screen are faded to black:
 
 ![](https://rawpedia.rawtherapee.com/images/thumb/9/9c/Vignette-filter_4.00_50_50.png/300px-Vignette-filter_4.00_50_50.png)
 
-This effect is probably one of the stupidest things to include in your game. It reduces field of view and gives you ...? Don't include this unless you need it for a specific scene.
+This effect is probably one of the stupidest things to include in your game. It reduces field of view and gives you nothing? Don't include this unless you need it for some artistic reason.
 
 ### Depth of Field
 
