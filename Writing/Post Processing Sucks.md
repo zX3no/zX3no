@@ -275,3 +275,5 @@ Things that can improve clarity of games(post-processing or not).
 Mipmaps, upscalers, de-noisers.
 
 Apparently uploading your 1080p footage in 4k allows the bit-rate to increase. Something to keep in mind.
+
+I kind of want to expand the scope of this to all settings in video games, like sensitivity and vsync etc.. probably going to take too long, this shit is already huge.
