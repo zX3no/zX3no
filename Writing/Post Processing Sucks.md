@@ -9,7 +9,7 @@ I hate changing settings every time I open a new game; I wrote this for anyone w
 
 [put TLDR table here]
 
-### Motion Blur
+## Motion Blur
 
 **[Bad]**
 
@@ -35,7 +35,7 @@ I use Ultra Low Motion Blur(ULMB) and I find it improves clarity quite a lot.
 
 If you would like to include motion blur in your game, you **must** have it turned off by default, as most people will not be making cinematic footage.
 
-### Film grain
+## Film grain
 
 **[Bad]**
 
@@ -67,7 +67,7 @@ Nvidia has invest a bit of money into noise reduction techniques for example [Op
 
 [3D modelers/blender artists have been dealing with this problem for a while.](https://www.youtube.com/watch?v=YtyPA-KqGU4)
 
-### Anti-Aliasing 
+## Anti-Aliasing 
 
 **[Bad]**
 
@@ -87,12 +87,12 @@ Let's compare the different anti-aliasing techniques:
 **Traditional methods**
 
 *Applied during rendering. Usually using a pixel shader(idk if this is right)*
-
+* **Multi-Sampling (MSAA)**
 * **Super-Sampling (SSAA)**
 
     *A slower, slightly more accurate version of MSAA*
 
-* **Multi-Sampling (MSAA)**
+
 * **Multi-Frame (MFAA)**
 
     *Meant to be used in conjunction with MSAA for lowered performance hit.*
@@ -158,10 +158,14 @@ SGSSAA looks amazing and doesn't make the image blurry at all, however it's not 
 Off 245FPS
 [Test 4x]
 
+[Compare quality to CSAA]
+
 CSAA seems like the best traditional method. All other methods are less effective or slower.
 
 TAA is not appropriate for a first-person game, it makes the game too blurry.
 In a lot of ways it's almost worse than motion blur, because at least with motion blur I can see things when I stand still.
+
+[i want some SGSAA vs TAA screenshots]
 
 [[investigate taa in a 2d game, is it too blurry? Check out INSIDE](https://www.youtube.com/watch?v=2XXS5UyNjjU)]
 
@@ -172,7 +176,7 @@ In a lot of ways it's almost worse than motion blur, because at least with motio
 https://www.pcgamingwiki.com/wiki/Glossary:Anti-aliasing_(AA)
 
 
-### Chromatic Aberration
+## Chromatic Aberration
 
 
 **[Bad]**
@@ -185,7 +189,7 @@ The Chromatic Aberration effect disperses colors along the boundaries between da
 
 This can be a cool effect in a very specific setting, but otherwise it's much too blurry to use in a video game. This must not be included in your game.
 
-### Vignette
+## Vignette
 
 **[Bad]**
 
@@ -197,32 +201,32 @@ Vignette is an effect where the corners of the screen are faded to black:
 
 This effect is probably one of the stupidest things to include in your game. It reduces field of view and gives you nothing? Don't include this unless you need it for some artistic reason.
 
-### Depth of Field
+## Depth of Field
 
 **[Okay]**
 
 ---
 
-### Ambient Occlusion
+## Ambient Occlusion
 
 **[Okay]**
 
 ---
 
-### Screen Space Reflection
+## Screen Space Reflection
 
 **[Okay]**
 
 ---
 
-### Color Grading
+## Color Grading
 
 **[Important]**
 
 ---
 
 
-### Bloom
+## Bloom
 
 **[Important]**
 
@@ -246,7 +250,7 @@ As a rule of thumb if your found a good value for your bloom, turn it down about
 Bloom is what allows neon lights to be emissive: 
 ![](https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077_Its_good_to_be_in_town_RGB-en.jpg)
 
-### Notes
+## Notes
 
 ---
 
