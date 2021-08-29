@@ -47,6 +47,7 @@
 | Remote Shutdown | Remote Shutdown Manager | | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
 | Registry Editor | RegistryFinder | | [registry-finder.com](https://registry-finder.com/) |
 | Fan Control | FanCtrl | | [lich426/FanCtrl](https://github.com/lich426/FanCtrl) |
+| EQ | Equalizer APO | | [Download](https://sourceforge.net/projects/equalizerapo/files/latest/download)|
 </br>
 
 Choco Packages:
