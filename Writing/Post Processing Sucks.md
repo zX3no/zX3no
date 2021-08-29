@@ -63,9 +63,41 @@ Nvidia has invest a bit of money into noise reduction techniques for example [Op
 
 [3D modelers/blender artists have been dealing with this problem for a while.](https://www.youtube.com/watch?v=YtyPA-KqGU4)
 
-## Anti-Aliasing 
+## Chromatic Aberration
 
 **[Bad]**
+
+The Chromatic Aberration effect disperses colors along the boundaries between dark and light areas of the image.
+
+![](https://upload.wikimedia.org/wikipedia/commons/6/66/Chromatic_aberration_%28comparison%29.jpg)
+
+This can be a cool effect in a very specific setting, but otherwise it's much too blurry to use in a video game. This must not be included in your game.
+
+## Vignette
+
+**[Bad]**
+
+Vignette is an effect where the corners of the screen are faded to black:
+
+![](https://rawpedia.rawtherapee.com/images/thumb/9/9c/Vignette-filter_4.00_50_50.png/300px-Vignette-filter_4.00_50_50.png)
+
+This effect is probably one of the stupidest things to include in your game. It reduces field of view and gives you nothing? Don't include this unless you need it for some artistic reason.
+
+## Depth of Field
+
+**[Okay]**
+
+## Ambient Occlusion
+
+**[Okay]**
+
+## Screen Space Reflection
+
+**[Okay]**
+
+## Anti-Aliasing 
+
+**[Important]**
 
 This is probably the most controversial section of this document. Here are a few statements to start with: 
 
@@ -168,40 +200,6 @@ In a lot of ways it's almost worse than motion blur, because at least with motio
 [DO WE NEED ANTI-ALIASING?]
 
 https://www.pcgamingwiki.com/wiki/Glossary:Anti-aliasing_(AA)
-
-
-## Chromatic Aberration
-
-
-**[Bad]**
-
-The Chromatic Aberration effect disperses colors along the boundaries between dark and light areas of the image.
-
-![](https://upload.wikimedia.org/wikipedia/commons/6/66/Chromatic_aberration_%28comparison%29.jpg)
-
-This can be a cool effect in a very specific setting, but otherwise it's much too blurry to use in a video game. This must not be included in your game.
-
-## Vignette
-
-**[Bad]**
-
-Vignette is an effect where the corners of the screen are faded to black:
-
-![](https://rawpedia.rawtherapee.com/images/thumb/9/9c/Vignette-filter_4.00_50_50.png/300px-Vignette-filter_4.00_50_50.png)
-
-This effect is probably one of the stupidest things to include in your game. It reduces field of view and gives you nothing? Don't include this unless you need it for some artistic reason.
-
-## Depth of Field
-
-**[Okay]**
-
-## Ambient Occlusion
-
-**[Okay]**
-
-## Screen Space Reflection
-
-**[Okay]**
 
 ## Color Grading
 
