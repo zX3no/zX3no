@@ -71,9 +71,24 @@ Nvidia has invest a bit of money into noise reduction techniques for example [Op
 
 ---
 
-Effects at different resolutions
+This is probably the most controversial section of this document. Here are a few statements to start with: 
 
-Comparision images
+   1. Anti-Aliasing fixes jagged edges.
+   2. Anti-Aliasing techniques are different and vary in effectiveness. 
+   3. Anti-Aliasing has different effects at different resolutions.
+   4. Anti-Aliasing reduces clarity at 1080p.
+   5. The effect is minimal on a 4k display because of the higher pixel density.
+   5. Clarity is always more important than accuracy.
+
+Let's compare the different anti-aliasing techniques:
+
+Supersample 
+Multi-Sampling
+Coverage Sampling
+Enhanced Quality 
+Fast Approximate
+Temporal
+
 
 ### Chromatic Aberration
 
@@ -82,11 +97,23 @@ Comparision images
 
 ---
 
+The Chromatic Aberration effect disperses colors along the boundaries between dark and light areas of the image.
+
+![](https://upload.wikimedia.org/wikipedia/commons/6/66/Chromatic_aberration_%28comparison%29.jpg)
+
+This can be a cool effect in a very specific setting, but otherwise it's much too blurry to use in a video game. This must not be included in your game.
+
 ### Vignette
 
 **[Bad]**
 
 ---
+
+Vignette is an effect where the corners of the screen are faded to black:
+
+![](https://rawpedia.rawtherapee.com/images/thumb/9/9c/Vignette-filter_4.00_50_50.png/300px-Vignette-filter_4.00_50_50.png)
+
+This effect is probably one of the stupidest things to include in your game. It reduces field of view and gives you ...? Don't include this unless you need it for a specific scene.
 
 ### Depth of Field
 
@@ -131,9 +158,11 @@ Here a couple examples of bad bloom:
 *The Witcher 2: Assassins of Kings*
 ![](https://static.techspot.com/articles-info/405/images/2015-05-21-large-1.jpg)
 
-[Good examples of bloom]
+These are really bad, however most games use bloom without pushing it too far. 
+As a rule of thumb if your found a good value for your bloom, turn it down about 10% just to be safe.
 
-[if you think your bloom level is good; turn it down by 10%]
+Bloom is what allows neon lights to be emissive: 
+![](https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077_Its_good_to_be_in_town_RGB-en.jpg)
 
 ### Notes
 
