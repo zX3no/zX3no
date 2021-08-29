@@ -77,11 +77,18 @@ This can be a cool effect in a very specific setting, but otherwise it's much to
 
 **[Bad]**
 
+[bro can i get a better screen shot]
+
 Vignette is an effect where the corners of the screen are faded to black:
 
 ![](https://rawpedia.rawtherapee.com/images/thumb/9/9c/Vignette-filter_4.00_50_50.png/300px-Vignette-filter_4.00_50_50.png)
 
 This effect is probably one of the stupidest things to include in your game. It reduces field of view and gives you nothing? Don't include this unless you need it for some artistic reason.
+
+## Lens Distortion
+
+**[Bad]**
+
 
 ## Depth of Field
 
@@ -89,15 +96,45 @@ This effect is probably one of the stupidest things to include in your game. It 
 
 ## Ambient Occlusion
 
+Ambient Occlusion darkens the areas in your scene that are not exposed to ambient lighting.
+
+Types:
+
+Screen space ambient occlusion(SSAO)
+
+Screen space directional occlusion(SSDO)
+
+Ray-traced ambient occlusion(RTAO)
+
+High Definition Ambient Occlusion(HDAO)
+
+Horizon Based Ambient Occlusion+(HBAO+)
+
+Alchemy Ambient Occlusion(AAO)
+
+Angle Based Ambient Occlusion(ABAO)
+
+Pre Baked Ambient Occlusion(PBAO)
+
+Voxel Accelerated Ambient Occlusion(VXAO)
+
+Ground Truth based Ambient Occlusion(GTAO)
+
 **[Okay]**
 
 ## Screen Space Reflection
 
 **[Okay]**
 
+Screen Space Reflection is a technique for reusing screen space data to calculate reflections.
+It is commonly used to create more subtle reflections such as on wet floor surfaces or in puddles.
+
+
 ## Anti-Aliasing 
 
 **[Important]**
+
+[yeah idk if this is true now]
 
 This is probably the most controversial section of this document. Here are a few statements to start with: 
 
@@ -191,7 +228,7 @@ CSAA seems like the best traditional method. All other methods are less effectiv
 TAA is not appropriate for a first-person game, it makes the game too blurry.
 In a lot of ways it's almost worse than motion blur, because at least with motion blur I can see things when I stand still.
 
-[i want some SGSAA vs TAA screenshots]
+[i want some SGSAA vs CSAA vs TAA vs none screenshots]
 
 [[investigate taa in a 2d game, is it too blurry? Check out INSIDE](https://www.youtube.com/watch?v=2XXS5UyNjjU)]
 
@@ -204,7 +241,6 @@ https://www.pcgamingwiki.com/wiki/Glossary:Anti-aliasing_(AA)
 ## Color Grading
 
 **[Important]**
-
 
 ## Bloom
 
@@ -227,6 +263,10 @@ As a rule of thumb if your found a good value for your bloom, turn it down about
 
 Bloom is what allows neon lights to be emissive: 
 ![](https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077_Its_good_to_be_in_town_RGB-en.jpg)
+
+## Panini Projection
+
+**[Important]**
 
 ## Notes
 
