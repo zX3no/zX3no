@@ -159,22 +159,12 @@ Let's compare the different anti-aliasing techniques:
 * **Multi-Frame (MFAA)**
 
     *Meant to be used in conjunction with MSAA for lowered performance hit.*
-* **Coverage Sampling (CSAA)**
-
-    *CSAA-rendered image will rival 8x-16x MSAA whilst only putting a load on the system comparable to 4x MSAA*
-* **Quincunx Super (QSAA)**
-
-    *2x QSAA roughly equates to 3x MSAA in terms of quality.*
 * **Enhanced Quality (EQAA)**
 
     *Slightly better quality than MSAA, made by AMD*
 * **Sparse Grid Super-Sampling (SGSSAA)**
 
     *Modern version of SSAA, possessing superior quality to other anti-aliasing methods at a steep performance cost.*
-* **Hybrid-Sampling (HSAA)**
-
-    *Combination of SSAA and MSAA. ???*
-
 **Post-processing methods** 
 
 **Applied after the image is rendered; often lower quality but more performant.**
@@ -212,6 +202,16 @@ Let's compare the different anti-aliasing techniques:
 **Outdated Methods**
 * **Directionally Localized (DLAA)**
 * **Subpixel Reconstruction(SRAA)**
+* **Coverage Sampling (CSAA)**
+
+    *CSAA-rendered image will rival 8x-16x MSAA whilst only putting a load on the system comparable to 4x MSAA*
+* **Quincunx Super (QSAA)**
+
+    *2x QSAA roughly equates to 3x MSAA in terms of quality.*
+* **Hybrid-Sampling (HSAA)**
+
+    *Combination of SSAA and MSAA. ???*
+
 
 Okay cool, but which one should *I* use.
 
@@ -221,9 +221,7 @@ SGSSAA looks amazing and doesn't make the image blurry at all, however it's not 
 Off 245FPS
 [Test 4x]
 
-[Compare quality to CSAA]
-
-CSAA seems like the best traditional method. All other methods are less effective or slower.
+CSAA and QSAA are apparently better than MSAA but they don't seem to exist anymore? I checked some graphics API learning resources and they only seem to teach MSAA and FXAA, that's probably why they are the only things I see in video games.
 
 TAA is not appropriate for a first-person game, it makes the game too blurry.
 In a lot of ways it's almost worse than motion blur, because at least with motion blur I can see things when I stand still.
@@ -236,6 +234,7 @@ In a lot of ways it's almost worse than motion blur, because at least with motio
 
 [DO WE NEED ANTI-ALIASING?]
 
+https://developer.download.nvidia.com/SDK/9.5/Samples/DEMOS/Direct3D9/src/CSAATutorial/docs/CSAATutorial.pdf
 https://www.pcgamingwiki.com/wiki/Glossary:Anti-aliasing_(AA)
 
 ## Color Grading
