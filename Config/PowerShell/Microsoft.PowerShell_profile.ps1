@@ -20,7 +20,7 @@ function init {
 	git remote add origin $args
 }
 function clone {
-	git clone $args
+	git clone $args --recursive
 }
 function install {
 	cargo install --path .

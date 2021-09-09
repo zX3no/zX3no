@@ -6,6 +6,8 @@ Aim assist in Apex is not like Fortnite. It barley gives you any advantage(so mu
 
 Tap strafing is similar to aim assist in that it barley does anything.
 
+Skill is earned not given.
+
 The skill ceiling is higher for PC players compared to console players.
 
 If you've never played an FPS game before aiming with either a controller or mouse is difficult.
@@ -166,9 +168,17 @@ I'm pretty sure Apex has skill based match making for all of it's modes(at least
 This is super important otherwise new players might get frustrated and quit. 
 It is important to keep in mind that experienced players spend the most money. I see streamers that have literally every skin in the game. Cater to your money makers, new players aren't spending money, regulars are.
 
-
 while we're on the topic of game balance, counter play you say.
 the reasons they gave were excuses.
 talk about accessibility because that's actually true.
 
+But I can't afford better equipment it's not fair!
+
 Dev plays on console.
+
+No one talks about adding keyboard/mouse to console. I think this might get problamatic if I mention it because controller player might feel entitled.
+
+
+Movement is something most players enjoy look at the pick rates. Octain number 1
+
+I think console players think anything that gives you an advantage is cheating so there fore keyboard and mouse is cheating.
