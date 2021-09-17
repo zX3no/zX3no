@@ -28,16 +28,11 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": "closeTab",
-            "keys": "ctrl+w"
-        },
-        {
             "command": 
             {
-                "action": "newTab",
-                "index": 1
+                "action": "closeTab"
             },
-            "keys": "ctrl+shift+t"
+            "keys": "ctrl+w"
         },
         {
             "command": 
@@ -46,6 +41,14 @@
                 "index": 0
             },
             "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 1
+            },
+            "keys": "ctrl+shift+t"
         },
         {
             "command": 
@@ -133,7 +136,10 @@
         "defaults": 
         {
             "colorScheme": "Dracula",
-            "fontFace": "Cascadia Code PL",
+            "font": 
+            {
+                "face": "Cascadia Code PL"
+            },
             "tabColor": "#282A36"
         },
         "list": 
@@ -150,7 +156,10 @@
                 "colorScheme": "Dracula",
                 "commandline": "PowerShell.exe -nologo",
                 "cursorShape": "emptyBox",
-                "fontFace": "Cascadia Code PL",
+                "font": 
+                {
+                    "face": "Cascadia Code PL"
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "icon": "ms-appx:///Images/Square44x44Logo.targetsize-32.png",
@@ -169,7 +178,10 @@
                 ],
                 "commandline": "wsl ncmpcpp",
                 "cursorShape": "emptyBox",
-                "fontFace": "Cascadia Code PL",
+                "font": 
+                {
+                    "face": "Cascadia Code PL"
+                },
                 "icon": "\ud83c\udfb5",
                 "name": "Music",
                 "tabTitle": "Music",
@@ -185,6 +197,16 @@
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "acrylicOpacity": 0.25,
+                "antialiasingMode": "cleartype",
+                "commandline": "nu.exe",
+                "guid": "{afeefd58-501c-4a5e-b7b4-d21b7c1624bf}",
+                "icon": "ms-appx:///Images/Square44x44Logo.targetsize-32.png",
+                "name": "Nushell",
+                "startingDirectory": "%USERPROFILE%/Desktop",
+                "useAcrylic": true
             }
         ]
     },

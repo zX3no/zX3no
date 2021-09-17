@@ -25,6 +25,9 @@ function clone {
 function install {
 	cargo install --path .
 }
+function installn {
+	cargo +nightly install --path .
+}
 function c {
 	gsudo choco install $args
 }
