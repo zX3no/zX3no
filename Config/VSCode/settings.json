@@ -84,5 +84,7 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "powershell.promptToUpdatePowerShell": false
+  "powershell.promptToUpdatePowerShell": false,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true
 }

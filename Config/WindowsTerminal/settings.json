@@ -154,7 +154,7 @@
                     "taskbar"
                 ],
                 "colorScheme": "Dracula",
-                "commandline": "PowerShell.exe -nologo",
+                "commandline": "nu.exe",
                 "cursorShape": "emptyBox",
                 "font": 
                 {
@@ -197,16 +197,6 @@
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "acrylicOpacity": 0.25,
-                "antialiasingMode": "cleartype",
-                "commandline": "nu.exe",
-                "guid": "{afeefd58-501c-4a5e-b7b4-d21b7c1624bf}",
-                "icon": "ms-appx:///Images/Square44x44Logo.targetsize-32.png",
-                "name": "Nushell",
-                "startingDirectory": "%USERPROFILE%/Desktop",
-                "useAcrylic": true
             }
         ]
     },
