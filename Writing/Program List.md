@@ -1,6 +1,5 @@
 |       Program       |                       Name                       |   Choco   |                                      Notes                                      |
 | :-----------------: | :----------------------------------------------: | :-------: | :-----------------------------------------------------------------------------: |
-|    Music Player     |                  ncmpcpp & mpd                   |           |                                                                                 |
 | Monitor Calibration |                    DisplayCAL                    |           |                                                                                 |
 |   Network Monitor   |                    NetLimiter                    |           | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
 |         ---         |                       ---                        |    ---    |                                       ---                                       |
@@ -18,7 +17,7 @@
 |   Remote Desktop    |                     AnyDesk                      |           |                                                                                 |
 |   Volume Control    |                    EarTrumpet                    |           |                                                                                 |
 |     Web Browser     |                  Google Chrome                   |           |                                                                                 |
-|        3D CG        |                     Blender                      |           |                                                                                 |
+|     3D Modeler      |                     Blender                      |           |                                                                                 |
 |   Tiling Manager    |                    PowerToys                     |           |                                                                                 |
 |    Diffing Tool     |                       Meld                       |           |                                                                                 |
 |    Game Launcher    |                Steam & Epic Games                |           |                           epicgameslauncher is broken                           |
@@ -28,6 +27,14 @@
 |  Prototyping Tool   |                      Figma                       |           |                                                                                 |
 |    Image Viewer     |               Quick Picture Viewer               |           |                              quick-picture-viewer                               |
 |         EQ          |                  Equalizer APO                   |           |                                equalizer-apo-np                                 |
+| Youtube Downloader  |                    youtube-dl                    |           |                                                                                 |
+|     File Search     |                    everything                    |           |                                                                                 |
+|    Shell Prompt     |                     starship                     |           |                                                                                 |
+|   Version Control   |                       git                        |           |                                                                                 |
+|   Screen Recorder   |                       OBS                        |           |                                   obs-studio                                    |
+|      Languages      |                  Rust \| NodeJS                  |           |                                rustup \| nodejs                                 |
+|    Music Player     |                    foobar2000                    |           |                                                                                 |
+|   System Monitor    |                  ProcessHacker                   |           |                                                                                 |
 |         ---         |                       ---                        |    ---    |                                       ---                                       |
 |     **Program**     |                     **Name**                     |  **npm**  |                                    **Notes**                                    |
 |    File Sharing     |                     ezshare                      |           |                                                                                 |
@@ -37,19 +44,21 @@
 |     Calculator      |   [Kalker](https://github.com/PaddiM8/kalker)    |           |                        Download binary instead of crate                         |
 |   System Monitor    | [bottom](https://github.com/ClementTsang/bottom) |           |                                                                                 |
 |        Ping         |      [gping](https://github.com/orf/gping)       |           |                                                                                 |
-|    Task Manager     |         [t](https://github.com/zX3no/t)          |           |                               cargo install t-cli                               |
+|    Task Manager     |         [t](https://github.com/zX3no/t)          |           |                                      t-cli                                      |
 |         ---         |                       ---                        |    ---    |                                       ---                                       |
 |     **Program**     |                     **Name**                     |           |                                    **Notes**                                    |
-|   Remote Shutdown   |             Remote Shutdown Manager              |           |   [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc)   |
 |   Registry Editor   |                  RegistryFinder                  |           |               [registry-finder.com](https://registry-finder.com/)               |
 |     Fan Control     |                     FanCtrl                      |           |              [lich426/FanCtrl](https://github.com/lich426/FanCtrl)              |
 |    Vector Editor    |                   Illustrator                    |           |                                                                                 |
+|    Music Player     |                  ncmpcpp & mpd                   |           |             [musicpd.org](https://www.musicpd.org/download/win32/)              |
+| Display Calibration |                    DisplayCAL                    |           |               [displaycal.net](https://displaycal.net/#download)                |
+|    System Tweaks    |                  nonstickmouse                   |           |              [nsm](https://www.jawfin.net/download/nsm_setup.php)               |
 </br>
 
 Choco Packages:
 
 ```
-choco install mpd displaycal netlimiter
+choco install displaycal netlimiter
 ```
 
 
@@ -71,7 +80,7 @@ Scoop:
 scoop bucket add extras
 scoop bucket add nonportable
 scoop bucket add dorado https://github.com/chawyehsu/dorado
-scoop install neovim neovide vscode vlc 7zip qbittorrent hourglass imhex paint.net windows-terminal wezterm etcher teamspeak3 discord anydesk eartrumpet googlechrome blender powertoys meld steam motrix ds4windows multimc figma quick-picture-viewer equalizer-apo-np
+scoop install neovim neovide vscode vlc 7zip qbittorrent hourglass imhex paint.net windows-terminal wezterm etcher teamspeak3 discord anydesk eartrumpet googlechrome blender powertoys meld steam motrix ds4windows multimc figma quick-picture-viewer equalizer-apo-np youtube-dl everything starship git obs-studio rustup nodejs foobar2000
 ```
 
 ---
