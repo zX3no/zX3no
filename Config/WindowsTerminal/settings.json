@@ -154,7 +154,7 @@
                     "taskbar"
                 ],
                 "colorScheme": "Dracula",
-                "commandline": "powershell.exe -nologo",
+                "commandline": "pwsh.exe -NoLogo",
                 "cursorShape": "emptyBox",
                 "font": 
                 {

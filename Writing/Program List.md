@@ -28,7 +28,6 @@
 |    Shell Prompt     |                     starship                     |           |                                                                                 |
 |   Version Control   |                       git                        |           |                                                                                 |
 |   Screen Recorder   |                       OBS                        |           |                                   obs-studio                                    |
-|      Languages      |                  Rust \| NodeJS                  |           |                                rustup \| nodejs                                 |
 |    Music Player     |                    foobar2000                    |           |                                                                                 |
 |   System Monitor    |                  ProcessHacker                   |           |                                                                                 |
 |         ---         |                       ---                        |    ---    |                                       ---                                       |
@@ -77,7 +76,7 @@ Scoop:
 scoop bucket add extras
 scoop bucket add nonportable
 scoop bucket add dorado https://github.com/chawyehsu/dorado
-scoop install neovim neovide vscode vlc 7zip qbittorrent hourglass imhex paint.net windows-terminal wezterm etcher teamspeak3 discord anydesk eartrumpet googlechrome blender powertoys meld steam motrix ds4windows multimc figma quick-picture-viewer equalizer-apo-np youtube-dl everything starship git obs-studio rustup nodejs foobar2000
+scoop install neovim neovide vscode vlc 7zip qbittorrent hourglass imhex paint.net windows-terminal wezterm etcher teamspeak3 discord anydesk eartrumpet googlechrome blender powertoys meld steam motrix ds4windows multimc figma quick-picture-viewer equalizer-apo-np youtube-dl everything starship git obs-studio foobar2000
 ```
 
 ---
