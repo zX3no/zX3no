@@ -1,66 +1,57 @@
-|Program|Name|Choco|Notes|
-|:-:|:-:|:-:|:-:|
-| Video Player | VLC |  | |
-| Music Player | ncmpcpp & mpd |  | |
-| Torrent | qBittorrent |  | [Dark Theme](https://github.com/jagannatharjun/qbt-theme)|
-| Minecraft Launcher | MultiMC |  | winget broken |
-| Monitor Calibration | DisplayCAL |  | winget broken |
-| Timer | Hourglass | | hourglass.install |
-| Network Monitor | NetLimiter |  | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
-| Hex Editor | ImHex | | |
-| Image Editor | Photoshop \| Paint.NET | | |
-| Vector Editor | Illustrator | | |
-| Git Repository Hub | RepoZ | | |
-| PS4 Controller | ds4 | | ds4windows |
-| Resource Monitor | ntop | | ntop.portable |
-| VOIP | Discord | | |
-| Download Manager | Motrix | | |
-| Game Launcher | Steam & Epic Games | | |
-| Diffing Tool | Meld | | |
-| Tiling Manager | PowerToys | | |
-| 3D CG | Blender | | |
-| Web Browser | Google Chrome | | |
-| Volume Control | EarTrumpet | | |
-| Remote Desktop | AnyDesk | | |
-| VOIP | TeamSpeak 3 | | [Dark Theme](https://github.com/randomhost/teamspeak-dark/releases) \| teamspeak |
-| Text Editor | Visual Studio Code| | [Notepads](https://github.com/JasonStein/Notepads) is also good.|
-| ISO Imager | Etcher | | |
-| Terminal | Windows Terminal | | microsoft-windows-terminal |
-| Archive  | 7-Zip | | [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)|
-| --- | --- | --- | --- |
-| **Program** | **Name** | **npm** | **Notes** |
-| Todo List | taskbook | | |
-| Speed Test | speed-test | | |
-| File Sharing | ezshare | | |
-| --- | --- | --- | --- |
-| **Program** | **Name** | **Cargo** | **Notes** |
-| Overclocking | nvoclock | | |
-| Calculator | [Kalker](https://github.com/PaddiM8/kalker) | | Download binary instead of crate |
-| System Monitor | [bottom](https://github.com/ClementTsang/bottom) | | |
-| Ping | [gping](https://github.com/orf/gping) | | |
-| --- | --- | --- | --- |
-| **Program** | **Name** | **Winget** | **Notes** |
-| Prototyping Tool | Figma | | |
-| Image Viewer | Quick Picture Viewer | | ModuleArt.QuickPictureViewer |
-| --- | --- | --- | --- |
-| **Program** | **Name** | | **Notes** |
-| Remote Shutdown | Remote Shutdown Manager | | [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc) |
-| Registry Editor | RegistryFinder | | [registry-finder.com](https://registry-finder.com/) |
-| Fan Control | FanCtrl | | [lich426/FanCtrl](https://github.com/lich426/FanCtrl) |
-| EQ | Equalizer APO | | [Download](https://sourceforge.net/projects/equalizerapo/files/latest/download)|
+|       Program       |                       Name                       |   Choco   |                                      Notes                                      |
+| :-----------------: | :----------------------------------------------: | :-------: | :-----------------------------------------------------------------------------: |
+|    Music Player     |                  ncmpcpp & mpd                   |           |                                                                                 |
+| Monitor Calibration |                    DisplayCAL                    |           |                                                                                 |
+|   Network Monitor   |                    NetLimiter                    |           | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
+|         ---         |                       ---                        |    ---    |                                       ---                                       |
+|     **Program**     |                     **Name**                     | **scoop** |                                    **Notes**                                    |
+|     Text Editor     |           Neovim \| Neovide \| VSCode            |           |                                                                                 |
+|    Video Player     |                       VLC                        |           |                                                                                 |
+|       Archive       |                      7-Zip                       |           |         [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)          |
+|       Torrent       |                   qBittorrent                    |           |            [Dark Theme](https://github.com/jagannatharjun/qbt-theme)            |
+|        Timer        |                    Hourglass                     |           |                                                                                 |
+|     Hex Editor      |                      ImHex                       |           |                                                                                 |
+|    Image Editor     |              Photoshop \| Paint.NET              |           |                                                                                 |
+|      Terminal       |           Windows Terminal \| WezTerm            |           |                           windows-terminal \| wezterm                           |
+|     ISO Imager      |                      Etcher                      |           |                                                                                 |
+|        VOIP         |              TeamSpeak 3 \| Discord              |           |       [Dark Theme](https://github.com/randomhost/teamspeak-dark/releases)       |
+|   Remote Desktop    |                     AnyDesk                      |           |                                                                                 |
+|   Volume Control    |                    EarTrumpet                    |           |                                                                                 |
+|     Web Browser     |                  Google Chrome                   |           |                                                                                 |
+|        3D CG        |                     Blender                      |           |                                                                                 |
+|   Tiling Manager    |                    PowerToys                     |           |                                                                                 |
+|    Diffing Tool     |                       Meld                       |           |                                                                                 |
+|    Game Launcher    |                Steam & Epic Games                |           |                           epicgameslauncher is broken                           |
+|  Download Manager   |                      Motrix                      |           |                                                                                 |
+|   PS4 Controller    |                       ds4                        |           |                                   ds4windows                                    |
+| Minecraft Launcher  |                     MultiMC                      |           |                                                                                 |
+|  Prototyping Tool   |                      Figma                       |           |                                                                                 |
+|    Image Viewer     |               Quick Picture Viewer               |           |                              quick-picture-viewer                               |
+|         EQ          |                  Equalizer APO                   |           |                                equalizer-apo-np                                 |
+|         ---         |                       ---                        |    ---    |                                       ---                                       |
+|     **Program**     |                     **Name**                     |  **npm**  |                                    **Notes**                                    |
+|    File Sharing     |                     ezshare                      |           |                                                                                 |
+|         ---         |                       ---                        |    ---    |                                       ---                                       |
+|     **Program**     |                     **Name**                     | **Cargo** |                                    **Notes**                                    |
+|    Overclocking     |                     nvoclock                     |           |                                                                                 |
+|     Calculator      |   [Kalker](https://github.com/PaddiM8/kalker)    |           |                        Download binary instead of crate                         |
+|   System Monitor    | [bottom](https://github.com/ClementTsang/bottom) |           |                                                                                 |
+|        Ping         |      [gping](https://github.com/orf/gping)       |           |                                                                                 |
+|    Task Manager     |         [t](https://github.com/zX3no/t)          |           |                               cargo install t-cli                               |
+|         ---         |                       ---                        |    ---    |                                       ---                                       |
+|     **Program**     |                     **Name**                     |           |                                    **Notes**                                    |
+|   Remote Shutdown   |             Remote Shutdown Manager              |           |   [karpach/remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc)   |
+|   Registry Editor   |                  RegistryFinder                  |           |               [registry-finder.com](https://registry-finder.com/)               |
+|     Fan Control     |                     FanCtrl                      |           |              [lich426/FanCtrl](https://github.com/lich426/FanCtrl)              |
+|    Vector Editor    |                   Illustrator                    |           |                                                                                 |
 </br>
 
 Choco Packages:
 
 ```
-choco install vlc mpd qbittorrent multimc displaycal hourglass.install netlimiter imhex paint.net ds4windows ntop.portable discord motrix steam epicgameslauncher meld powertoys blender googlechrome eartrumpet anydesk teamspeak vscode etcher microsoft-windows-terminal 7zip
+choco install mpd displaycal netlimiter
 ```
 
-Winget Packages:
-
-```
-winget install figma ModuleArt.QuickPictureViewer
-```
 
 Node Packages:
 
@@ -72,6 +63,15 @@ Rust Packages:
 
 ```
 cargo install nvoclock kalker bottom gping t-cli
+```
+
+Scoop:
+
+```
+scoop bucket add extras
+scoop bucket add nonportable
+scoop bucket add dorado https://github.com/chawyehsu/dorado
+scoop install neovim neovide vscode vlc 7zip qbittorrent hourglass imhex paint.net windows-terminal wezterm etcher teamspeak3 discord anydesk eartrumpet googlechrome blender powertoys meld steam motrix ds4windows multimc figma quick-picture-viewer equalizer-apo-np
 ```
 
 ---
@@ -87,8 +87,6 @@ Ueli is still good because it has more options than PowerToys
 I've always wanted tabs in explorer but that feature was but on hold. There is a program called [Files](https://github.com/files-community/Files) that has this but it's too slow to use.
 
 I also need a cli timer
-
-I have mixed feeling about my cli task manger, most of them are only available on Linux. I'm not sure what I want yet.
 
 ---
 Keystroke Launchers:

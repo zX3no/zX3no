@@ -1,7 +1,11 @@
-pivot_mode = "always"
 skip_welcome_message = true
 
 startup = [
+"alias cls = clear",
+"alias nv = neovide",
+"alias appdata = $nu.env.APPDATA",
+"alias s = scoop install",
+"alias sr = scoop uninstall",
 "mkdir ~/.cache/starship",
 "starship init nu | save ~/.cache/starship/init.nu",
 "source ~/.cache/starship/init.nu",

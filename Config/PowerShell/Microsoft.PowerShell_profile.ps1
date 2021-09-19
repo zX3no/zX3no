@@ -31,6 +31,10 @@ function installn {
 function c {
 	gsudo choco install $args
 }
+
+function s {
+	scoop install $args
+}
 function cr {
 	gsudo choco uninstall $args
 }
