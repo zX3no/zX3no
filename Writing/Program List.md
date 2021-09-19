@@ -1,9 +1,5 @@
-|       Program       |                       Name                       |   Choco   |                                      Notes                                      |
+|       Program       |                       Name                       |   Scoop   |                                      Notes                                      |
 | :-----------------: | :----------------------------------------------: | :-------: | :-----------------------------------------------------------------------------: |
-| Monitor Calibration |                    DisplayCAL                    |           |                                                                                 |
-|   Network Monitor   |                    NetLimiter                    |           | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
-|         ---         |                       ---                        |    ---    |                                       ---                                       |
-|     **Program**     |                     **Name**                     | **scoop** |                                    **Notes**                                    |
 |     Text Editor     |           Neovim \| Neovide \| VSCode            |           |                                                                                 |
 |    Video Player     |                       VLC                        |           |                                                                                 |
 |       Archive       |                      7-Zip                       |           |         [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)          |
@@ -53,6 +49,7 @@
 |    Music Player     |                  ncmpcpp & mpd                   |           |             [musicpd.org](https://www.musicpd.org/download/win32/)              |
 | Display Calibration |                    DisplayCAL                    |           |               [displaycal.net](https://displaycal.net/#download)                |
 |    System Tweaks    |                  nonstickmouse                   |           |              [nsm](https://www.jawfin.net/download/nsm_setup.php)               |
+|   Network Monitor   |                    NetLimiter                    |           | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
 </br>
 
 Choco Packages:
