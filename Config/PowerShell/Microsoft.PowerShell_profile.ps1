@@ -1,45 +1,13 @@
-﻿$j = 'D:\Git\zX3no'
-$d = $home + '\Desktop'
-$date = Get-Date
-function push {
+﻿function push {
     git checkout main
 	git add .
 	git commit -am "$args"
 	git push origin main
 	[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
 }
-function pushm{
-    git checkout master 
-	git add .
-	git commit -am "$args"
-	git push origin master 
-	[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
-}
 function init {
 	git init -b main
 	git remote add origin $args
-}
-function clone {
-	git clone $args --recursive
-}
-function install {
-	cargo install --path .
-}
-function installn {
-	cargo +nightly install --path .
-}
-function c {
-	gsudo choco install $args
-}
-
-function s {
-	scoop install $args
-}
-function cr {
-	gsudo choco uninstall $args
-}
-function cu {
-	gsudo choco upgrade all
 }
 function rmf {
 	Remove-Item -Force -Recurse $args
@@ -65,29 +33,6 @@ function faceit {
 		Write-Host "On/Off"
 	}
 }
-function g {
-	$dir = $args[0]
-	if($dir) {
-		Set-Location "D:\Git\$dir"
-	}
-	else {
-		Get-ChildItem D:\Git\
-	}
-}
-function vs {
-	$dir = $args[0]
-	if($dir) {
-		code D:\Git\$dir 
-		Set-Location "D:\Git\$dir"
-	}
-	else {
-		Get-ChildItem D:\Git\
-	}
-}
-function mouse {
-	Set-Location "C:\tools\RawAccel"
-	.\writer settings.json
-}
 function overclock{
     Write-Output "overclocked gpu"
 	gsudo
@@ -98,5 +43,5 @@ function reboot {
 	Restart-Computer -Force
 }
 Set-Alias -Name cal -Value kalker
-Set-Alias -Name su -Value gsudo
-Set-PoshPrompt -Theme sus
+Set-Alias -Name s -Value scoop
+Invoke-Expression (&starship init powershell)
