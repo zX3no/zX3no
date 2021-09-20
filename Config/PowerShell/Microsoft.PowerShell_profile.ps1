@@ -1,6 +1,5 @@
 ﻿$local = $env:LOCALAPPDATA
 $app = $env:APPDATA
-
 function push {
     git checkout main
 	git add .
@@ -48,10 +47,6 @@ function reboot {
 function g {
 	cd D:\Git\$args
 }
-function nconfig {
-	cd $local/nvim
-}
-
 function prompt {
 	$dir = $executioncontext.sessionstate.path.currentlocation.path
 	$path = switch -Wildcard ($dir) {
@@ -63,7 +58,8 @@ function prompt {
 	Write-Host (" ❯") -NoNewline -ForegroundColor Green
     return " "
 }
-	
+
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name s -Value scoop
 Set-Alias -Name n -Value neovide
+Set-Alias -name ls -Value lsd
