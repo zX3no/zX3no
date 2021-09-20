@@ -1,4 +1,7 @@
-﻿function push {
+﻿$local = $env:LOCALAPPDATA
+$app = $env:APPDATA
+
+function push {
     git checkout main
 	git add .
 	git commit -am "$args"
@@ -42,6 +45,25 @@ function overclock{
 function reboot {
 	Restart-Computer -Force
 }
+function g {
+	cd D:\Git\$args
+}
+function nconfig {
+	cd $local/nvim
+}
+
+function prompt {
+	$dir = $executioncontext.sessionstate.path.currentlocation.path
+	$path = switch -Wildcard ($dir) {
+        "$HOME" { "~" }
+        "$HOME\*" { $dir.replace($HOME, "~") }
+        default { $dir }
+    }
+    Write-Host ("" + $path) -NoNewLine -ForegroundColor Cyan
+	Write-Host (" ❯") -NoNewline -ForegroundColor Green
+    return " "
+}
+	
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name s -Value scoop
-Invoke-Expression (&starship init powershell)
+Set-Alias -Name n -Value neovide
