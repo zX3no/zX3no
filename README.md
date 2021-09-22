@@ -1,5 +1,5 @@
 ## Projects:
-*Rust:*
+Rust:*
 
 t, binary-clock, timer, Search
 

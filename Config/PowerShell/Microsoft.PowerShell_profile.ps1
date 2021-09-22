@@ -1,7 +1,8 @@
 ﻿$local = $env:LOCALAPPDATA
 $app = $env:APPDATA
+$nvim = "$local\nvim"
 function push {
-    git checkout main
+	git checkout main
 	git add .
 	git commit -am "$args"
 	git push origin main
@@ -18,25 +19,22 @@ function profile {
 	code $profile
 }
 function faceit {
-	if ($args[0] -eq "on")
-	{
+	if ($args[0] -eq "on") {
 		Write-Host "Turning faceit on..."
 		gsudo bcdedit /set hypervisorlaunchtype off
 		gsudo reg add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d 0 /f
 	}
-	elseif($args[0] -eq "off") 
-	{
+	elseif ($args[0] -eq "off") {
 		Write-Host "Turning faceit off..."
 		gsudo bcdedit /set hypervisorlaunchtype auto
 		gsudo reg add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d 1 /f
 	}
-	else
-	{
+	else {
 		Write-Host "On/Off"
 	}
 }
-function overclock{
-    Write-Output "overclocked gpu"
+function overclock {
+	Write-Output "overclocked gpu"
 	gsudo
 	nvoclock set pstate 500000 -c memory
 	nvoclock set pstate 200000 -c graphics
@@ -50,13 +48,16 @@ function g {
 function prompt {
 	$dir = $executioncontext.sessionstate.path.currentlocation.path
 	$path = switch -Wildcard ($dir) {
-        "$HOME" { "~" }
-        "$HOME\*" { $dir.replace($HOME, "~") }
-        default { $dir }
-    }
-    Write-Host ("" + $path) -NoNewLine -ForegroundColor Cyan
+		"$HOME" { "~" }
+		"$HOME\*" { $dir.replace($HOME, "~") }
+		default { $dir }
+	}
+	Write-Host ("" + $path) -NoNewLine -ForegroundColor Cyan
 	Write-Host (" ❯") -NoNewline -ForegroundColor Green
-    return " "
+	return " "
+}
+function np {
+	nvim +PackerSync
 }
 
 Set-Alias -Name cal -Value kalker

@@ -18,14 +18,7 @@
   "autoHide.sideBarDelay": 0,
   "autoHide.panelDelay": 0,
   "editor.fontFamily": "Consolas, 'Courier New', monospace, Cascadia Code PL",
-  "[markdown]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "[rust]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "matklad.rust-analyzer"
-  },
+  "editor.formatOnSave": true,
 	"vim.visualModeKeyBindingsNonRecursive": [
     {
       "before": ["p"],
@@ -86,5 +79,6 @@
   },
   "powershell.promptToUpdatePowerShell": false,
   "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.semanticHighlighting.enabled": true
 }
