@@ -1,6 +1,8 @@
-﻿$local = $env:LOCALAPPDATA
+﻿$g = "D:\Git"
+$local = $env:LOCALAPPDATA
 $app = $env:APPDATA
 $nvim = "$local\nvim"
+$config = "$g\zX3no\Config"
 function push {
 	git checkout main
 	git add .

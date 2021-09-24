@@ -154,11 +154,11 @@
                     "taskbar"
                 ],
                 "colorScheme": "Dracula",
-                "commandline": "pwsh.exe -NoLogo",
-                "cursorShape": "emptyBox",
+                "commandline": "C:\\Users\\Bay\\scoop\\apps\\powershell\\7.1.4\\pwsh.exe -NoLogo",
+                "cursorShape": "bar",
                 "font": 
                 {
-                    "face": "FiraCode NF"
+                    "face": "Cascadia Code PL"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
