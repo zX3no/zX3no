@@ -1,4 +1,4 @@
-# Fps-List
+# FPS-List
 
 ## Table of contents
 

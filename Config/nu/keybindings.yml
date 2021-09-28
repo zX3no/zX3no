@@ -1,9 +1,0 @@
-- key:
-    Backspace:
-  modifiers:
-    CTRL:
-  binding:
-    Kill:
-      BackwardWord:
-        repeat: 1
-        word: Big

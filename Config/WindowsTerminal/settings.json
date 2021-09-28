@@ -145,7 +145,7 @@
         "list": 
         [
             {
-                "acrylicOpacity": 0.34999999999999998,
+                "acrylicOpacity": 0.5,
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
                 "bellStyle": 
@@ -164,6 +164,7 @@
                 "hidden": false,
                 "icon": "ms-appx:///Images/Square44x44Logo.targetsize-32.png",
                 "name": "Terminal",
+                "padding": "8",
                 "startingDirectory": "%USERPROFILE%/Desktop",
                 "suppressApplicationTitle": false,
                 "useAcrylic": true

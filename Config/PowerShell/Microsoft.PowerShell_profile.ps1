@@ -10,6 +10,13 @@ function push {
 	git push origin main
 	[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
 }
+function pushm {
+	git checkout master
+	git add .
+	git commit -am "$args"
+	git push origin master
+	[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
+}
 function init {
 	git init -b main
 	git remote add origin $args
@@ -61,8 +68,30 @@ function prompt {
 function np {
 	nvim +PackerSync
 }
+function sa {
+	scoop install $args
+}
+function su {
+	scoop uninstall $args 
+}
+function ci {
+	cargo install --path .
+}
+function cu {
+	cargo uninstall $args
+}
+function color {
+	[enum]::GetValues([System.ConsoleColor]) | Foreach-Object { Write-Host $_ -ForegroundColor $_ }
+}
+
+Set-Alias -Name s -Value scoop
+Set-Alias -Name c -Value cargo
 
 Set-Alias -Name cal -Value kalker
-Set-Alias -Name s -Value scoop
 Set-Alias -Name n -Value neovide
+
 Set-Alias -name ls -Value lsd
+
+Invoke-Expression (& {
+    (zoxide init --hook pwd powershell) -join "`n"
+	})
