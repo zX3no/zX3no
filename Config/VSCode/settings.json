@@ -1,54 +1,15 @@
 {
   "editor.fontSize": 16,
-  "workbench.colorTheme": "Dracula",
-  "terminal.integrated.gpuAcceleration": "off",
-  "terminal.integrated.profiles.windows": {
-    "PowerShell -NoLogo": {
-      "source": "PowerShell",
-      "args": ["-NoLogo"]
-    }
-  },
-  "terminal.integrated.defaultProfile.windows": "PowerShell -NoLogo",
-  "mesonbuild.configureOnOpen": true,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "python.defaultInterpreterPath": "C:\\Python39\\python.exe",
-  "powershell.buttons.showRunButtons": false,
-  "powershell.integratedConsole.showOnStartup": false,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.fontFamily": "Consolas, Cascadia Code PL",
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "autoHide.sideBarDelay": 0,
   "autoHide.panelDelay": 0,
-  "editor.fontFamily": "Consolas, 'Courier New', monospace, Cascadia Code PL",
-  "editor.formatOnSave": true,
-	"vim.visualModeKeyBindingsNonRecursive": [
-    {
-      "before": ["p"],
-      "commands":["editor.action.clipboardPasteAction"]
-    }
-  ],
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "k"],
-      "after": ["<Esc>"]
-    },
-    {
-      "before": ["k", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindings": [
-      {
-          "before": ["gcc"],
-          "commands": [
-            "editor.action.commentLine"
-            ]
-      },
-      {
-        "before": ["gc"],
-        "commands": [
-          "editor.action.blockComment"
-        ]
-      }
-  ],
+  "workbench.colorTheme": "Dracula",
   "multiCommand.commands": [
     {
       "command": "multiCommand.saveAndCloseEditor",
@@ -58,38 +19,15 @@
       ]
     }
   ],
-  "tabnine.experimentalAutoImports": true,
-  "vim.useSystemClipboard": true,
-  "clangd.path": "c:\\Users\\Bay\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\12.0.0\\clangd_12.0.0\\bin\\clangd.exe",
-  "extensions.ignoreRecommendations": true,
-  "explorer.confirmDelete": false,
-  "workbench.startupEditor": "none",
   "rust-analyzer.inlayHints.enable": false,
-  "editor.inlineSuggest.enabled": true,
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
+  "terminal.integrated.profiles.windows": {
+    "pwsh": {
+      "path": "pwsh",
+      "args": [
+        "-NoLogo"
+      ],
+    }
   },
-  "diffEditor.ignoreTrimWhitespace": false,
-  "explorer.confirmDragAndDrop": false,
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "powershell.promptToUpdatePowerShell": false,
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.semanticHighlighting.enabled": true,
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "colorize.include": [
-    "**/*.toml",
-    "**/*.css",
-    "**/*.scss",
-    "**/*.sass",
-    "**/*.less",
-    "**/*.styl"
-  ]
+  "terminal.integrated.defaultProfile.windows": "pwsh",
+  "vscode-neovim.neovimExecutablePaths.win32": "nvim.exe",
 }

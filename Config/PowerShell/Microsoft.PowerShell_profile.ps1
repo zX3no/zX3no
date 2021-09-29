@@ -68,10 +68,10 @@ function prompt {
 function np {
 	nvim +PackerSync
 }
-function sa {
+function s {
 	scoop install $args
 }
-function su {
+function sr {
 	scoop uninstall $args 
 }
 function ci {
@@ -84,7 +84,6 @@ function color {
 	[enum]::GetValues([System.ConsoleColor]) | Foreach-Object { Write-Host $_ -ForegroundColor $_ }
 }
 
-Set-Alias -Name s -Value scoop
 Set-Alias -Name c -Value cargo
 
 Set-Alias -Name cal -Value kalker
