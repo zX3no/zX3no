@@ -155,7 +155,7 @@
                 ],
                 "colorScheme": "Dracula",
                 "commandline": "C:\\Users\\Bay\\scoop\\apps\\powershell\\7.1.4\\pwsh.exe -NoLogo",
-                "cursorShape": "bar",
+                "cursorShape": "doubleUnderscore",
                 "font": 
                 {
                     "face": "Cascadia Code PL"

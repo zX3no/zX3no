@@ -46,7 +46,7 @@ diagnostic = { modifiers = ["underlined"] }
 "ui.text" = { fg = "#f8f8f2" }
 "ui.text.focus" = { fg = "#f8f8f2", bg = "#2C323C", modifiers = ['bold'] }
 
-"ui.help" = { bg = "#282a36" }
-"ui.popup" = { bg = "#282a36" }
-"ui.window" = { bg = "#282a36" }
+"ui.help" = { bg = "#6272a4" }
+"ui.popup" = { bg = "#44475a" }
+"ui.window" = { bg = "#6272a4" }
 "ui.menu.selected" = { fg = "#282C34", bg = "#ff79c6" }
