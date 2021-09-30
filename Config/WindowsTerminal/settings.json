@@ -154,7 +154,7 @@
                     "taskbar"
                 ],
                 "colorScheme": "Dracula",
-                "commandline": "C:\\Users\\Bay\\scoop\\apps\\powershell\\7.1.4\\pwsh.exe -NoLogo",
+                "commandline": "C:\\Users\\Bay\\scoop\\apps\\pwsh\\7.1.4\\pwsh.exe -NoLogo",
                 "cursorShape": "doubleUnderscore",
                 "font": 
                 {
@@ -191,13 +191,6 @@
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true
-            },
-            {
-                "bellStyle": "none",
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
             }
         ]
     },

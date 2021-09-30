@@ -1,6 +1,6 @@
 |       Program       |                       Name                       |   Scoop   |                                      Notes                                      |
 |:-------------------:|:------------------------------------------------:|:---------:|:-------------------------------------------------------------------------------:|
-|     Text Editor     |           Neovim \| Neovide \| VSCode            |           |                                                                                 |
+|     Text Editor     |                 VSCode  + Neovim                 |           |                                                                                 |
 |    Video Player     |                       VLC                        |           |                                                                                 |
 |       Archive       |                      7-Zip                       |           |         [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)          |
 |       Torrent       |                   qBittorrent                    |           |            [Dark Theme](https://github.com/jagannatharjun/qbt-theme)            |
@@ -8,13 +8,12 @@
 |     Hex Editor      |                      ImHex                       |           |                                                                                 |
 |    Image Editor     |              Photoshop \| Paint.NET              |           |                                                                                 |
 |      Terminal       |           Windows Terminal \| WezTerm            |           |                           windows-terminal \| wezterm                           |
-|     ISO Imager      |                      Etcher                      |           |                                                                                 |
-|        VOIP         |              TeamSpeak 3 \| Discord              |           |       [Dark Theme](https://github.com/randomhost/teamspeak-dark/releases)       |
+|     ISO Imager      |                      Rufus                       |           |                                                                                 |
+|        VOIP         |                   TeamSpeak 3                    |           |       [Dark Theme](https://github.com/randomhost/teamspeak-dark/releases)       |
 |   Remote Desktop    |                     AnyDesk                      |           |                                                                                 |
 |   Volume Control    |                    EarTrumpet                    |           |                                                                                 |
-|     Web Browser     |                  Google Chrome                   |           |                                                                                 |
 |     3D Modeler      |                     Blender                      |           |                                                                                 |
-|   Tiling Manager    |                    PowerToys                     |           |                                                                                 |
+|   Tiling Manager    |                    PowerToys                     |           |                                  powertoys-np                                   |
 |    Diffing Tool     |                       Meld                       |           |                                                                                 |
 |    Game Launcher    |                Steam & Epic Games                |           |                           epicgameslauncher is broken                           |
 |  Download Manager   |                      Motrix                      |           |                                                                                 |
@@ -25,11 +24,11 @@
 |         EQ          |                  Equalizer APO                   |           |                                equalizer-apo-np                                 |
 | Youtube Downloader  |                    youtube-dl                    |           |                                                                                 |
 |     File Search     |                    everything                    |           |                                                                                 |
-|    Shell Prompt     |                     starship                     |           |                                                                                 |
 |   Version Control   |                       git                        |           |                                                                                 |
 |   Screen Recorder   |                       OBS                        |           |                                   obs-studio                                    |
 |    Music Player     |                    foobar2000                    |           |                                                                                 |
 |   System Monitor    |                  ProcessHacker                   |           |                                                                                 |
+|        Shell        |                    PowerShell                    |           |                                      pwsh                                       |
 |         ---         |                       ---                        |    ---    |                                       ---                                       |
 |     **Program**     |                     **Name**                     |  **npm**  |                                    **Notes**                                    |
 |    File Sharing     |                     ezshare                      |           |                                                                                 |
@@ -49,14 +48,12 @@
 | Display Calibration |                    DisplayCAL                    |           |               [displaycal.net](https://displaycal.net/#download)                |
 |    System Tweaks    |                  nonstickmouse                   |           |              [nsm](https://www.jawfin.net/download/nsm_setup.php)               |
 |   Network Monitor   |                    NetLimiter                    |           | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
+|     Web Browser     |                  Google Chrome                   |           |                          Doesn't like package mangers                           |
+|        VOIP         |                     Discord                      |           |                                        "                                        |
+
 </br>
 
 Choco Packages:
-
-```
-choco install displaycal netlimiter
-```
-
 
 Node Packages:
 
@@ -73,10 +70,12 @@ cargo install nvoclock kalker bottom gping t-cli
 Scoop:
 
 ```
+scoop install git
 scoop bucket add extras
 scoop bucket add nonportable
 scoop bucket add dorado https://github.com/chawyehsu/dorado
-scoop install neovim neovide vscode vlc 7zip qbittorrent hourglass imhex paint.net windows-terminal wezterm etcher teamspeak3 discord anydesk eartrumpet googlechrome blender powertoys meld steam motrix ds4windows multimc figma quick-picture-viewer equalizer-apo-np youtube-dl everything starship git obs-studio foobar2000
+scoop install vscode vlc 7zip qbittorrent hourglass imhex paint.net windows-terminal wezterm teamspeak3 anydesk eartrumpet meld steam motrix ds4windows multimc figma quick-picture-viewer equalizer-apo-np youtube-dl everything git obs-studio foobar2000 pwsh neovim windows-terminal gsudo quick-picture-viewer powertoys-np rufus
+scoop install blender
 ```
 
 ---

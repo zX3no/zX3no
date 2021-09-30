@@ -32,5 +32,6 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "pwsh",
-  "vscode-neovim.neovimExecutablePaths.win32": "nvim.exe",
+  "security.workspace.trust.enabled": false,
+  "vim.useSystemClipboard": true,
 }

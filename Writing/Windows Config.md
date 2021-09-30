@@ -5,35 +5,14 @@
 *In PowerShell as Admin*
 
 ```
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-```
-```
-choco install gsudo python git rust nodejs
+Set-ExecutionPolicy Bypass -Scope Process -Force; iwr -useb get.scoop.sh | iex
 ```
 
 Install programs from [program list](https://github.com/zX3no/zX3no/blob/main/Writing/Program%20List.md). I did have them here but I updated them so much it was annoying to move everything around.
 
----
+Install [cascadia code](https://github.com/microsoft/cascadia-code)
 
-### Symbolic Links:
-
-// TODO
-
----
-
-### Dark Themes:
-
-//TODO
-
----
-
-### Manual Downloads:
-
-[FanCtrl](https://github.com/lich426/FanCtrl/releases)
-
-[remote-shutdown-pc](https://github.com/karpach/remote-shutdown-pc/releases)
-
-I should make these into choco packages.
+Symlink `gsudo D:\Git\zX3no\Scripts\Symlink.ps1`
 
 ---
 

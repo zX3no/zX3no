@@ -25,7 +25,7 @@ function rmf {
 	Remove-Item -Force -Recurse $args
 }
 function profile {
-	code $profile
+	code $PROFILE.AllUsersCurrentHost
 }
 function faceit {
 	if ($args[0] -eq "on") {
@@ -92,5 +92,7 @@ Set-Alias -Name n -Value neovide
 Set-Alias -name ls -Value lsd
 
 Invoke-Expression (& {
-    (zoxide init --hook pwd powershell) -join "`n"
+    (zoxide init powershell) -join "`n"
 	})
+
+Set-Alias -Name cd -Value z -Option AllScope 
