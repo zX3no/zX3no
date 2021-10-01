@@ -7,7 +7,7 @@ gsudo
 
 #APO
 Remove-Item  "C:\Program Files\EqualizerAPO\config\config.txt"
-New-Item -ItemType SymbolicLink -Path "C:\Program Files\EqualizerAPO\config\config.txt" -Target "$git\APO\config.txt"
+Copy-Item "$git\APO\config.txt" "C:\Program Files\EqualizerAPO\config\config.txt"
 
 #PowerShell
 Remove-Item "$pwsh"

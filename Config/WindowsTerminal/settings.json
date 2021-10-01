@@ -1,10 +1,8 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -19,8 +17,7 @@
             "keys": "ctrl+v"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -28,95 +25,83 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "closeTab"
             },
             "keys": "ctrl+shift+w"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab",
                 "index": 0
             },
             "keys": "ctrl+t"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab",
                 "index": 1
             },
             "keys": "ctrl+shift+t"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 0
             },
             "keys": "ctrl+1"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 1
             },
             "keys": "ctrl+2"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 2
             },
             "keys": "ctrl+3"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 3
             },
             "keys": "ctrl+4"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 7
             },
             "keys": "ctrl+8"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 4
             },
             "keys": "ctrl+5"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 5
             },
             "keys": "ctrl+6"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 6
             },
             "keys": "ctrl+7"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 8
             },
@@ -126,38 +111,32 @@
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "disabledProfileSources": 
-    [
+    "minimizeToTray": true,
+    "disabledProfileSources": [
         "Windows.Terminal.Azure",
         "Windows.Terminal.PowershellCore"
     ],
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "colorScheme": "Dracula",
-            "font": 
-            {
+            "font": {
                 "face": "Cascadia Code PL"
             },
             "tabColor": "#282A36"
         },
-        "list": 
-        [
+        "list": [
             {
                 "acrylicOpacity": 0.5,
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
-                "bellStyle": 
-                [
+                "bellStyle": [
                     "window",
                     "taskbar"
                 ],
                 "colorScheme": "Dracula",
                 "commandline": "C:\\Users\\Bay\\scoop\\apps\\pwsh\\7.1.4\\pwsh.exe -NoLogo",
                 "cursorShape": "doubleUnderscore",
-                "font": 
-                {
+                "font": {
                     "face": "Cascadia Code PL"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -172,15 +151,13 @@
             {
                 "acrylicOpacity": 0.40000000000000002,
                 "antialiasingMode": "cleartype",
-                "bellStyle": 
-                [
+                "bellStyle": [
                     "window",
                     "taskbar"
                 ],
                 "commandline": "wsl ncmpcpp",
                 "cursorShape": "emptyBox",
-                "font": 
-                {
+                "font": {
                     "face": "Cascadia Code PL"
                 },
                 "icon": "\ud83c\udfb5",
@@ -194,8 +171,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
