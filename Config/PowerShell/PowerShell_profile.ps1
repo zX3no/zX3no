@@ -80,6 +80,9 @@ function ci {
 function cu {
 	cargo uninstall $args
 }
+function cr {
+	cargo run --release $args
+}
 function color {
 	[enum]::GetValues([System.ConsoleColor]) | Foreach-Object { Write-Host $_ -ForegroundColor $_ }
 }
