@@ -34,4 +34,12 @@
   "terminal.integrated.defaultProfile.windows": "pwsh",
   "security.workspace.trust.enabled": false,
   "vim.useSystemClipboard": true,
+  "bracket-pair-colorizer-2.colors": [
+    "#f8f8f2",
+    "#bd93f9",
+    "#f1fa8c",
+    "#ff79c6",
+    "#50fa7b",
+    "#ffb86c",
+  ]
 }
