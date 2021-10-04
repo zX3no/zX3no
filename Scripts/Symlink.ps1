@@ -26,5 +26,6 @@ Remove-Item "C:\RawAccel\settings.json"
 New-Item -ItemType SymbolicLink -Path "C:\RawAccel\settings.json" -Target "$git\RawAccel\settings.json" 
 
 #lsd
+New-Item -ItemType Directory -Path "$env:APPDATA\lsd"
 Remove-Item "$env:APPDATA\lsd"
-New-Item -ItemType SymbolicLink -Path "$env:APPDATA\lsd" -Target "$git\lsd\config.yaml"
+New-Item -ItemType SymbolicLink -Path "$env:APPDATA\lsd\config.yaml" -Target "$git\lsd\config.yaml"
