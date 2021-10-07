@@ -42,6 +42,6 @@
     "#50fa7b",
     "#ffb86c",
   ],
-  "vim.vimrc.enable": true,
+  "vim.vimrc.enable": false,
   "vim.vimrc.path": "C:\\Users\\Bay\\AppData\\Local\\nvim\\init.vim",
 }
