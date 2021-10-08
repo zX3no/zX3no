@@ -1,5 +1,7 @@
 ### Why linux 
 
+Writing good software has always been hard.
+
 I often see people shitting on Microsoft and I'm always cursious as to why.
 I stumbled across a post on reddit that said "*I feel like software is slowly becoming more focused in aesthetic design than usefulness*".
 
