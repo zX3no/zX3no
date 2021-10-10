@@ -20,12 +20,19 @@
         "workbench.action.files.save",
         "workbench.action.closeActiveEditor"
       ]
+    },
+    {
+      "command": "multiCommand.cargorun",
+      "sequence": [
+        "workbench.action.files.save",
+        "workbench.action.closeActiveEditor"
+      ]
     }
   ],
   "rust-analyzer.inlayHints.enable": false,
   "terminal.integrated.profiles.windows": {
     "pwsh": {
-      "path": "pwsh",
+      "path": "C:/Users/Bay/scoop/apps/pwsh/7.1.4/pwsh.exe",
       "args": [
         "-NoLogo"
       ],
