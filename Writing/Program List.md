@@ -29,6 +29,9 @@
 |    Music Player     |                    foobar2000                    |           |                                                                                 |
 |   System Monitor    |                  ProcessHacker                   |           |                                                                                 |
 |        Shell        |                    PowerShell                    |           |                                      pwsh                                       |
+|                     |                                                  |           |                                                                                 |
+|       Extras        |                                                  |           |                                                                                 |
+|                     |               Link Shell Extension               |           |                              link-shell-extension                               |
 |         ---         |                       ---                        |    ---    |                                       ---                                       |
 |     **Program**     |                     **Name**                     |  **npm**  |                                    **Notes**                                    |
 |    File Sharing     |                     ezshare                      |           |                                                                                 |
@@ -74,7 +77,11 @@ scoop install git
 scoop bucket add extras
 scoop bucket add nonportable
 scoop bucket add dorado https://github.com/chawyehsu/dorado
-scoop install vscode vlc 7zip qbittorrent hourglass imhex paint.net windows-terminal wezterm teamspeak3 anydesk eartrumpet meld steam motrix ds4windows multimc figma quick-picture-viewer equalizer-apo-np youtube-dl everything git obs-studio foobar2000 pwsh neovim windows-terminal gsudo quick-picture-viewer powertoys-np rufus
+scoop install vscode vlc 7zip qbittorrent hourglass imhex paint.net windows-terminal 
+eartrumpet meld steam motrix ds4windows multimc figma teamspeak3 anydesk 
+quick-picture-viewer equalizer-apo-np youtube-dl everything git obs-studio foobar2000 pwsh 
+neovim windows-terminal gsudo quick-picture-viewer powertoys-np rufus
+link-shell-extension
 scoop install blender
 ```
 
