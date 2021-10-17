@@ -76,6 +76,7 @@ Scoop:
 scoop install git
 scoop bucket add extras
 scoop bucket add nonportable
+coop bucket add minorgod https://github.com/minorgod/scoop-minorgod.git
 scoop bucket add dorado https://github.com/chawyehsu/dorado
 scoop install vscode vlc 7zip qbittorrent hourglass imhex paint.net windows-terminal 
 eartrumpet meld steam motrix ds4windows multimc figma teamspeak3 anydesk 
