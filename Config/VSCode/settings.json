@@ -52,5 +52,4 @@
   "vim.vimrc.enable": false,
   "vim.vimrc.path": "C:\\Users\\Bay\\AppData\\Local\\nvim\\init.vim",
   "tabnine.experimentalAutoImports": true,
-  "window.zoomLevel": 1,
 }
