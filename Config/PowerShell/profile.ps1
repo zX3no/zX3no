@@ -68,6 +68,9 @@ function prompt {
 function np {
 	nvim +PackerSync
 }
+function w {
+	winget install $args
+}
 function s {
 	scoop install $args
 }
@@ -85,6 +88,9 @@ function cr {
 }
 function color {
 	[enum]::GetValues([System.ConsoleColor]) | Foreach-Object { Write-Host $_ -ForegroundColor $_ }
+}
+function update {
+. $PROFILE.AllUsersAllHosts
 }
 
 Set-Alias -Name c -Value cargo

@@ -1,62 +1,51 @@
-|       Program       |                       Name                       |   Scoop   |                                      Notes                                      |
-|:-------------------:|:------------------------------------------------:|:---------:|:-------------------------------------------------------------------------------:|
-|     Text Editor     |                 VSCode  + Neovim                 |           |                                                                                 |
-|    Video Player     |                       VLC                        |           |                                                                                 |
-|       Archive       |                      7-Zip                       |           |         [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)          |
-|       Torrent       |                   qBittorrent                    |           |            [Dark Theme](https://github.com/jagannatharjun/qbt-theme)            |
-|        Timer        |                    Hourglass                     |           |                                                                                 |
-|     Hex Editor      |                      ImHex                       |           |                                                                                 |
-|    Image Editor     |              Photoshop \| Paint.NET              |           |                                                                                 |
-|      Terminal       |           Windows Terminal \| WezTerm            |           |                           windows-terminal \| wezterm                           |
-|     ISO Imager      |                      Rufus                       |           |                                                                                 |
-|        VOIP         |                   TeamSpeak 3                    |           |       [Dark Theme](https://github.com/randomhost/teamspeak-dark/releases)       |
-|   Remote Desktop    |                     AnyDesk                      |           |                                                                                 |
-|   Volume Control    |                    EarTrumpet                    |           |                                                                                 |
-|     3D Modeler      |                     Blender                      |           |                                                                                 |
-|   Tiling Manager    |                    PowerToys                     |           |                                  powertoys-np                                   |
-|    Diffing Tool     |                       Meld                       |           |                                                                                 |
-|    Game Launcher    |                Steam & Epic Games                |           |                           epicgameslauncher is broken                           |
-|  Download Manager   |                      Motrix                      |           |                                                                                 |
-|   PS4 Controller    |                       ds4                        |           |                                   ds4windows                                    |
-| Minecraft Launcher  |                     MultiMC                      |           |                                                                                 |
-|  Prototyping Tool   |                      Figma                       |           |                                                                                 |
-|    Image Viewer     |               Quick Picture Viewer               |           |                              quick-picture-viewer                               |
-|         EQ          |                  Equalizer APO                   |           |                                equalizer-apo-np                                 |
-| Youtube Downloader  |                    youtube-dl                    |           |                                                                                 |
-|     File Search     |                    everything                    |           |                                                                                 |
-|   Version Control   |                       git                        |           |                                                                                 |
-|   Screen Recorder   |                       OBS                        |           |                                   obs-studio                                    |
-|    Music Player     |                    foobar2000                    |           |                                                                                 |
-|   System Monitor    |                  ProcessHacker                   |           |                                                                                 |
-|        Shell        |                    PowerShell                    |           |                                      pwsh                                       |
-|                     |                                                  |           |                                                                                 |
-|       Extras        |                                                  |           |                                                                                 |
-|                     |               Link Shell Extension               |           |                              link-shell-extension                               |
-|         ---         |                       ---                        |    ---    |                                       ---                                       |
-|     **Program**     |                     **Name**                     |  **npm**  |                                    **Notes**                                    |
-|    File Sharing     |                     ezshare                      |           |                                                                                 |
-|         ---         |                       ---                        |    ---    |                                       ---                                       |
-|     **Program**     |                     **Name**                     | **Cargo** |                                    **Notes**                                    |
-|    Overclocking     |                     nvoclock                     |           |                                                                                 |
-|     Calculator      |   [Kalker](https://github.com/PaddiM8/kalker)    |           |                        Download binary instead of crate                         |
-|   System Monitor    | [bottom](https://github.com/ClementTsang/bottom) |           |                                                                                 |
-|        Ping         |      [gping](https://github.com/orf/gping)       |           |                                                                                 |
-|    Task Manager     |         [t](https://github.com/zX3no/t)          |           |                                      t-cli                                      |
-|         ---         |                       ---                        |    ---    |                                       ---                                       |
-|     **Program**     |                     **Name**                     |           |                                    **Notes**                                    |
-|   Registry Editor   |                  RegistryFinder                  |           |               [registry-finder.com](https://registry-finder.com/)               |
-|     Fan Control     |                     FanCtrl                      |           |              [lich426/FanCtrl](https://github.com/lich426/FanCtrl)              |
-|    Vector Editor    |                   Illustrator                    |           |                                                                                 |
-|    Music Player     |                  ncmpcpp & mpd                   |           |             [musicpd.org](https://www.musicpd.org/download/win32/)              |
-| Display Calibration |                    DisplayCAL                    |           |               [displaycal.net](https://displaycal.net/#download)                |
-|    System Tweaks    |                  nonstickmouse                   |           |              [nsm](https://www.jawfin.net/download/nsm_setup.php)               |
-|   Network Monitor   |                    NetLimiter                    |           | [Licence](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
-|     Web Browser     |                  Google Chrome                   |           |                          Doesn't like package mangers                           |
-|        VOIP         |                     Discord                      |           |                                        "                                        |
+|       Program       |                       Name                       | Scoop |                                  Notes                                   |
+|:-------------------:|:------------------------------------------------:|:-----:|:------------------------------------------------------------------------:|
+|     Text Editor     |                 VSCode  + Neovim                 |       |                                                                          |
+|    Video Player     |                       VLC                        |       |                                                                          |
+|       Archive       |                      7-Zip                       |       |      [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode)      |
+|       Torrent       |                   qBittorrent                    |       |        [Dark Theme](https://github.com/jagannatharjun/qbt-theme)         |
+|        Timer        |                    Hourglass                     |       |                                                                          |
+|    Image Editor     |              Photoshop \| Paint.NET              |       |                                                                          |
+|      Terminal       |           Windows Terminal \| WezTerm            |       |                       windows-terminal \| wezterm                        |
+|     ISO Imager      |                      Rufus                       |       |                                                                          |
+|        VOIP         |                   TeamSpeak 3                    |       |   [Dark Theme](https://github.com/randomhost/teamspeak-dark/releases)    |
+|   Remote Desktop    |                     AnyDesk                      |       |                                                                          |
+|   Volume Control    |                    EarTrumpet                    |       |                                                                          |
+|     3D Modeler      |                     Blender                      |       |                                                                          |
+|   Tiling Manager    |                    PowerToys                     |       |                               powertoys-np                               |
+|    Diffing Tool     |                       Meld                       |       |                                                                          |
+|    Game Launcher    |                Steam & Epic Games                |       |                       epicgameslauncher is broken                        |
+|  Download Manager   |                      Motrix                      |       |                                                                          |
+|   PS4 Controller    |                       ds4                        |       |                                ds4windows                                |
+| Minecraft Launcher  |                     MultiMC                      |       |                                                                          |
+|  Prototyping Tool   |                      Figma                       |       |                                                                          |
+|    Image Viewer     |               Quick Picture Viewer               |       |                           quick-picture-viewer                           |
+|         EQ          |                  Equalizer APO                   |       |                             equalizer-apo-np                             |
+| Youtube Downloader  |                    youtube-dl                    |       |                                                                          |
+|     File Search     |                    everything                    |       |                                                                          |
+|   Version Control   |                       git                        |       |                                                                          |
+|   Screen Recorder   |                       OBS                        |       |                                obs-studio                                |
+|    Music Player     |                    foobar2000                    |       |                                                                          |
+|   System Monitor    |                  ProcessHacker                   |       |                                                                          |
+|        Shell        |                    PowerShell                    |       |                                   pwsh                                   |
+|                     |               Link Shell Extension               |       |                           link-shell-extension                           |
+|    File Sharing     |                     ezshare                      |       |                                                                          |
+|    Overclocking     |                     nvoclock                     |       |                                                                          |
+|     Calculator      |   [Kalker](https://github.com/PaddiM8/kalker)    |       |                     Download binary instead of crate                     |
+|   System Monitor    | [bottom](https://github.com/ClementTsang/bottom) |       |                                                                          |
+|        Ping         |      [gping](https://github.com/orf/gping)       |       |                                                                          |
+|    Task Manager     |         [t](https://github.com/zX3no/t)          |       |                                  t-cli                                   |
+|   Registry Editor   |                  RegistryFinder                  |       |           [registry-finder.com](https://registry-finder.com/)            |
+|     Fan Control     |                     FanCtrl                      |       |          [lich426/FanCtrl](https://github.com/lich426/FanCtrl)           |
+|    Vector Editor    |                   Illustrator                    |       |                                                                          |
+|    Music Player     |                  ncmpcpp & mpd                   |       |          [musicpd.org](https://www.musicpd.org/download/win32/)          |
+| Display Calibration |                    DisplayCAL                    |       |            [displaycal.net](https://displaycal.net/#download)            |
+|    System Tweaks    |                  nonstickmouse                   |       |           [nsm](https://www.jawfin.net/download/nsm_setup.php)           |
+|   Network Monitor   |                    NetLimiter                    |       | [](https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718) |
+|     Web Browser     |                  Google Chrome                   |       |                                                                          |
+|        VOIP         |                     Discord                      |       |                                                                          |
 
 </br>
-
-Choco Packages:
 
 Node Packages:
 
@@ -75,15 +64,33 @@ Scoop:
 ```
 scoop install git
 scoop bucket add extras
-scoop bucket add nonportable
-coop bucket add minorgod https://github.com/minorgod/scoop-minorgod.git
-scoop bucket add dorado https://github.com/chawyehsu/dorado
-scoop install vscode vlc 7zip qbittorrent hourglass imhex paint.net windows-terminal 
-eartrumpet meld steam motrix ds4windows multimc figma teamspeak3 anydesk 
-quick-picture-viewer equalizer-apo-np youtube-dl everything git obs-studio foobar2000 pwsh 
-neovim windows-terminal gsudo quick-picture-viewer powertoys-np rufus
-link-shell-extension
-scoop install blender
+
+scoop install 
+hourglass 
+paint.net  
+youtube-dl 
+gsudo 
+```
+
+Winget:
+```
+winget install 
+discord.discord 
+microsoft.windowsterminal 
+google.chrome
+obsproject.obsstudio
+7zip.7zip
+VideoLAN.VLC
+vscode
+qBittorrent.qBittorrent
+TeamSpeakSystems.TeamSpeakClient
+File-New-Project.EarTrumpet
+valve.steam
+voidtools.Everything
+pwsh
+PeterPawlowski.foobar2000
+ModuleArt.QuickPictureViewer
+microsoft.powertoys
 ```
 
 ---
