@@ -25,7 +25,7 @@ function rmf {
 	Remove-Item -Force -Recurse $args
 }
 function profile {
-	code $PROFILE.AllUsersCurrentHost
+	code $PROFILE.AllUsersAllHosts
 }
 function faceit {
 	if ($args[0] -eq "on") {
@@ -83,17 +83,15 @@ function ci {
 function cu {
 	cargo uninstall $args
 }
-function cr {
+function c {
 	cargo run --release $args
 }
 function color {
 	[enum]::GetValues([System.ConsoleColor]) | Foreach-Object { Write-Host $_ -ForegroundColor $_ }
 }
 function update {
-. $PROFILE.AllUsersAllHosts
+echo "PROFILE.AllUsersAllHosts"
 }
-
-Set-Alias -Name c -Value cargo
 
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name n -Value neovide

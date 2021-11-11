@@ -15,13 +15,6 @@
   "workbench.colorTheme": "Dracula",
   "multiCommand.commands": [
     {
-      "command": "multiCommand.saveAndCloseEditor",
-      "sequence": [
-        "workbench.action.files.save",
-        "workbench.action.closeActiveEditor"
-      ]
-    },
-    {
       "command": "multiCommand.cargorun",
       "sequence": [
         "workbench.action.files.save",
@@ -51,7 +44,5 @@
   ],
   "vim.vimrc.enable": false,
   "vim.vimrc.path": "C:\\Users\\Bay\\AppData\\Local\\nvim\\init.vim",
-  "tabnine.experimentalAutoImports": true,
-  "terminal.integrated.gpuAcceleration": "off",
-  "vscode_vibrancy.opacity": "0.6"
+  "editor.minimap.enabled": false,
 }
