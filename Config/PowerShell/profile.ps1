@@ -92,6 +92,10 @@ function color {
 function update {
 echo "PROFILE.AllUsersAllHosts"
 }
+function music {
+	cd D:\
+	rclone -P copy Music remote:Music
+}
 
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name n -Value neovide
