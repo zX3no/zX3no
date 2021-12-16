@@ -1,6 +1,5 @@
 {
   "editor.fontSize": 16,
-  "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.semanticHighlighting.enabled": true,
   "editor.fontLigatures": true,
@@ -25,7 +24,7 @@
   "rust-analyzer.inlayHints.enable": false,
   "terminal.integrated.profiles.windows": {
     "pwsh": {
-      "path": "C:/Users/Bay/scoop/apps/pwsh/7.1.4/pwsh.exe",
+      "path": "C:/Program Files/PowerShell/7/pwsh.exe",
       "args": [
         "-NoLogo"
       ],
@@ -34,15 +33,21 @@
   "terminal.integrated.defaultProfile.windows": "pwsh",
   "security.workspace.trust.enabled": false,
   "vim.useSystemClipboard": true,
-  "bracket-pair-colorizer-2.colors": [
-    "#f8f8f2",
-    "#bd93f9",
-    "#f1fa8c",
-    "#ff79c6",
-    "#50fa7b",
-    "#ffb86c",
-  ],
   "vim.vimrc.enable": false,
   "vim.vimrc.path": "C:\\Users\\Bay\\AppData\\Local\\nvim\\init.vim",
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "p"
+      ],
+      "commands": [
+        "editor.action.clipboardPasteAction"
+      ]
+    }
+  ],
   "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "phase",
+  "editor.smoothScrolling": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active"
 }
