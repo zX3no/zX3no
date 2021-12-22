@@ -78,7 +78,7 @@ function sr {
 	scoop uninstall $args 
 }
 function ci {
-	cargo install --path .
+	cargo install --path $args
 }
 function cu {
 	cargo uninstall $args
