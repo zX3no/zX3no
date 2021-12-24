@@ -4,17 +4,9 @@ $app = $env:APPDATA
 $nvim = "$local\nvim"
 $config = "$g\zX3no\Config"
 function push {
-	git checkout main
 	git add .
 	git commit -am "$args"
-	git push origin main
-	[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
-}
-function pushm {
-	git checkout master
-	git add .
-	git commit -am "$args"
-	git push origin master
+	git push 
 	[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
 }
 function init {
