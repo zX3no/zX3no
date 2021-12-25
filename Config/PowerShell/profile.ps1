@@ -95,7 +95,8 @@ Set-Alias -Name n -Value neovide
 Set-Alias -name ls -Value lsd
 
 Invoke-Expression (& {
-    (zoxide init powershell) -join "`n"
-	})
+    $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
+    (zoxide init --hook $hook powershell | Out-String)
+})
 
 Set-Alias -Name cd -Value z -Option AllScope 
