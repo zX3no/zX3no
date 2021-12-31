@@ -78,6 +78,9 @@ function cu {
 function c {
 	cargo run --release $args
 }
+function cl {
+	cargo run 2> gronk.log
+}
 function color {
 	[enum]::GetValues([System.ConsoleColor]) | Foreach-Object { Write-Host $_ -ForegroundColor $_ }
 }
