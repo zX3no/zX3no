@@ -33,8 +33,8 @@
   "terminal.integrated.defaultProfile.windows": "pwsh",
   "security.workspace.trust.enabled": false,
   "vim.useSystemClipboard": true,
-  "vim.vimrc.enable": false,
-  "vim.vimrc.path": "C:\\Users\\Bay\\AppData\\Local\\nvim\\init.vim",
+  "vim.vimrc.enable": true,
+  "vim.vimrc.path": "D:\\Git\\zX3no\\Config\\VSCode\\.vimrc",
   "vim.visualModeKeyBindingsNonRecursive": [
     {
       "before": [
@@ -50,5 +50,10 @@
   "editor.smoothScrolling": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "rust-analyzer.checkOnSave.command": "clippy"
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "vim.sneak": true,
+  "vim.leader": " ",
+  "vim.sneakReplacesF": true,
+  "vim.autoindent": false,
+  "vim.sneakUseIgnorecaseAndSmartcase": true
 }
