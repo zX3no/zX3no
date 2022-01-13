@@ -94,7 +94,7 @@ function music {
 
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name n -Value neovide
-
+Set-Alias -Name time -Value Measure-Command
 Set-Alias -name ls -Value lsd
 
 Invoke-Expression (& {
