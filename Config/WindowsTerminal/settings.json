@@ -126,9 +126,7 @@
             "padding": "8",
             "startingDirectory": "%USERPROFILE%/Desktop",
             "suppressApplicationTitle": false,
-            "useAcrylic": true,
-            "useAcrylicInTabRow": true,
-            "windowingBehavior": "useAnyExisting"
+            "useAcrylic": true
         },
         "list": [
             {
@@ -170,5 +168,7 @@
             "white": "#F8F8F2",
             "yellow": "#F1FA8C"
         }
-    ]
+    ],
+    "useAcrylicInTabRow": true,
+    "windowingBehavior": "useAnyExisting"
 }
