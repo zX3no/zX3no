@@ -55,5 +55,6 @@
   "vim.leader": " ",
   "vim.sneakReplacesF": true,
   "vim.autoindent": false,
-  "vim.sneakUseIgnorecaseAndSmartcase": true
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
+  "search.useIgnoreFiles": true
 }
