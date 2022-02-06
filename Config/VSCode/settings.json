@@ -32,6 +32,17 @@
   },
   "terminal.integrated.defaultProfile.windows": "pwsh",
   "security.workspace.trust.enabled": false,
+  "dance.modes": {
+    "insert": {
+      "lineNumbers": "inherit",
+    },
+    "normal": {
+      "lineNumbers": "inherit",
+      "cursorStyle": "block",
+      "selectionBehavior": "character",
+      // ...
+    }
+  },
   "vim.useSystemClipboard": true,
   "vim.vimrc.enable": true,
   "vim.vimrc.path": "D:\\Git\\zX3no\\Config\\VSCode\\.vimrc",

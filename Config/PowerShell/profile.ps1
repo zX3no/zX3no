@@ -3,6 +3,8 @@ $local = $env:LOCALAPPDATA
 $app = $env:APPDATA
 $nvim = "$local\nvim"
 $config = "$g\zX3no\Config"
+$date = Get-Date
+
 function push {
 	git add .
 	git commit -am "$args"
