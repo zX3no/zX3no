@@ -32,20 +32,7 @@
   },
   "terminal.integrated.defaultProfile.windows": "pwsh",
   "security.workspace.trust.enabled": false,
-  "dance.modes": {
-    "insert": {
-      "lineNumbers": "inherit",
-    },
-    "normal": {
-      "lineNumbers": "inherit",
-      "cursorStyle": "block",
-      "selectionBehavior": "character",
-      // ...
-    }
-  },
   "vim.useSystemClipboard": true,
-  "vim.vimrc.enable": true,
-  "vim.vimrc.path": "D:\\Git\\zX3no\\Config\\VSCode\\.vimrc",
   "vim.visualModeKeyBindingsNonRecursive": [
     {
       "before": [
@@ -54,7 +41,34 @@
       "commands": [
         "editor.action.clipboardPasteAction"
       ]
-    }
+    },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "commands": [
+        "workbench.view.explorer"
+      ]
+    },
+    {
+      "before": [
+        "<S-l>",
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "<S-h>",
+      ],
+      "after": [
+        "^"
+      ]
+    },
   ],
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "phase",
@@ -63,9 +77,10 @@
   "editor.guides.bracketPairs": "active",
   "rust-analyzer.checkOnSave.command": "clippy",
   "vim.sneak": true,
-  "vim.leader": " ",
+  "vim.leader": "<space>",
   "vim.sneakReplacesF": true,
   "vim.autoindent": false,
   "vim.sneakUseIgnorecaseAndSmartcase": true,
-  "search.useIgnoreFiles": true
+  "vim.useCtrlKeys": true,
+  "search.useIgnoreFiles": true,
 }

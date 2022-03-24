@@ -1,73 +1,72 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 3
-            },
-            "keys": "ctrl+4"
-        },
-        {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 7
             },
             "keys": "ctrl+8"
         },
         {
+            "command": {
+                "action": "switchToTab",
+                "index": 3
+            },
+            "keys": "ctrl+4"
+        },
+        {
             "command": "paste",
             "keys": "ctrl+v"
         },
         {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 6
-            },
-            "keys": "ctrl+7"
-        },
-        {
-            "command": 
-            {
-                "action": "closeTab"
-            },
-            "keys": "ctrl+w"
-        },
-        {
-            "command": 
-            {
+            "command": {
                 "action": "newTab",
                 "index": 0
             },
             "keys": "ctrl+t"
         },
         {
+            "command": {
+                "action": "closeTab"
+            },
+            "keys": "ctrl+w"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 6
+            },
+            "keys": "ctrl+7"
+        },
+        {
             "command": "find",
             "keys": "ctrl+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 0
             },
             "keys": "ctrl+1"
         },
         {
-            "command": 
-            {
+            "command": {
+                "action": "switchToTab",
+                "index": 8
+            },
+            "keys": "ctrl+9"
+        },
+        {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -75,69 +74,52 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 1
-            },
-            "keys": "ctrl+2"
-        },
-        {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 4
             },
             "keys": "ctrl+5"
         },
         {
-            "command": 
-            {
+            "command": {
+                "action": "switchToTab",
+                "index": 1
+            },
+            "keys": "ctrl+2"
+        },
+        {
+            "command": {
                 "action": "switchToTab",
                 "index": 2
             },
             "keys": "ctrl+3"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 5
             },
             "keys": "ctrl+6"
-        },
-        {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 8
-            },
-            "keys": "ctrl+9"
         }
     ],
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "disabledProfileSources": 
-    [
+    "disabledProfileSources": [
         "Windows.Terminal.Azure",
         "Windows.Terminal.PowershellCore"
     ],
     "initialCols": 119,
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "antialiasingMode": "cleartype",
-            "bellStyle": 
-            [
+            "bellStyle": [
                 "window",
                 "taskbar"
             ],
             "colorScheme": "Dracula",
             "cursorShape": "doubleUnderscore",
-            "font": 
-            {
+            "font": {
                 "face": "Cascadia Code PL",
                 "size": 13
             },
@@ -145,26 +127,19 @@
             "startingDirectory": "%USERPROFILE%/Desktop",
             "suppressApplicationTitle": false,
             "tabColor": "#282A36",
-            "useAcrylic": true
+            "useAcrylic": true,
+            "largePasteWarning": false
         },
-        "list": 
-        [
+        "list": [
             {
-                "acrylicOpacity": 0.80000000000000004,
                 "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "icon": "ms-appx:///Images/Square44x44Logo.targetsize-32.png",
-                "name": "Terminal"
+                "name": "Terminal",
+                "opacity": 80
             },
             {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "acrylicOpacity": 0.80000000000000004,
                 "altGrAliasing": true,
                 "closeOnExit": "graceful",
                 "commandline": "C:\\Users\\Bay\\.cargo\\bin\\shell.exe",
@@ -172,12 +147,48 @@
                 "historySize": 9001,
                 "icon": "ms-appx:///Images/Square44x44Logo.targetsize-32.png",
                 "name": "Shell",
+                "opacity": 80,
                 "snapOnInput": true
+            },
+            {
+                "guid": "{e66ecb36-3864-5b82-81cf-a3510b7b847a}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2019 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{79a15968-cae6-5762-acf0-811a67f52895}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2019 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{47782597-e92b-5205-bb53-56267dd33e9d}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2019 (3)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{cc447159-043d-56df-8042-2f87d7818791}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2019 (3)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{eb907a60-68a8-532d-b85d-02595bd43bae}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2017",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+                "hidden": false,
+                "name": "Arch",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
