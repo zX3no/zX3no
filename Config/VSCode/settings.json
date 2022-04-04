@@ -69,6 +69,22 @@
         "^"
       ]
     },
+    {
+      "before": [
+        "<S-d>",
+      ],
+      "after": [
+        ""
+      ]
+    },
+    {
+      "before": [
+        "<S-j>",
+      ],
+      "after": [
+        ""
+      ]
+    },
   ],
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "phase",

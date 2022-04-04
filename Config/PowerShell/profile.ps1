@@ -2,12 +2,15 @@
 $local = $env:LOCALAPPDATA
 $app = $env:APPDATA
 $nvim = "$local\nvim"
-$config = "$g\zX3no\Config"
 $date = Get-Date
+$profile = $PROFILE.AllUsersAllHosts
 
+function code {
+	codium .
+}
 function push {
 	git add .
-	git commit -am "$args"
+	git commit -m "$args"
 	git push 
 	[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
 }
@@ -15,11 +18,8 @@ function init {
 	git init -b main
 	git remote add origin $args
 }
-function rmf {
-	Remove-Item -Force -Recurse $args
-}
 function profile {
-	code $PROFILE.AllUsersAllHosts
+	codium $profile
 }
 function faceit {
 	if ($args[0] -eq "on") {
@@ -59,29 +59,8 @@ function prompt {
 	Write-Host (" ❯") -NoNewline -ForegroundColor Green
 	return " "
 }
-function np {
-	nvim +PackerSync
-}
-function w {
-	winget install $args
-}
-function s {
-	scoop install $args
-}
-function sr {
-	scoop uninstall $args 
-}
 function ci {
 	cargo install --path $args
-}
-function cu {
-	cargo uninstall $args
-}
-function c {
-	cargo run --release $args
-}
-function cl {
-	cargo run 2> gronk.log
 }
 function color {
 	[enum]::GetValues([System.ConsoleColor]) | Foreach-Object { Write-Host $_ -ForegroundColor $_ }
@@ -97,7 +76,6 @@ function music {
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name n -Value neovide
 Set-Alias -Name time -Value Measure-Command
-Set-Alias -name ls -Value lsd
 
 Invoke-Expression (& {
     $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }

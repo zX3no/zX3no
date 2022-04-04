@@ -1,72 +1,74 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
-            "command": {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": {
-                "action": "switchToTab",
-                "index": 7
-            },
-            "keys": "ctrl+8"
-        },
-        {
-            "command": {
+            "command": 
+            {
                 "action": "switchToTab",
                 "index": 3
             },
             "keys": "ctrl+4"
         },
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 7
+            },
+            "keys": "ctrl+8"
+        },
+        {
             "command": "paste",
             "keys": "ctrl+v"
         },
         {
-            "command": {
-                "action": "newTab",
-                "index": 0
-            },
-            "keys": "ctrl+t"
-        },
-        {
-            "command": {
-                "action": "closeTab"
-            },
-            "keys": "ctrl+w"
-        },
-        {
-            "command": {
+            "command": 
+            {
                 "action": "switchToTab",
                 "index": 6
             },
             "keys": "ctrl+7"
         },
         {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "keys": "ctrl+w"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 0
+            },
+            "keys": "ctrl+t"
+        },
+        {
             "command": "find",
             "keys": "ctrl+f"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "switchToTab",
                 "index": 0
             },
             "keys": "ctrl+1"
         },
         {
-            "command": {
-                "action": "switchToTab",
-                "index": 8
-            },
-            "keys": "ctrl+9"
-        },
-        {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -74,28 +76,40 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "switchToTab",
-                "index": 4
+                "index": 8
             },
-            "keys": "ctrl+5"
+            "keys": "ctrl+9"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "switchToTab",
                 "index": 1
             },
             "keys": "ctrl+2"
         },
         {
-            "command": {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 4
+            },
+            "keys": "ctrl+5"
+        },
+        {
+            "command": 
+            {
                 "action": "switchToTab",
                 "index": 2
             },
             "keys": "ctrl+3"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "switchToTab",
                 "index": 5
             },
@@ -105,21 +119,26 @@
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "disabledProfileSources": [
+    "disabledProfileSources": 
+    [
         "Windows.Terminal.Azure",
         "Windows.Terminal.PowershellCore"
     ],
     "initialCols": 119,
-    "profiles": {
-        "defaults": {
+    "profiles": 
+    {
+        "defaults": 
+        {
             "antialiasingMode": "cleartype",
-            "bellStyle": [
+            "bellStyle": 
+            [
                 "window",
                 "taskbar"
             ],
             "colorScheme": "Dracula",
             "cursorShape": "doubleUnderscore",
-            "font": {
+            "font": 
+            {
                 "face": "Cascadia Code PL",
                 "size": 13
             },
@@ -127,10 +146,10 @@
             "startingDirectory": "%USERPROFILE%/Desktop",
             "suppressApplicationTitle": false,
             "tabColor": "#282A36",
-            "useAcrylic": true,
-            "largePasteWarning": false
+            "useAcrylic": true
         },
-        "list": [
+        "list": 
+        [
             {
                 "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -181,14 +200,15 @@
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
-                "name": "Arch",
-                "source": "Windows.Terminal.Wsl"
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -395,6 +415,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "UbuntuColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
         },
         {
             "background": "#000000",
