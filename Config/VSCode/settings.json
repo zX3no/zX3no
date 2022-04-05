@@ -12,15 +12,6 @@
   "autoHide.sideBarDelay": 0,
   "autoHide.panelDelay": 0,
   "workbench.colorTheme": "Dracula",
-  "multiCommand.commands": [
-    {
-      "command": "multiCommand.cargorun",
-      "sequence": [
-        "workbench.action.files.save",
-        "workbench.action.closeActiveEditor"
-      ]
-    }
-  ],
   "rust-analyzer.inlayHints.enable": false,
   "terminal.integrated.profiles.windows": {
     "pwsh": {
@@ -86,7 +77,6 @@
       ]
     },
   ],
-  "editor.minimap.enabled": false,
   "editor.cursorBlinking": "phase",
   "editor.smoothScrolling": true,
   "editor.bracketPairColorization.enabled": true,
@@ -99,4 +89,6 @@
   "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.useCtrlKeys": true,
   "search.useIgnoreFiles": true,
+  "v.vls.enable": true,
+  "v.vls.debug": true,
 }

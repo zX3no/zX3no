@@ -5,9 +5,6 @@ $nvim = "$local\nvim"
 $date = Get-Date
 $profile = $PROFILE.AllUsersAllHosts
 
-function code {
-	codium .
-}
 function push {
 	git add .
 	git commit -m "$args"
@@ -19,7 +16,7 @@ function init {
 	git remote add origin $args
 }
 function profile {
-	codium $profile
+	code $profile
 }
 function faceit {
 	if ($args[0] -eq "on") {
@@ -72,6 +69,9 @@ function music {
 	cd D:\
 	rclone -P copy Music remote:Music
 }
+function list {
+	[string](Get-ChildItem -Name)
+}
 
 Set-Alias -Name cal -Value kalker
 Set-Alias -Name n -Value neovide
@@ -83,3 +83,4 @@ Invoke-Expression (& {
 })
 
 Set-Alias -Name cd -Value z -Option AllScope 
+Set-Alias -Name ls -Value list -Option AllScope 
