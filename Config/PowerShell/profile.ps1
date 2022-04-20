@@ -4,7 +4,14 @@ $app = $env:APPDATA
 $nvim = "$local\nvim"
 $date = Get-Date
 $profile = $PROFILE.AllUsersAllHosts
-
+function server {
+	Set-Location ~/Desktop/gonk/gonk-server
+	cargo run
+}
+function gonk {
+	Set-Location ~/Desktop/gonk/gonk
+	cargo run
+}
 function push {
 	git add .
 	git commit -m "$args"
@@ -17,6 +24,9 @@ function init {
 }
 function profile {
 	code $profile
+}
+function amend {
+	git commit -a --amend --no-edit
 }
 function faceit {
 	if ($args[0] -eq "on") {
@@ -69,11 +79,8 @@ function music {
 	cd D:\
 	rclone -P copy Music remote:Music
 }
-function list {
-	[string](Get-ChildItem -Name)
-}
 
-Set-Alias -Name cal -Value kalker
+Set-Alias -Name kal -Value kalker
 Set-Alias -Name n -Value neovide
 Set-Alias -Name time -Value Measure-Command
 
@@ -81,6 +88,4 @@ Invoke-Expression (& {
     $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
     (zoxide init --hook $hook powershell | Out-String)
 })
-
 Set-Alias -Name cd -Value z -Option AllScope 
-Set-Alias -Name ls -Value list -Option AllScope 

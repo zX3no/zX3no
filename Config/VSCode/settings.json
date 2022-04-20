@@ -89,6 +89,15 @@
   "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.useCtrlKeys": true,
   "search.useIgnoreFiles": true,
-  "v.vls.enable": true,
   "v.vls.debug": true,
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.v$",
+        "cmd": "v fmt ${file} -w"
+      },
+    ]
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false
 }

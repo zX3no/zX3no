@@ -1,27 +1,23 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 3
             },
             "keys": "ctrl+4"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 7
             },
@@ -32,23 +28,20 @@
             "keys": "ctrl+v"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 6
             },
             "keys": "ctrl+7"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "closeTab"
             },
             "keys": "ctrl+w"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab",
                 "index": 0
             },
@@ -59,16 +52,14 @@
             "keys": "ctrl+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 0
             },
             "keys": "ctrl+1"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -76,40 +67,35 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 8
             },
             "keys": "ctrl+9"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 1
             },
             "keys": "ctrl+2"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 4
             },
             "keys": "ctrl+5"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 2
             },
             "keys": "ctrl+3"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "switchToTab",
                 "index": 5
             },
@@ -119,26 +105,21 @@
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "disabledProfileSources": 
-    [
+    "disabledProfileSources": [
         "Windows.Terminal.Azure",
         "Windows.Terminal.PowershellCore"
     ],
     "initialCols": 119,
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "antialiasingMode": "cleartype",
-            "bellStyle": 
-            [
+            "bellStyle": [
                 "window",
                 "taskbar"
             ],
             "colorScheme": "Dracula",
             "cursorShape": "doubleUnderscore",
-            "font": 
-            {
+            "font": {
                 "face": "Cascadia Code PL",
                 "size": 13
             },
@@ -146,10 +127,10 @@
             "startingDirectory": "%USERPROFILE%/Desktop",
             "suppressApplicationTitle": false,
             "tabColor": "#282A36",
-            "useAcrylic": true
+            "useAcrylic": true,
+            "elevate": true
         },
-        "list": 
-        [
+        "list": [
             {
                 "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -168,18 +149,6 @@
                 "name": "Shell",
                 "opacity": 80,
                 "snapOnInput": true
-            },
-            {
-                "guid": "{e66ecb36-3864-5b82-81cf-a3510b7b847a}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2019 (2)",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{79a15968-cae6-5762-acf0-811a67f52895}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2019 (2)",
-                "source": "Windows.Terminal.VisualStudio"
             },
             {
                 "guid": "{47782597-e92b-5205-bb53-56267dd33e9d}",
@@ -204,11 +173,28 @@
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{f21d52c3-9413-570b-af60-da16410e5f34}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2017 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{18e49f2d-2ac9-5010-a36d-f9f50cee0b2c}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{39cb8a49-7aca-5739-9cad-46bba11c892f}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -415,6 +401,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
         },
         {
             "background": "#300A24",
