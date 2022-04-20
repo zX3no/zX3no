@@ -8,7 +8,6 @@ def "push" [message: string] {
 	git push 
 }
 
-
 alias kal = kalker
 
 # Prompt

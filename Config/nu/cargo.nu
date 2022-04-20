@@ -3,7 +3,9 @@
 def "nu-complete cargo targets" [type: string] {
   cargo metadata --format-version=1 --offline --no-deps | from json | get packages.targets | flatten | where ($type in $it.kind) | get name
 }
+
 def "nu-complete cargo bins" [] { nu-complete cargo targets bin }
+
 def "nu-complete cargo examples" [] { nu-complete cargo targets example }
 
 def "nu-complete cargo packages" [] {
@@ -22,7 +24,9 @@ def "nu-complete cargo profiles" [] {
 def "nu-complete cargo features" [] {
   open Cargo.toml | get features | transpose | get column0
 }
+
 export extern "cargo test" [
+  ...args: any
 ]
 
 export extern "cargo build" [
@@ -30,26 +34,32 @@ export extern "cargo build" [
 ]
 
 export extern "cargo install" [
+  ...args: any
   --path: path
 ]
 
 export extern "cargo uninstall" [
+  ...args: any
 ]
 
 export extern "cargo clean" [
+  ...args: any
 ]
 
 export extern "cargo publish" [
+  ...args: any
 ]
 
 export extern "cargo update" [
+  ...args: any
 ]
 
 export extern "cargo check" [
+  ...args: any
 ]
 
 export extern "cargo new" [
-    file: string,
+  ...args: any
 ]
 
 export extern "cargo run" [

@@ -13,7 +13,10 @@
 
 ### Using SSH to push commits 
 1. `ssh-keygen -t rsa -C "your_email@example.com"` *only do this once!*
-2. Open `C:\Users\yourUser\.ssh\id_rsa.pub` (the pub key not the RSA one). Copy the contents to github.com/settings/ssh/new and give it any name.
+
+2. Run in PowerShell `Get-Content $home\.ssh\id_rsa.pub`. 
+Copy the output to [github.com/settings/ssh/new](github.com/settings/ssh/new) and give it any name.
+
 3. Set your repos to use SSH with `git remote add origin git@github.com:USERNAME/REPOSITORY.git`
 
 ### Automation to make GitHub easier
@@ -27,6 +30,7 @@ function push {
 	git push origin main
 	[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
 }
+
 ```
 Usage:
 `push fixed this bug`
