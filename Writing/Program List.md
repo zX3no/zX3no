@@ -62,6 +62,7 @@ winget install Valve.Steam
 winget install Microsoft.PowerToys
 winget install 9PJQQRXSVWR1 --accept-source-agreements --accept-package-agreements
 winget install 9PDJ8X9SPF2K --accept-source-agreements --accept-package-agreements
+winget install ModuleArt.QuickPictureViewer
 ```
 
 Other:
@@ -70,6 +71,7 @@ Other:
 https://www.dotpdn.com/downloads/pdn.html
 https://chris.dziemborowicz.com/apps/hourglass/
 https://github.com/PaddiM8/kalker/releases
+https://moduleart.github.io/quick-picture-viewer/
 https://rustup.rs/
 ```
 
