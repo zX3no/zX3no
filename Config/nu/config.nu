@@ -8,6 +8,7 @@ def "push" [message: string] {
 	git push 
 }
 
+
 alias kal = kalker
 
 # Prompt
@@ -274,6 +275,26 @@ let $config = {
       keycode: char_u
       mode: [emacs, vi_normal, vi_insert]
       event: { send: menu name: commands_with_description }
+    }
+    {
+      name: cargo_run
+      modifier: none
+      keycode: f5
+      mode: emacs
+      event: {
+        send: executehostcommand,
+        cmd: "cargo run"
+      }
+    }
+    {
+        name: cargo_run_release
+        modifier: none
+        keycode: f6
+        mode: emacs
+        event: {
+          send: executehostcommand,
+          cmd: "cargo run --release"
+        }
     }
   ]
 }
