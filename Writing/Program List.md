@@ -63,6 +63,8 @@ winget install Microsoft.PowerToys
 winget install 9PJQQRXSVWR1 --accept-source-agreements --accept-package-agreements
 winget install 9PDJ8X9SPF2K --accept-source-agreements --accept-package-agreements
 winget install ModuleArt.QuickPictureViewer
+winget install Microsoft.VisualStudio.2022.BuildTools
+winget install qBittorrent.qBittorrent
 ```
 
 Other:
@@ -73,6 +75,7 @@ https://chris.dziemborowicz.com/apps/hourglass/
 https://github.com/PaddiM8/kalker/releases
 https://moduleart.github.io/quick-picture-viewer/
 https://rustup.rs/
+https://www.jawfin.net/nsm/
 ```
 
 
@@ -81,4 +84,11 @@ Github:
 ```
 git config --global user.email "dr_xeno@hotmail.com.au"
 git config --global user.name "zX3no"
+```
+
+
+Windows Store:
+
+```
+wsreset -i 
 ```
