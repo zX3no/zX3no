@@ -81,7 +81,7 @@ Windows Store:
 wsreset -i 
 ```
 
-HEVC Drive
+HEVC Driver:
 
 ```
 ms-windows-store://pdp/?ProductId=9n4wgh0z6vhq
