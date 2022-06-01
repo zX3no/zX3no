@@ -73,6 +73,8 @@ Github:
 ```
 git config --global user.email "dr_xeno@hotmail.com.au"
 git config --global user.name "zX3no"
+ssh-keygen -t rsa -C "dr_xeno@hotmail.com.au"
+open ($env.USERPROFILE + '\.ssh\id_rsa.pub')
 ```
 
 Windows Store:
