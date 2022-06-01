@@ -64,7 +64,6 @@ Other:
 https://www.dotpdn.com/downloads/pdn.html
 https://chris.dziemborowicz.com/apps/hourglass/
 https://github.com/PaddiM8/kalker/releases
-https://moduleart.github.io/quick-picture-viewer/
 https://rustup.rs/
 https://www.jawfin.net/nsm/
 ```
