@@ -41,7 +41,7 @@ cargo install t-cli zoxide hyperfine onefetch cargo-edit sfz
 Winget:
 
 ```
-winget install Mozilla.Firefox
+winget install terminal -s msstore --accept-source-agreements --accept-package-agreements
 winget install 7zip.7zip
 winget install Microsoft.VisualStudioCode
 winget install Nushell.Nushell
@@ -53,8 +53,7 @@ winget install qBittorrent.qBittorrent
 winget install EarTrumpet -s msstore --accept-source-agreements --accept-package-agreements
 winget install Valve.Steam
 winget install Microsoft.PowerToys
-winget install 9PJQQRXSVWR1 --accept-source-agreements --accept-package-agreements
-winget install 9PDJ8X9SPF2K --accept-source-agreements --accept-package-agreements
+winget install foobar --accept-source-agreements --accept-package-agreements
 winget install ModuleArt.QuickPictureViewer
 winget install Microsoft.VisualStudio.2022.BuildTools
 winget install qBittorrent.qBittorrent
