@@ -1,7 +1,7 @@
 |        Program        |                               Name                                |                             Notes                              |
 |:---------------------:|:-----------------------------------------------------------------:|:--------------------------------------------------------------:|
 |      Text Editor      |                           VSCode + Vim                            |                                                                |
-|     Video Player      |                                VLC                                |                                                                |
+|     Video Player      |                                VLC                                |                I'm in the market for a new one.                |
 |        Archive        |                               7-Zip                               | [Semi Dark Theme](https://github.com/renfenghuan/7zipDarkmode) |
 |        Torrent        |                            qBittorrent                            |   [Dark Theme](https://github.com/jagannatharjun/qbt-theme)    |
 |         Timer         |                             Hourglass                             |                                                                |
@@ -10,25 +10,18 @@
 |       Terminal        |                         Windows Terminal                          |                                                                |
 |      ISO Imager       |                               Rufus                               |                                                                |
 |    Volume Control     |                            EarTrumpet                             |                                                                |
-|      3D Modeler       |                              Blender                              |                                                                |
 | Tiling Window Manager |                             PowerToys                             |                                                                |
 |     Diffing Tool      |                               Meld                                |                                                                |
-|     Game Launcher     |                        Steam & Epic Games                         |                                                                |
-|   Download Manager    |                              Motrix                               |                                                                |
-|    PS4 Controller     |                                ds4                                |                                                                |
+|     Game Launcher     |                               Steam                               |                                                                |
 |  Minecraft Launcher   |                              MultiMC                              |                                                                |
 |   Prototyping Tool    |                               Figma                               |                                                                |
 |          EQ           |                           Equalizer APO                           |                                                                |
-|  Youtube Downloader   |                            youtube-dl                             |                                                                |
-|      File Search      |                            everything                             |                                                                |
-|    Version Control    |                                git                                |                                                                |
+|  Youtube Downloader   |                              yt-dlp                               |                                                                |
+|      File Search      |                            Everything                             |                                                                |
 |    Screen Recorder    |                                OBS                                |                                                                |
 |     Music Player      |                        foobar2000  \| gonk                        |                                                                |
-|         Shell         |                            PowerShell                             |                                                                |
-|     Overclocking      |                          MSI Afterburner                          |                                                                |
-|      Calculator       |            [Kalker](https://github.com/PaddiM8/kalker)            |                Download binary instead of crate                |
+|      Calculator       |            [Kalker](https://github.com/PaddiM8/kalker)            |               Download binary instead of crate.                |
 |    System Monitor     | [bottom](https://github.com/ClementTsang/bottom) \| ProcessHacker |                                                                |
-|         Ping          |               [gping](https://github.com/orf/gping)               |                                                                |
 |     Task Manager      |                  [t](https://github.com/zX3no/t)                  |                                                                |
 |    Registry Editor    |                          RegistryFinder                           |      [registry-finder.com](https://registry-finder.com/)       |
 |      Fan Control      |                              FanCtrl                              |     [lich426/FanCtrl](https://github.com/lich426/FanCtrl)      |
@@ -42,7 +35,7 @@
 Rust:
 
 ```
-cargo install t-cli
+cargo install t-cli zoxide hyperfine onefetch cargo-edit sfz
 ```
 
 Winget:
