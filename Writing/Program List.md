@@ -48,7 +48,6 @@ winget install Nushell.Nushell
 winget install voidtools.Everything.Alpha
 winget install Discord -s msstore --accept-source-agreements --accept-package-agreements
 winget install OBS -s msstore --accept-source-agreements --accept-package-agreements
-winget install VLC -s msstore --accept-source-agreements --accept-package-agreements
 winget install qBittorrent.qBittorrent
 winget install EarTrumpet -s msstore --accept-source-agreements --accept-package-agreements
 winget install Valve.Steam
@@ -70,14 +69,12 @@ https://rustup.rs/
 https://www.jawfin.net/nsm/
 ```
 
-
 Github: 
 
 ```
 git config --global user.email "dr_xeno@hotmail.com.au"
 git config --global user.name "zX3no"
 ```
-
 
 Windows Store:
 
