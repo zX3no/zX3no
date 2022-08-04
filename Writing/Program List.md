@@ -41,20 +41,18 @@ cargo install t-cli zoxide hyperfine onefetch cargo-edit sfz
 Winget:
 
 ```
-winget install Mozilla.Firefox
+winget install terminal -s msstore --accept-source-agreements --accept-package-agreements
 winget install 7zip.7zip
 winget install Microsoft.VisualStudioCode
 winget install Nushell.Nushell
 winget install voidtools.Everything.Alpha
 winget install Discord -s msstore --accept-source-agreements --accept-package-agreements
 winget install OBS -s msstore --accept-source-agreements --accept-package-agreements
-winget install VLC -s msstore --accept-source-agreements --accept-package-agreements
 winget install qBittorrent.qBittorrent
 winget install EarTrumpet -s msstore --accept-source-agreements --accept-package-agreements
 winget install Valve.Steam
 winget install Microsoft.PowerToys
-winget install 9PJQQRXSVWR1 --accept-source-agreements --accept-package-agreements
-winget install 9PDJ8X9SPF2K --accept-source-agreements --accept-package-agreements
+winget install foobar --accept-source-agreements --accept-package-agreements
 winget install ModuleArt.QuickPictureViewer
 winget install Microsoft.VisualStudio.2022.BuildTools
 winget install qBittorrent.qBittorrent
@@ -66,22 +64,27 @@ Other:
 https://www.dotpdn.com/downloads/pdn.html
 https://chris.dziemborowicz.com/apps/hourglass/
 https://github.com/PaddiM8/kalker/releases
-https://moduleart.github.io/quick-picture-viewer/
 https://rustup.rs/
 https://www.jawfin.net/nsm/
 ```
-
 
 Github: 
 
 ```
 git config --global user.email "dr_xeno@hotmail.com.au"
 git config --global user.name "zX3no"
+ssh-keygen -t rsa -C "dr_xeno@hotmail.com.au"
+open ($env.USERPROFILE + '\.ssh\id_rsa.pub')
 ```
-
 
 Windows Store:
 
 ```
 wsreset -i 
+```
+
+HEVC Driver:
+
+```
+ms-windows-store://pdp/?ProductId=9n4wgh0z6vhq
 ```
